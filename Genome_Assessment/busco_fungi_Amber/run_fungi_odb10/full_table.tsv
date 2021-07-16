@@ -1,0 +1,778 @@
+# BUSCO version is: 5.0.0 
+# The lineage dataset is: fungi_odb10 (Creation date: 2020-09-10, number of species: 549, number of BUSCOs: 758)
+# Busco id	Status	Sequence	Gene Start	Gene End	Strand	Score	Length	OrthoDB url	Description
+494at4751	Complete	scaffold_96	1870	15735	+	2489.4	2904	https://www.orthodb.org/v10?query=494at4751	Midasin
+771at4751	Complete	scaffold_102	614	8269	-	1457.1	1675	https://www.orthodb.org/v10?query=771at4751	PIK-related kinase
+1866at4751	Missing
+3534at4751	Missing
+4409at4751	Missing
+4466at4751	Complete	scaffold_343	1243	8976	-	978.8	1829	https://www.orthodb.org/v10?query=4466at4751	Ribosomal protein L19
+4523at4751	Complete	scaffold_737	326	9082	+	3086.6	1889	https://www.orthodb.org/v10?query=4523at4751	Pre-mRNA-processing-splicing factor 8
+5995at4751	Missing
+6186at4751	Complete	scaffold_48	24101	29011	-	250.3	858	https://www.orthodb.org/v10?query=6186at4751	Armadillo-type fold
+6272at4751	Complete	scaffold_782	2891	6427	+	705.4	796	https://www.orthodb.org/v10?query=6272at4751	WD40-repeat-containing domain
+6377at4751	Fragmented	scaffold_23	9517	11319	-	269.1	492	https://www.orthodb.org/v10?query=6377at4751	L-aminoadipate-semialdehyde dehydrogenase
+6592at4751	Missing
+6812at4751	Complete	scaffold_795	129	7453	-	1684.4	1336	https://www.orthodb.org/v10?query=6812at4751	DNA polymerase epsilon catalytic subunit
+7423at4751	Fragmented	scaffold_893	2	4595	-	394.6	539	https://www.orthodb.org/v10?query=7423at4751	CCR4-NOT transcription complex subunit 1, CAF1-binding domain
+7545at4751	Fragmented	scaffold_528	4979	6652	-	274.7	518	https://www.orthodb.org/v10?query=7545at4751	Anaphase-promoting complex subunit 1
+8406at4751	Complete	scaffold_1006	276	7167	-	321.2	620	https://www.orthodb.org/v10?query=8406at4751	Transcription initiation factor TFIID subunit 2
+8818at4751	Complete	scaffold_1266	258	6330	+	2005.5	1404	https://www.orthodb.org/v10?query=8818at4751	Clathrin heavy chain
+10168at4751	Missing
+10531at4751	Missing
+11140at4751	Missing
+11636at4751	Missing
+11879at4751	Missing
+12258at4751	Complete	scaffold_242	861	5203	+	1205.5	989	https://www.orthodb.org/v10?query=12258at4751	Phosphoribosylformylglycinamidine synthase
+12812at4751	Fragmented	scaffold_68	11515	12677	-	124.4	223	https://www.orthodb.org/v10?query=12812at4751	WD40/YVTN repeat-like-containing domain superfamily
+12959at4751	Missing
+13224at4751	Fragmented	scaffold_3564	156	2263	+	92.5	378	https://www.orthodb.org/v10?query=13224at4751	Nucleoporin, Nup133/Nup155-like, N-terminal
+13605at4751	Fragmented	scaffold_117	15009	18663	+	382.8	813	https://www.orthodb.org/v10?query=13605at4751	clathrin-coated vesicle protein
+14295at4751	Complete	scaffold_932	349	7056	-	1067.1	829	https://www.orthodb.org/v10?query=14295at4751	Carbamoyl-phosphate synthase arginine-specific large chain
+14441at4751	Complete	scaffold_119	11655	17250	-	1494.8	1301	https://www.orthodb.org/v10?query=14441at4751	DNA-directed RNA polymerase subunit
+14523at4751	Complete	scaffold_2875	55	3150	+	805.0	770	https://www.orthodb.org/v10?query=14523at4751	Exportin-1
+14793at4751	Missing
+14986at4751	Fragmented	scaffold_2469	1124	4003	+	474.3	492	https://www.orthodb.org/v10?query=14986at4751	DNA-directed RNA polymerase
+17174at4751	Complete	scaffold_319	7047	10456	+	535.7	490	https://www.orthodb.org/v10?query=17174at4751	DNA polymerase gamma
+18809at4751	Fragmented	scaffold_974	1738	6127	+	127.8	244	https://www.orthodb.org/v10?query=18809at4751	RIC1-domain-containing protein
+20600at4751	Duplicated	scaffold_1046	0	2586	-	1043.7	669	https://www.orthodb.org/v10?query=20600at4751	glycine dehydrogenase
+20600at4751	Duplicated	scaffold_99	484	4122	+	922.1	790	https://www.orthodb.org/v10?query=20600at4751	glycine dehydrogenase
+20952at4751	Complete	scaffold_1335	2903	6106	+	588.7	785	https://www.orthodb.org/v10?query=20952at4751	multidrug efflux transporter AcrB transmembrane domain-containing protein
+21651at4751	Complete	scaffold_936	3130	6760	-	864.5	693	https://www.orthodb.org/v10?query=21651at4751	DNA topoisomerase 2
+21689at4751	Missing
+22982at4751	Complete	scaffold_26	28540	31707	+	1074.2	833	https://www.orthodb.org/v10?query=22982at4751	isoleucine-tRNA ligase
+22992at4751	Missing
+23198at4751	Complete	scaffold_855	1022	5644	+	1244.2	1093	https://www.orthodb.org/v10?query=23198at4751	Glycogen debranching enzyme
+23856at4751	Fragmented	scaffold_290	1052	4630	-	428.4	745	https://www.orthodb.org/v10?query=23856at4751	Transcription elongation factor Spt6
+24198at4751	Complete	scaffold_826	2315	5679	-	366.7	675	https://www.orthodb.org/v10?query=24198at4751	Armadillo-type fold
+25020at4751	Complete	scaffold_2341	965	3691	+	463.8	670	https://www.orthodb.org/v10?query=25020at4751	Condensin complex subunit 1
+25161at4751	Missing
+26329at4751	Complete	scaffold_518	1097	5128	+	1275.9	916	https://www.orthodb.org/v10?query=26329at4751	DNA-directed RNA polymerase, subunit 2, hybrid-binding domain
+27008at4751	Missing
+29512at4751	Missing
+31256at4751	Missing
+31324at4751	Fragmented	scaffold_3619	11	2084	-	166.6	397	https://www.orthodb.org/v10?query=31324at4751	Nrap protein
+32164at4751	Complete	scaffold_1981	218	2799	-	552.1	608	https://www.orthodb.org/v10?query=32164at4751	Importin beta-1 subunit
+33984at4751	Complete	scaffold_75	20276	22999	-	525.2	637	https://www.orthodb.org/v10?query=33984at4751	Inositol hexakisphosphate and diphosphoinositol-pentakisphosphate kinase
+34223at4751	Missing
+34706at4751	Complete	scaffold_796	3542	6075	-	290.8	670	https://www.orthodb.org/v10?query=34706at4751	MIF4G-like domain superfamily
+34830at4751	Complete	scaffold_1749	1625	4963	-	553.2	676	https://www.orthodb.org/v10?query=34830at4751	Elongator complex protein 1
+36610at4751	Fragmented	scaffold_243	13277	15194	-	194.2	297	https://www.orthodb.org/v10?query=36610at4751	Tubulin-specific chaperone D
+37028at4751	Complete	scaffold_36	5030	7888	-	628.2	604	https://www.orthodb.org/v10?query=37028at4751	Cobalamin-independent methionine synthase
+37573at4751	Fragmented	scaffold_1667	3774	4892	-	538.3	289	https://www.orthodb.org/v10?query=37573at4751	Helicase, C-terminal
+37642at4751	Complete	scaffold_1089	3530	6016	+	175.3	385	https://www.orthodb.org/v10?query=37642at4751	RNB-domain-containing protein
+38031at4751	Complete	scaffold_3387	660	2889	-	199.6	440	https://www.orthodb.org/v10?query=38031at4751	Cap binding protein
+38184at4751	Missing
+39833at4751	Missing
+43842at4751	Complete	scaffold_213	6776	9260	+	177.1	381	https://www.orthodb.org/v10?query=43842at4751	Armadillo-type fold
+46090at4751	Complete	scaffold_800	340	2901	-	226.2	484	https://www.orthodb.org/v10?query=46090at4751	ARM repeat-containing protein
+46098at4751	Complete	scaffold_1100	3725	7242	+	641.8	721	https://www.orthodb.org/v10?query=46098at4751	P-loop containing nucleoside triphosphate hydrolase protein
+46119at4751	Missing
+46666at4751	Complete	scaffold_951	1887	5570	-	477.3	730	https://www.orthodb.org/v10?query=46666at4751	Winged helix-like DNA-binding domain superfamily
+46752at4751	Missing
+46918at4751	Fragmented	scaffold_1518	860	1666	+	30.8	71	https://www.orthodb.org/v10?query=46918at4751	Tetratricopeptide repeat
+47592at4751	Fragmented	scaffold_551	6762	8405	-	313.9	429	https://www.orthodb.org/v10?query=47592at4751	Eukaryotic translation initiation factor 3 subunit C
+48708at4751	Missing
+49476at4751	Missing
+49967at4751	Complete	scaffold_1375	2173	5750	+	598.1	591	https://www.orthodb.org/v10?query=49967at4751	Vacuole morphology and inheritance protein 14
+50786at4751	Missing
+50835at4751	Duplicated	scaffold_1	59212	61830	-	658.1	651	https://www.orthodb.org/v10?query=50835at4751	Alanine--tRNA ligase
+50835at4751	Duplicated	scaffold_1976	2291	4883	-	636.7	553	https://www.orthodb.org/v10?query=50835at4751	Alanine--tRNA ligase
+52541at4751	Complete	scaffold_934	5669	8096	+	517.2	437	https://www.orthodb.org/v10?query=52541at4751	Pre-mRNA 3'-end-processing endonuclease polyadenylation factor C-term
+52909at4751	Complete	scaffold_4224	48	2114	+	656.9	549	https://www.orthodb.org/v10?query=52909at4751	26S proteasome regulatory subunit RPN1
+53270at4751	Complete	scaffold_131	4980	8399	+	642.2	788	https://www.orthodb.org/v10?query=53270at4751	UDP-glucose
+54252at4751	Complete	scaffold_403	343	3419	-	716.4	702	https://www.orthodb.org/v10?query=54252at4751	26S proteasome regulatory subunit RPN2
+54919at4751	Complete	scaffold_294	8326	10941	-	443.5	446	https://www.orthodb.org/v10?query=54919at4751	Cysteinyl-tRNA synthetase
+56395at4751	Complete	scaffold_596	4060	6185	+	277.2	426	https://www.orthodb.org/v10?query=56395at4751	Spindle pole body component
+56432at4751	Fragmented	scaffold_2126	966	4326	+	124.5	351	https://www.orthodb.org/v10?query=56432at4751	putative exocyst complex component sec8
+56729at4751	Complete	scaffold_2274	404	3926	-	769.1	751	https://www.orthodb.org/v10?query=56729at4751	Coatomer subunit beta
+57081at4751	Complete	scaffold_93	3006	6566	-	980.7	686	https://www.orthodb.org/v10?query=57081at4751	Splicing factor 3B subunit 1
+58127at4751	Complete	scaffold_1278	1995	6089	+	95.5	461	https://www.orthodb.org/v10?query=58127at4751	K Homology domain, type 1
+59795at4751	Complete	scaffold_1840	780	4903	-	648.2	556	https://www.orthodb.org/v10?query=59795at4751	Coatomer subunit gamma
+61411at4751	Missing
+61438at4751	Fragmented	scaffold_2972	249	3323	+	198.2	386	https://www.orthodb.org/v10?query=61438at4751	Pep3/Vps18/deep orange
+61857at4751	Complete	scaffold_234	5018	8503	+	112.9	434	https://www.orthodb.org/v10?query=61857at4751	Exocyst complex protein EXO70
+62846at4751	Missing
+63635at4751	Missing
+63838at4751	Missing
+64002at4751	Complete	scaffold_819	1530	4128	-	475.6	491	https://www.orthodb.org/v10?query=64002at4751	Transcription initiation factor TFIID subunit 1
+64498at4751	Complete	scaffold_639	467	3594	+	817.6	527	https://www.orthodb.org/v10?query=64498at4751	glucosamine-fructose-6-phosphate aminotransferase
+65334at4751	Missing
+65499at4751	Complete	scaffold_439	3925	6477	-	599.9	482	https://www.orthodb.org/v10?query=65499at4751	AP-1 complex subunit gamma
+66151at4751	Fragmented	scaffold_764	7045	8942	-	244.2	363	https://www.orthodb.org/v10?query=66151at4751	Tetratricopeptide repeat
+67284at4751	Missing
+67399at4751	Complete	scaffold_257	11737	13506	-	173.6	444	https://www.orthodb.org/v10?query=67399at4751	Glutamine-dependent NAD(+) synthetase
+67806at4751	Missing
+68466at4751	Complete	scaffold_2681	538	2991	+	790.5	680	https://www.orthodb.org/v10?query=68466at4751	FACT complex subunit SPT16
+68881at4751	Missing
+71039at4751	Complete	scaffold_2443	433	3603	-	802.4	706	https://www.orthodb.org/v10?query=71039at4751	RNA cytidine acetyltransferase
+71046at4751	Complete	scaffold_1770	1856	4865	-	551.7	563	https://www.orthodb.org/v10?query=71046at4751	Vacuolar protein sorting-associated protein 35
+73383at4751	Complete	scaffold_883	833	2857	+	516.4	465	https://www.orthodb.org/v10?query=73383at4751	DNA topoisomerase I
+73477at4751	Complete	scaffold_3326	1348	2714	-	261.5	331	https://www.orthodb.org/v10?query=73477at4751	Vacuolar protein 8
+73771at4751	Missing
+75033at4751	Missing
+75456at4751	Fragmented	scaffold_247	80	2524	+	91.6	302	https://www.orthodb.org/v10?query=75456at4751	Vps53-like, N-terminal
+75463at4751	Missing
+75709at4751	Fragmented	scaffold_1417	329	3579	+	676.6	565	https://www.orthodb.org/v10?query=75709at4751	Lysophospholipase NTE1
+75976at4751	Missing
+76196at4751	Missing
+76893at4751	Complete	scaffold_1348	947	3802	+	808.9	488	https://www.orthodb.org/v10?query=76893at4751	ATPase, AAA-type, conserved site
+76975at4751	Fragmented	scaffold_4522	684	1496	+	116.5	195	https://www.orthodb.org/v10?query=76975at4751	Exocyst complex component Sec5
+78289at4751	Missing
+78665at4751	Complete	scaffold_692	145	2241	-	279.0	391	https://www.orthodb.org/v10?query=78665at4751	Spindle pole body component
+79262at4751	Fragmented	scaffold_933	6878	7931	-	321.2	237	https://www.orthodb.org/v10?query=79262at4751	Electron transfer flavoprotein-ubiquinone oxidoreductase
+79294at4751	Missing
+79797at4751	Complete	scaffold_320	5059	7890	-	483.0	608	https://www.orthodb.org/v10?query=79797at4751	WD40-repeat-containing domain
+79988at4751	Complete	scaffold_1540	74	1840	-	96.2	188	https://www.orthodb.org/v10?query=79988at4751	Polynucleotide 5'-hydroxyl-kinase grc3
+81295at4751	Complete	scaffold_229	9499	12200	-	756.7	440	https://www.orthodb.org/v10?query=81295at4751	ATPase, F1/V1/A1 complex, alpha/beta subunit, N-terminal domain
+81614at4751	Missing
+81687at4751	Duplicated	scaffold_45	8332	9993	-	606.7	457	https://www.orthodb.org/v10?query=81687at4751	asparagine synthase (glutamine-hydrolyzing)
+81687at4751	Duplicated	scaffold_833	1028	3816	-	560.1	468	https://www.orthodb.org/v10?query=81687at4751	asparagine synthase (glutamine-hydrolyzing)
+84250at4751	Fragmented	scaffold_864	5449	8224	+	264.2	385	https://www.orthodb.org/v10?query=84250at4751	TRAPP II complex, TRAPPC10
+84829at4751	Missing
+85793at4751	Fragmented	scaffold_2201	670	2471	-	211.6	457	https://www.orthodb.org/v10?query=85793at4751	cohesin complex subunit SA-1/2
+86293at4751	Duplicated	scaffold_42	2455	3696	+	115.8	319	https://www.orthodb.org/v10?query=86293at4751	Aldehyde dehydrogenase, glutamic acid active site
+86293at4751	Duplicated	scaffold_182	5327	6659	-	110.0	336	https://www.orthodb.org/v10?query=86293at4751	Aldehyde dehydrogenase, glutamic acid active site
+87251at4751	Fragmented	scaffold_2213	1421	4216	+	191.1	638	https://www.orthodb.org/v10?query=87251at4751	Ribosomal RNA-processing protein 12
+87313at4751	Complete	scaffold_2198	2436	4218	+	845.6	441	https://www.orthodb.org/v10?query=87313at4751	Elongator complex protein 3
+90022at4751	Missing
+91135at4751	Missing
+92267at4751	Complete	scaffold_751	95	2597	+	405.1	481	https://www.orthodb.org/v10?query=92267at4751	Phenylalanyl-tRNA synthetase
+93783at4751	Complete	scaffold_1118	2723	4420	-	224.5	305	https://www.orthodb.org/v10?query=93783at4751	ER membrane protein complex subunit 1
+94384at4751	Complete	scaffold_297	4649	7186	+	345.9	392	https://www.orthodb.org/v10?query=94384at4751	DNA topoisomerase
+94628at4751	Complete	scaffold_829	3675	6645	+	847.2	527	https://www.orthodb.org/v10?query=94628at4751	DNA helicase
+95253at4751	Missing
+96633at4751	Complete	scaffold_1181	27	2919	-	342.9	533	https://www.orthodb.org/v10?query=96633at4751	Cleavage and polyadenylation specificity factor subunit 2
+97141at4751	Missing
+98519at4751	Fragmented	scaffold_1795	388	2328	-	72.9	174	https://www.orthodb.org/v10?query=98519at4751	Symplekin/Pta1
+98733at4751	Complete	scaffold_135	15075	17597	+	853.5	543	https://www.orthodb.org/v10?query=98733at4751	threonyl-tRNA synthetase
+98739at4751	Missing
+100957at4751	Missing
+101133at4751	Duplicated	scaffold_11	47964	49576	-	320.2	380	https://www.orthodb.org/v10?query=101133at4751	Phosphoribosylaminoimidazole carboxylase
+101133at4751	Duplicated	scaffold_14	15026	16671	-	285.4	391	https://www.orthodb.org/v10?query=101133at4751	Phosphoribosylaminoimidazole carboxylase
+103183at4751	Complete	scaffold_183	13368	15738	-	280.1	513	https://www.orthodb.org/v10?query=103183at4751	DNA repair protein
+103461at4751	Complete	scaffold_703	5108	7741	-	743.5	532	https://www.orthodb.org/v10?query=103461at4751	P-loop containing nucleoside triphosphate hydrolase protein
+103836at4751	Missing
+104173at4751	Missing
+104415at4751	Complete	scaffold_258	9421	11584	-	259.0	316	https://www.orthodb.org/v10?query=104415at4751	WD40-repeat-containing domain
+105401at4751	Duplicated	scaffold_675	7982	9508	-	748.3	476	https://www.orthodb.org/v10?query=105401at4751	GroEL-like apical domain superfamily
+105401at4751	Duplicated	scaffold_896	1942	3525	-	719.6	525	https://www.orthodb.org/v10?query=105401at4751	GroEL-like apical domain superfamily
+106281at4751	Missing
+107136at4751	Complete	scaffold_2128	675	3630	+	555.3	501	https://www.orthodb.org/v10?query=107136at4751	glycoside hydrolase family 31 protein
+107464at4751	Duplicated	scaffold_720	7098	8720	-	561.7	409	https://www.orthodb.org/v10?query=107464at4751	Glucose-6-phosphate isomerase
+107464at4751	Duplicated	scaffold_236	12391	14522	+	525.1	391	https://www.orthodb.org/v10?query=107464at4751	Glucose-6-phosphate isomerase
+109276at4751	Fragmented	scaffold_1906	30	1964	+	136.1	246	https://www.orthodb.org/v10?query=109276at4751	CCAAT-box-binding transcription factor
+111022at4751	Complete	scaffold_1804	365	2437	-	243.7	239	https://www.orthodb.org/v10?query=111022at4751	CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase
+111189at4751	Missing
+112646at4751	Missing
+112937at4751	Missing
+115993at4751	Complete	scaffold_3989	16	2029	+	513.5	427	https://www.orthodb.org/v10?query=115993at4751	Ribosome biogenesis protein ERB1
+117017at4751	Complete	scaffold_4571	0	1976	-	614.9	419	https://www.orthodb.org/v10?query=117017at4751	Methionyl-tRNA synthetase
+118189at4751	Missing
+118701at4751	Fragmented	scaffold_5679	141	887	+	182.7	232	https://www.orthodb.org/v10?query=118701at4751	Phosphatidylinositol 3-kinase VPS34
+119833at4751	Fragmented	scaffold_1490	304	1086	+	193.4	213	https://www.orthodb.org/v10?query=119833at4751	Histone-lysine N-methyltransferase
+122507at4751	Complete	scaffold_1159	1670	3979	+	318.4	497	https://www.orthodb.org/v10?query=122507at4751	WD40-repeat-containing domain
+122824at4751	Complete	scaffold_732	541	2073	+	121.2	221	https://www.orthodb.org/v10?query=122824at4751	WD40-repeat-containing domain
+123228at4751	Complete	scaffold_152	8908	12518	+	755.3	796	https://www.orthodb.org/v10?query=123228at4751	Ribosome biogenesis protein BMS1
+123277at4751	Missing
+123494at4751	Complete	scaffold_682	727	2674	+	285.1	293	https://www.orthodb.org/v10?query=123494at4751	Actin family
+125400at4751	Missing
+125935at4751	Missing
+126037at4751	Complete	scaffold_1334	3083	5367	-	368.3	392	https://www.orthodb.org/v10?query=126037at4751	SNF2-related, N-terminal domain
+126249at4751	Missing
+126256at4751	Missing
+126519at4751	Complete	scaffold_522	5864	7134	-	190.7	412	https://www.orthodb.org/v10?query=126519at4751	Imidazole glycerol phosphate synthase hisHF
+127140at4751	Complete	scaffold_4459	115	1927	-	305.5	378	https://www.orthodb.org/v10?query=127140at4751	Protein arginine N-methyltransferase
+129160at4751	Complete	scaffold_3461	46	1831	+	590.4	413	https://www.orthodb.org/v10?query=129160at4751	T-complex protein 1 subunit zeta
+129326at4751	Missing
+129520at4751	Complete	scaffold_1089	150	2731	-	524.9	412	https://www.orthodb.org/v10?query=129520at4751	Alpha-D-phosphohexomutase, alpha/beta/alpha domain I
+130062at4751	Missing
+130930at4751	Complete	scaffold_1247	91	6072	+	421.8	1487	https://www.orthodb.org/v10?query=130930at4751	Nucleoporin Nup186/Nup192/Nup205
+130976at4751	Complete	scaffold_600	1352	3261	-	201.0	324	https://www.orthodb.org/v10?query=130976at4751	DNA polymerase alpha subunit B
+133954at4751	Missing
+135184at4751	Fragmented	scaffold_549	5	235	-	46.0	66	https://www.orthodb.org/v10?query=135184at4751	Nitrogen permease regulator 2
+135652at4751	Fragmented	scaffold_3268	90	2312	+	425.3	297	https://www.orthodb.org/v10?query=135652at4751	Poly(A) polymerase
+137963at4751	Complete	scaffold_4520	349	1974	+	655.0	430	https://www.orthodb.org/v10?query=137963at4751	Prolyl-tRNA synthetase
+138484at4751	Fragmented	scaffold_6308	268	546	-	34.4	49	https://www.orthodb.org/v10?query=138484at4751	DNA polymerase epsilon subunit
+138695at4751	Complete	scaffold_2473	149	2223	+	712.5	441	https://www.orthodb.org/v10?query=138695at4751	Nucleolar GTP-binding protein 1
+138697at4751	Complete	scaffold_257	4931	6190	+	291.0	373	https://www.orthodb.org/v10?query=138697at4751	Threonine synthase
+138833at4751	Complete	scaffold_1725	1895	5089	-	551.5	488	https://www.orthodb.org/v10?query=138833at4751	Protein phosphatase PP2A regulatory subunit A
+141273at4751	Missing
+142357at4751	Complete	scaffold_3280	155	2613	-	535.5	507	https://www.orthodb.org/v10?query=142357at4751	Ribosomal protein S5 domain 2-type fold
+142965at4751	Fragmented	scaffold_4934	60	1347	-	109.9	129	https://www.orthodb.org/v10?query=142965at4751	GPI transamidase component GPI16
+143414at4751	Fragmented	scaffold_1767	3285	4397	-	203.4	330	https://www.orthodb.org/v10?query=143414at4751	Transcription factor 25
+145178at4751	Fragmented	scaffold_1097	1661	4784	+	152.2	300	https://www.orthodb.org/v10?query=145178at4751	Topoisomerase 1-associated factor 1
+145378at4751	Missing
+145524at4751	Fragmented	scaffold_1394	3780	5765	+	350.4	233	https://www.orthodb.org/v10?query=145524at4751	Nuclear elongation and deformation protein 1
+147028at4751	Missing
+148293at4751	Complete	scaffold_769	5538	8311	+	774.1	402	https://www.orthodb.org/v10?query=148293at4751	ATPase, F1/V1/A1 complex, alpha/beta subunit, N-terminal domain
+150469at4751	Complete	scaffold_4033	786	2284	+	464.4	341	https://www.orthodb.org/v10?query=150469at4751	T-complex protein 1 subunit beta
+153083at4751	Complete	scaffold_2124	1310	4068	+	409.9	575	https://www.orthodb.org/v10?query=153083at4751	Ubiquitin carboxyl-terminal hydrolase
+154126at4751	Missing
+156073at4751	Missing
+160044at4751	Fragmented	scaffold_1201	4553	5434	+	135.6	240	https://www.orthodb.org/v10?query=160044at4751	Sodium/hydrogen exchanger
+160875at4751	Missing
+160940at4751	Duplicated	scaffold_18	37468	38526	-	122.6	224	https://www.orthodb.org/v10?query=160940at4751	Phosphoserine aminotransferase
+160940at4751	Duplicated	scaffold_2788	2361	3506	-	121.9	225	https://www.orthodb.org/v10?query=160940at4751	Phosphoserine aminotransferase
+160995at4751	Complete	scaffold_2191	1551	4169	-	657.0	384	https://www.orthodb.org/v10?query=160995at4751	Eukaryotic translation initiation factor 2 subunit gamma
+161113at4751	Missing
+163318at4751	Missing
+165243at4751	Complete	scaffold_1489	71	1668	+	193.2	254	https://www.orthodb.org/v10?query=165243at4751	General transcription and DNA repair factor IIH
+167290at4751	Missing
+167374at4751	Missing
+167498at4751	Complete	scaffold_1191	564	2847	+	453.6	369	https://www.orthodb.org/v10?query=167498at4751	Signal recognition particle 54 kDa protein
+168092at4751	Missing
+168489at4751	Missing
+169381at4751	Missing
+170297at4751	Complete	scaffold_2007	780	2375	+	568.9	435	https://www.orthodb.org/v10?query=170297at4751	26S proteasome non-ATPase regulatory subunit 3
+170401at4751	Complete	scaffold_277	7991	12796	-	122.5	340	https://www.orthodb.org/v10?query=170401at4751	Zinc finger, RING/FYVE/PHD-type
+170904at4751	Missing
+171181at4751	Complete	scaffold_83	13262	14086	+	94.3	172	https://www.orthodb.org/v10?query=171181at4751	Cytidine deaminase-like protein
+171238at4751	Complete	scaffold_5048	20	1272	-	384.8	291	https://www.orthodb.org/v10?query=171238at4751	Succinate--CoA ligase 
+172113at4751	Complete	scaffold_1222	5195	6572	-	453.3	276	https://www.orthodb.org/v10?query=172113at4751	Eukaryotic peptide chain release factor subunit 1
+172363at4751	Missing
+172966at4751	Complete	scaffold_600	5175	7198	+	432.1	432	https://www.orthodb.org/v10?query=172966at4751	polyubiquitin-tagged protein recognition complex, Npl4 component
+173428at4751	Complete	scaffold_72	20420	22452	+	402.1	383	https://www.orthodb.org/v10?query=173428at4751	Aminoacyl-tRNA synthetase, class II
+173995at4751	Complete	scaffold_1078	5544	6915	+	221.9	332	https://www.orthodb.org/v10?query=173995at4751	Probable cytosolic iron-sulfur protein assembly protein 1
+174653at4751	Duplicated	scaffold_5316	30	1433	-	660.4	354	https://www.orthodb.org/v10?query=174653at4751	Adenosylhomocysteinase
+174653at4751	Duplicated	scaffold_1068	3492	4775	-	594.7	367	https://www.orthodb.org/v10?query=174653at4751	Adenosylhomocysteinase
+174653at4751	Duplicated	scaffold_373	8652	9929	-	583.8	367	https://www.orthodb.org/v10?query=174653at4751	Adenosylhomocysteinase
+174672at4751	Missing
+175136at4751	Missing
+175599at4751	Missing
+176178at4751	Complete	scaffold_3916	478	2277	+	339.1	275	https://www.orthodb.org/v10?query=176178at4751	putative 26S proteasome regulatory subunit rpn6
+176478at4751	Missing
+176648at4751	Missing
+176748at4751	Missing
+179025at4751	Missing
+179437at4751	Complete	scaffold_1252	1178	2197	+	189.6	304	https://www.orthodb.org/v10?query=179437at4751	anthranilate synthase component I
+179897at4751	Fragmented	scaffold_4635	632	1731	+	144.7	167	https://www.orthodb.org/v10?query=179897at4751	Atg6/Beclin
+181890at4751	Complete	scaffold_3116	1328	2690	+	32.9	80	https://www.orthodb.org/v10?query=181890at4751	Putative RNA polymerase II transcription factor B subunit 1
+181959at4751	Complete	scaffold_3327	39	2419	+	648.9	354	https://www.orthodb.org/v10?query=181959at4751	26S Proteasome regulatory subunit 6A
+183720at4751	Missing
+183801at4751	Complete	scaffold_733	7293	8140	+	107.4	112	https://www.orthodb.org/v10?query=183801at4751	DNA-directed RNA polymerase III subunit RPC6
+183849at4751	Complete	scaffold_399	4462	7521	-	591.5	453	https://www.orthodb.org/v10?query=183849at4751	Oligosaccharyl transferase STT3 subunit
+184718at4751	Complete	scaffold_1816	357	3790	-	667.2	706	https://www.orthodb.org/v10?query=184718at4751	Pre-mRNA-processing factor 6
+184762at4751	Complete	scaffold_1925	2134	4098	-	588.8	305	https://www.orthodb.org/v10?query=184762at4751	26S proteasome regulatory subunit 8
+185196at4751	Complete	scaffold_1741	862	4844	-	224.4	506	https://www.orthodb.org/v10?query=185196at4751	Exocyst complex component SEC15
+185399at4751	Fragmented	scaffold_2845	87	1339	-	213.0	204	https://www.orthodb.org/v10?query=185399at4751	UDP-N-acetylglucosamine-dolichyl-phosphate N-acetylglucosaminephosphotransferase
+186138at4751	Fragmented	scaffold_780	85	1287	-	247.3	191	https://www.orthodb.org/v10?query=186138at4751	DNA primase
+186574at4751	Fragmented	scaffold_2832	96	1336	+	255.3	215	https://www.orthodb.org/v10?query=186574at4751	Adenylosuccinate lyase
+186701at4751	Missing
+187821at4751	Complete	scaffold_55	18576	20099	-	365.1	387	https://www.orthodb.org/v10?query=187821at4751	GMP synthase
+188070at4751	Complete	scaffold_4081	42	1871	+	561.4	298	https://www.orthodb.org/v10?query=188070at4751	ATPase, AAA-type, conserved site
+189234at4751	Missing
+189573at4751	Complete	scaffold_3632	394	2196	-	259.1	241	https://www.orthodb.org/v10?query=189573at4751	Coatomer subunit delta
+190183at4751	Fragmented	scaffold_1696	677	2631	-	49.1	119	https://www.orthodb.org/v10?query=190183at4751	Prephenate dehydrogenase
+190475at4751	Complete	scaffold_2481	324	2273	+	370.2	384	https://www.orthodb.org/v10?query=190475at4751	digestive organ expansion factor
+190832at4751	Fragmented	scaffold_4505	1386	1848	-	99.2	80	https://www.orthodb.org/v10?query=190832at4751	PAN2-PAN3 deadenylation complex subunit PAN3
+191114at4751	Complete	scaffold_892	714	2701	+	402.5	302	https://www.orthodb.org/v10?query=191114at4751	Phenylalanyl-tRNA synthetase alpha chain
+191296at4751	Missing
+191310at4751	Fragmented	scaffold_666	2549	4284	-	154.9	305	https://www.orthodb.org/v10?query=191310at4751	Vps16, C-terminal
+192059at4751	Missing
+192135at4751	Complete	scaffold_707	3313	6701	+	287.1	602	https://www.orthodb.org/v10?query=192135at4751	Rho GTPase activation protein
+192452at4751	Complete	scaffold_834	895	3126	-	471.7	442	https://www.orthodb.org/v10?query=192452at4751	Dihydropteroate synthase
+195619at4751	Complete	scaffold_1316	2798	4648	-	428.6	459	https://www.orthodb.org/v10?query=195619at4751	Pyridoxal phosphate-dependent transferase
+195863at4751	Missing
+196015at4751	Complete	scaffold_3788	609	2048	+	617.5	335	https://www.orthodb.org/v10?query=196015at4751	putative rRNA pseudouridine synthase
+196094at4751	Missing
+196841at4751	Complete	scaffold_4	12778	14845	+	506.4	389	https://www.orthodb.org/v10?query=196841at4751	Sulfate adenylyltransferase
+197111at4751	Complete	scaffold_1	159878	161080	+	402.9	310	https://www.orthodb.org/v10?query=197111at4751	Cysteine desulfurase
+197612at4751	Missing
+198196at4751	Fragmented	scaffold_402	4819	5952	+	222.3	271	https://www.orthodb.org/v10?query=198196at4751	Threonine dehydratase
+198234at4751	Fragmented	scaffold_1012	3291	3980	+	79.3	191	https://www.orthodb.org/v10?query=198234at4751	Conserved oligomeric Golgi complex subunit 3
+200331at4751	Missing
+201591at4751	Missing
+202089at4751	Complete	scaffold_22	35145	36551	+	161.8	205	https://www.orthodb.org/v10?query=202089at4751	Mitochondrial import receptor subunit TOM40
+202248at4751	Missing
+203109at4751	Missing
+203710at4751	Complete	scaffold_2897	277	2110	-	389.1	309	https://www.orthodb.org/v10?query=203710at4751	cytochrome oxidase assembly
+204087at4751	Missing
+204341at4751	Fragmented	scaffold_682	5037	9356	-	318.7	338	https://www.orthodb.org/v10?query=204341at4751	Condensin complex subunit 2
+204508at4751	Missing
+205479at4751	Complete	scaffold_325	5862	7757	+	253.0	197	https://www.orthodb.org/v10?query=205479at4751	Cyclin-dependent kinase 7
+207926at4751	Missing
+208463at4751	Missing
+209053at4751	Complete	scaffold_510	3665	5695	-	395.9	312	https://www.orthodb.org/v10?query=209053at4751	serine-tRNA ligase
+209619at4751	Complete	scaffold_1511	5115	5918	-	168.6	208	https://www.orthodb.org/v10?query=209619at4751	Threonylcarbamoyl-AMP synthase
+210178at4751	Missing
+210462at4751	Missing
+210986at4751	Complete	scaffold_347	11746	13346	-	203.7	246	https://www.orthodb.org/v10?query=210986at4751	FACT complex subunit POB3
+211442at4751	Missing
+211634at4751	Missing
+211768at4751	Complete	scaffold_875	5837	7384	-	286.2	291	https://www.orthodb.org/v10?query=211768at4751	60S ribosomal export protein NMD3
+212522at4751	Missing
+212735at4751	Missing
+213564at4751	Complete	scaffold_2334	904	2127	-	160.9	148	https://www.orthodb.org/v10?query=213564at4751	Lipoate-protein ligase A
+215926at4751	Complete	scaffold_357	11335	12788	+	299.7	235	https://www.orthodb.org/v10?query=215926at4751	tRNA (adenine(58)-N(1))-methyltransferase catalytic subunit TRM61
+216270at4751	Complete	scaffold_161	12392	14357	+	395.3	322	https://www.orthodb.org/v10?query=216270at4751	Rab GDP dissociation inhibitor
+216661at4751	Complete	scaffold_1351	618	1685	+	386.3	252	https://www.orthodb.org/v10?query=216661at4751	Cytoplasmic tRNA 2-thiolation protein 1
+216683at4751	Complete	scaffold_366	11188	12553	-	247.9	244	https://www.orthodb.org/v10?query=216683at4751	Phenylalanyl-tRNA synthetase
+216747at4751	Complete	scaffold_2390	1563	3431	+	290.1	276	https://www.orthodb.org/v10?query=216747at4751	Transcription initiation factor TFIID subunit 6
+216949at4751	Missing
+217097at4751	Missing
+217374at4751	Complete	scaffold_1405	3064	4861	+	292.3	237	https://www.orthodb.org/v10?query=217374at4751	Fructose-1,6-bisphosphatase
+219236at4751	Complete	scaffold_534	5408	7444	+	462.2	309	https://www.orthodb.org/v10?query=219236at4751	Actin family
+219492at4751	Missing
+221926at4751	Missing
+224693at4751	Complete	scaffold_4536	658	1762	-	199.6	235	https://www.orthodb.org/v10?query=224693at4751	Dol-P-Man
+224775at4751	Missing
+224804at4751	Complete	scaffold_200	4200	6116	+	213.5	178	https://www.orthodb.org/v10?query=224804at4751	Actin-related protein 2/3 complex subunit
+225321at4751	Complete	scaffold_931	3093	5198	-	621.1	379	https://www.orthodb.org/v10?query=225321at4751	Actin family
+225351at4751	Missing
+225535at4751	Complete	scaffold_304	784	3175	+	333.5	340	https://www.orthodb.org/v10?query=225535at4751	Transcriptional adapter 2
+225712at4751	Fragmented	scaffold_6315	609	926	-	35.8	69	https://www.orthodb.org/v10?query=225712at4751	PEBP-like protein
+225820at4751	Missing
+225918at4751	Missing
+226810at4751	Complete	scaffold_2009	299	1240	-	120.1	195	https://www.orthodb.org/v10?query=226810at4751	Bystin
+227572at4751	Missing
+228465at4751	Missing
+228752at4751	Missing
+229510at4751	Complete	scaffold_1686	1796	3228	-	259.7	266	https://www.orthodb.org/v10?query=229510at4751	tRNA (guanine(37)-N1)-methyltransferase
+229997at4751	Missing
+230605at4751	Missing
+231468at4751	Complete	scaffold_1368	3167	4381	-	225.9	236	https://www.orthodb.org/v10?query=231468at4751	Translation initiation factor eIF-2B subunit delta
+231582at4751	Missing
+232698at4751	Fragmented	scaffold_1496	265	2209	-	351.8	307	https://www.orthodb.org/v10?query=232698at4751	Protein SEY1
+233287at4751	Complete	scaffold_144	3346	4754	-	293.5	267	https://www.orthodb.org/v10?query=233287at4751	ATP-dependent RNA helicase DBP5
+233706at4751	Fragmented	scaffold_1936	3366	4917	+	219.6	192	https://www.orthodb.org/v10?query=233706at4751	tRNA-dihydrouridine synthase
+234548at4751	Complete	scaffold_1400	222	5683	-	229.6	1039	https://www.orthodb.org/v10?query=234548at4751	Nucleolar pre-ribosomal-associated protein 1, C-terminal domain
+234698at4751	Missing
+235105at4751	Complete	scaffold_1342	411	1436	-	313.4	278	https://www.orthodb.org/v10?query=235105at4751	UAA transporter
+235463at4751	Missing
+235640at4751	Complete	scaffold_597	879	3544	+	261.8	280	https://www.orthodb.org/v10?query=235640at4751	26S proteasome non-ATPase regulatory subunit 12
+236504at4751	Complete	scaffold_1978	459	3631	+	601.4	379	https://www.orthodb.org/v10?query=236504at4751	Protein phosphatase PP2A regulatory subunit B
+237276at4751	Fragmented	scaffold_1970	3891	4838	-	324.5	246	https://www.orthodb.org/v10?query=237276at4751	Glucose-6-phosphate 1-dehydrogenase
+237281at4751	Fragmented	scaffold_2627	10	1193	+	149.3	163	https://www.orthodb.org/v10?query=237281at4751	Glutamyl-tRNA(Gln) amidotransferase subunit B, mitochondrial
+237393at4751	Complete	scaffold_1124	2021	3682	-	167.9	286	https://www.orthodb.org/v10?query=237393at4751	Nucleolar complex-associated protein 3
+237533at4751	Complete	scaffold_824	889	2843	+	235.6	160	https://www.orthodb.org/v10?query=237533at4751	ATPase, AAA-type, conserved site
+238922at4751	Missing
+240036at4751	Fragmented	scaffold_3681	998	2618	-	387.9	339	https://www.orthodb.org/v10?query=240036at4751	Pescadillo homolog
+240246at4751	Missing
+241079at4751	Complete	scaffold_2182	468	2412	+	281.3	293	https://www.orthodb.org/v10?query=241079at4751	Adenylyl cyclase-associated protein
+241483at4751	Missing
+241586at4751	Complete	scaffold_199	13653	15497	-	365.1	339	https://www.orthodb.org/v10?query=241586at4751	WD40-repeat-containing domain
+241860at4751	Complete	scaffold_2104	2305	3888	+	382.8	292	https://www.orthodb.org/v10?query=241860at4751	2-(3-amino-3-carboxypropyl)histidine synthase subunit 1
+243015at4751	Missing
+244066at4751	Duplicated	scaffold_2237	1442	2887	-	238.6	251	https://www.orthodb.org/v10?query=244066at4751	Gamma-glutamyl phosphate reductase
+244066at4751	Duplicated	scaffold_278	2481	3695	+	216.9	293	https://www.orthodb.org/v10?query=244066at4751	Gamma-glutamyl phosphate reductase
+245480at4751	Complete	scaffold_106	9721	11082	-	284.1	341	https://www.orthodb.org/v10?query=245480at4751	Replication protein A subunit
+245900at4751	Complete	scaffold_2448	1763	3617	-	354.5	313	https://www.orthodb.org/v10?query=245900at4751	Phosphoglycerate kinase
+246207at4751	Complete	scaffold_4575	627	1947	+	201.0	217	https://www.orthodb.org/v10?query=246207at4751	WD40-repeat-containing domain
+246951at4751	Missing
+247065at4751	Fragmented	scaffold_409	4740	5180	+	82.8	58	https://www.orthodb.org/v10?query=247065at4751	SNU66/SART1 family
+247129at4751	Complete	scaffold_669	243	2168	-	206.3	266	https://www.orthodb.org/v10?query=247129at4751	kinase-like protein
+247383at4751	Fragmented	scaffold_467	10293	10460	+	35.7	48	https://www.orthodb.org/v10?query=247383at4751	Elongator complex protein 4
+248360at4751	Complete	scaffold_3663	16	1670	-	334.3	341	https://www.orthodb.org/v10?query=248360at4751	3'-5' exonuclease activity
+251158at4751	Complete	scaffold_945	5699	7103	+	441.9	269	https://www.orthodb.org/v10?query=251158at4751	tRNA N6-adenosine threonylcarbamoyltransferase
+251613at4751	Missing
+252314at4751	Fragmented	scaffold_4220	738	1989	+	52.0	79	https://www.orthodb.org/v10?query=252314at4751	Uncharacterised protein family UPF0363
+252469at4751	Complete	scaffold_873	5049	6563	-	300.1	262	https://www.orthodb.org/v10?query=252469at4751	Phosphatidate cytidylyltransferase
+254717at4751	Fragmented	scaffold_5306	904	1212	+	113.8	82	https://www.orthodb.org/v10?query=254717at4751	ATPase GET3
+255378at4751	Missing
+255412at4751	Complete	scaffold_630	1061	3152	-	463.0	296	https://www.orthodb.org/v10?query=255412at4751	Pre-mRNA-splicing factor prp46
+256318at4751	Complete	scaffold_190	2928	4427	+	466.5	362	https://www.orthodb.org/v10?query=256318at4751	WD40-repeat-containing domain
+256914at4751	Fragmented	scaffold_1053	1640	2691	+	143.1	225	https://www.orthodb.org/v10?query=256914at4751	Mitochondrial import inner membrane translocase subunit TIM44
+257330at4751	Missing
+258245at4751	Complete	scaffold_456	5738	7587	+	534.6	346	https://www.orthodb.org/v10?query=258245at4751	tryptophanyl-tRNA synthetase
+258762at4751	Complete	scaffold_704	434	1675	-	130.7	181	https://www.orthodb.org/v10?query=258762at4751	Ribonuclease III
+259060at4751	Missing
+259444at4751	Missing
+259700at4751	Complete	scaffold_2063	3479	4659	+	141.9	183	https://www.orthodb.org/v10?query=259700at4751	RNA 3'-terminal phosphate cyclase
+259883at4751	Complete	scaffold_3818	1388	2480	+	71.3	95	https://www.orthodb.org/v10?query=259883at4751	Zinc finger, CCCH-type
+260251at4751	Fragmented	scaffold_2136	3454	4228	+	100.8	167	https://www.orthodb.org/v10?query=260251at4751	ATP phosphoribosyltransferase
+260722at4751	Complete	scaffold_1859	142	2188	-	333.8	212	https://www.orthodb.org/v10?query=260722at4751	Deoxyhypusine synthase
+260896at4751	Missing
+261237at4751	Missing
+262317at4751	Missing
+263390at4751	Complete	scaffold_1163	2725	4540	+	274.8	268	https://www.orthodb.org/v10?query=263390at4751	RNA polymerase II transcription factor B subunit 2
+264038at4751	Missing
+264164at4751	Missing
+265302at4751	Missing
+265325at4751	Missing
+266634at4751	Complete	scaffold_610	2466	4109	+	253.7	324	https://www.orthodb.org/v10?query=266634at4751	SH3 domain
+267556at4751	Complete	scaffold_357	9343	10744	-	134.1	147	https://www.orthodb.org/v10?query=267556at4751	Mitochondrial matrix Mmp37
+269389at4751	Complete	scaffold_2298	2071	4209	+	427.1	302	https://www.orthodb.org/v10?query=269389at4751	V-type proton ATPase subunit
+269580at4751	Missing
+269939at4751	Missing
+271511at4751	Complete	scaffold_2662	520	2220	-	135.3	170	https://www.orthodb.org/v10?query=271511at4751	25S rRNA (Cytosine-C(5))-methyltransferase rcm1
+271781at4751	Fragmented	scaffold_517	1852	3161	-	71.1	154	https://www.orthodb.org/v10?query=271781at4751	CTLH, C-terminal LisH motif
+271850at4751	Missing
+272081at4751	Complete	scaffold_311	4675	5901	-	63.0	91	https://www.orthodb.org/v10?query=272081at4751	ribosomal protein S5 domain 2-like protein
+272711at4751	Missing
+273469at4751	Complete	scaffold_1571	4303	5737	+	214.3	250	https://www.orthodb.org/v10?query=273469at4751	tRNA (Adenine(58)-N(1))-methyltransferase non-catalytic subunit trm6
+274828at4751	Complete	scaffold_1429	827	1854	-	173.7	247	https://www.orthodb.org/v10?query=274828at4751	GPI-anchored wall transfer protein
+276205at4751	Complete	scaffold_1197	2696	4444	-	380.2	215	https://www.orthodb.org/v10?query=276205at4751	Serine/threonine-protein phosphatase
+278643at4751	Fragmented	scaffold_2793	2681	3558	-	100.2	186	https://www.orthodb.org/v10?query=278643at4751	Phosphatidylinositol-glycan biosynthesis class S protein
+279020at4751	Complete	scaffold_497	4240	5133	-	212.1	204	https://www.orthodb.org/v10?query=279020at4751	alpha-L RNA-binding motif-containing protein
+280937at4751	Fragmented	scaffold_6645	122	661	-	136.6	111	https://www.orthodb.org/v10?query=280937at4751	S-methyl-5'-thioadenosine phosphorylase
+281299at4751	Missing
+281726at4751	Complete	scaffold_1777	228	1163	+	242.2	152	https://www.orthodb.org/v10?query=281726at4751	Proteasome subunit beta type
+281920at4751	Missing
+282059at4751	Missing
+282964at4751	Complete	scaffold_1950	2939	4807	-	178.5	194	https://www.orthodb.org/v10?query=282964at4751	Gtr1/RagA G protein
+283177at4751	Complete	scaffold_2750	1074	2649	+	203.9	216	https://www.orthodb.org/v10?query=283177at4751	adenosylmethionine decarboxylase
+284127at4751	Complete	scaffold_1922	384	2577	-	465.5	297	https://www.orthodb.org/v10?query=284127at4751	S-adenosylmethionine synthase
+284176at4751	Complete	scaffold_2268	805	1711	+	122.2	122	https://www.orthodb.org/v10?query=284176at4751	Pseudouridine synthase
+284287at4751	Missing
+284377at4751	Missing
+285254at4751	Missing
+285477at4751	Missing
+285977at4751	Missing
+289666at4751	Complete	scaffold_1989	2534	4083	-	192.2	185	https://www.orthodb.org/v10?query=289666at4751	Diphthine synthase
+289686at4751	Complete	scaffold_4333	481	1366	+	45.4	59	https://www.orthodb.org/v10?query=289686at4751	Nucleotide exchange factor Fes1
+290314at4751	Complete	scaffold_3626	717	1754	+	395.0	273	https://www.orthodb.org/v10?query=290314at4751	Ribosomal protein L4/L1e
+290471at4751	Complete	scaffold_248	9481	10656	-	111.9	158	https://www.orthodb.org/v10?query=290471at4751	Rmd5
+291828at4751	Missing
+292336at4751	Complete	scaffold_238	9152	11629	-	351.3	327	https://www.orthodb.org/v10?query=292336at4751	Glycylpeptide N-tetradecanoyltransferase
+292418at4751	Complete	scaffold_3243	1690	2985	-	519.6	385	https://www.orthodb.org/v10?query=292418at4751	Pyruvate kinase
+293405at4751	Missing
+295692at4751	Missing
+295937at4751	Complete	scaffold_1951	289	1251	-	240.5	223	https://www.orthodb.org/v10?query=295937at4751	KRR1 small subunit processome component
+296024at4751	Complete	scaffold_646	8742	9877	+	300.5	309	https://www.orthodb.org/v10?query=296024at4751	Translation initiation factor eIF-2B subunit beta
+296643at4751	Complete	scaffold_1629	1433	2230	+	150.2	217	https://www.orthodb.org/v10?query=296643at4751	Ribosomal protein S5 domain 2-type fold
+297145at4751	Fragmented	scaffold_945	2085	2513	-	50.4	65	https://www.orthodb.org/v10?query=297145at4751	TRAUB-domain-containing protein
+297671at4751	Complete	scaffold_192	1512	2819	+	217.7	194	https://www.orthodb.org/v10?query=297671at4751	Tyrosine--tRNA ligase
+298335at4751	Missing
+298379at4751	Missing
+299054at4751	Complete	scaffold_405	2838	4171	-	178.7	232	https://www.orthodb.org/v10?query=299054at4751	SNARE
+299330at4751	Complete	scaffold_4351	90	1641	+	139.5	145	https://www.orthodb.org/v10?query=299330at4751	Exoribonuclease, phosphorolytic domain 1
+299509at4751	Missing
+299559at4751	Complete	scaffold_1010	708	1959	-	216.8	232	https://www.orthodb.org/v10?query=299559at4751	Ribosome production factor 2
+299583at4751	Complete	scaffold_6006	108	1108	+	69.5	104	https://www.orthodb.org/v10?query=299583at4751	Gtr1/RagA G protein
+299611at4751	Complete	scaffold_1952	26	1611	+	164.2	268	https://www.orthodb.org/v10?query=299611at4751	WD40-repeat-containing domain
+300016at4751	Fragmented	scaffold_2245	3365	4222	-	224.3	152	https://www.orthodb.org/v10?query=300016at4751	26S proteasome non-ATPase regulatory subunit 14
+300216at4751	Missing
+302127at4751	Fragmented	scaffold_1365	146	772	+	183.4	168	https://www.orthodb.org/v10?query=302127at4751	Integral membrane protein
+304341at4751	Complete	scaffold_645	4544	5793	-	250.3	187	https://www.orthodb.org/v10?query=304341at4751	2-methoxy-6-polyprenyl-1,4-benzoquinol methylase, mitochondrial
+304453at4751	Complete	scaffold_1287	4361	6501	+	87.3	191	https://www.orthodb.org/v10?query=304453at4751	V-type proton ATPase subunit C
+304547at4751	Complete	scaffold_320	10736	11659	-	49.1	171	https://www.orthodb.org/v10?query=304547at4751	Ribosome biogenesis protein NOP53
+304733at4751	Complete	scaffold_368	8642	10605	+	182.3	244	https://www.orthodb.org/v10?query=304733at4751	Vesicular-fusion protein sec17
+305061at4751	Missing
+306594at4751	Missing
+307144at4751	Missing
+308236at4751	Complete	scaffold_234	164	2635	+	190.5	422	https://www.orthodb.org/v10?query=308236at4751	Sda1
+308816at4751	Complete	scaffold_256	3346	5204	-	331.0	364	https://www.orthodb.org/v10?query=308816at4751	Splicing factor 3a subunit 3
+310718at4751	Complete	scaffold_178	789	3407	-	308.8	559	https://www.orthodb.org/v10?query=310718at4751	Exocyst complex component Sec6
+310891at4751	Fragmented	scaffold_77	1336	4002	-	506.2	412	https://www.orthodb.org/v10?query=310891at4751	Pre-mRNA-splicing factor cef1
+311048at4751	Complete	scaffold_288	2299	3527	-	157.3	183	https://www.orthodb.org/v10?query=311048at4751	Deoxyhypusine hydroxylase
+311254at4751	Missing
+312080at4751	Missing
+312209at4751	Complete	scaffold_4644	163	1177	+	63.3	107	https://www.orthodb.org/v10?query=312209at4751	adenine nucleotide alpha hydrolases-like protein
+312950at4751	Missing
+315551at4751	Missing
+315639at4751	Complete	scaffold_1351	3153	5111	+	244.2	217	https://www.orthodb.org/v10?query=315639at4751	Rhodanese-like domain
+315799at4751	Missing
+315802at4751	Complete	scaffold_2444	487	2461	+	144.7	186	https://www.orthodb.org/v10?query=315802at4751	tRNA dimethylallyltransferase
+316254at4751	Complete	scaffold_4186	962	2068	+	135.4	211	https://www.orthodb.org/v10?query=316254at4751	glycosyltransferase family 50 protein
+316920at4751	Complete	scaffold_4195	193	1551	+	43.4	201	https://www.orthodb.org/v10?query=316920at4751	Lysophospholipid acyltransferase
+317276at4751	Missing
+317335at4751	Missing
+319121at4751	Missing
+320163at4751	Missing
+320638at4751	Complete	scaffold_263	10756	12313	+	592.5	468	https://www.orthodb.org/v10?query=320638at4751	Nucleotide-diphospho-sugar transferase
+320777at4751	Complete	scaffold_2441	652	2912	+	276.2	311	https://www.orthodb.org/v10?query=320777at4751	Translation initiation factor IF2/IF5
+320782at4751	Missing
+321416at4751	Missing
+321585at4751	Complete	scaffold_1316	796	2588	-	273.8	222	https://www.orthodb.org/v10?query=321585at4751	U3 small nucleolar ribonucleoprotein IMP4
+321728at4751	Missing
+322254at4751	Fragmented	scaffold_3066	2129	2944	+	68.5	139	https://www.orthodb.org/v10?query=322254at4751	Histone acetyltransferase type B catalytic subunit
+322267at4751	Missing
+323327at4751	Complete	scaffold_1131	3044	4736	-	220.5	243	https://www.orthodb.org/v10?query=323327at4751	Translation initiation factor eIF-2B subunit alpha
+324442at4751	Complete	scaffold_4976	92	925	+	64.3	78	https://www.orthodb.org/v10?query=324442at4751	Cell division control protein 73, C-terminal
+325992at4751	Missing
+326512at4751	Missing
+326649at4751	Complete	scaffold_582	6237	8448	-	464.3	431	https://www.orthodb.org/v10?query=326649at4751	Phosphoacetylglucosamine mutase
+327672at4751	Complete	scaffold_1297	5303	6521	-	83.7	128	https://www.orthodb.org/v10?query=327672at4751	CDK-activating kinase assembly factor MAT1
+327748at4751	Complete	scaffold_1590	2441	4991	-	285.0	320	https://www.orthodb.org/v10?query=327748at4751	Zinc finger, RING/FYVE/PHD-type
+327884at4751	Missing
+329067at4751	Missing
+330533at4751	Missing
+330551at4751	Missing
+330629at4751	Missing
+330815at4751	Fragmented	scaffold_1405	193	1115	+	168.2	164	https://www.orthodb.org/v10?query=330815at4751	Translation initiation factor 2, alpha subunit
+330949at4751	Complete	scaffold_673	7544	8542	-	309.7	294	https://www.orthodb.org/v10?query=330949at4751	tRNA pseudouridine synthase
+331022at4751	Missing
+331763at4751	Complete	scaffold_1260	3500	4162	-	372.5	194	https://www.orthodb.org/v10?query=331763at4751	Ribosomal protein S5
+332006at4751	Fragmented	scaffold_531	1201	2410	-	122.7	175	https://www.orthodb.org/v10?query=332006at4751	SURF1-like protein
+332036at4751	Missing
+332416at4751	Missing
+332876at4751	Complete	scaffold_1187	3867	5779	-	301.8	363	https://www.orthodb.org/v10?query=332876at4751	WD40/YVTN repeat-like-containing domain superfamily
+332891at4751	Complete	scaffold_1143	4241	7101	-	156.2	275	https://www.orthodb.org/v10?query=332891at4751	Glycerol
+334424at4751	Complete	scaffold_667	2809	3744	-	244.1	166	https://www.orthodb.org/v10?query=334424at4751	rRNA adenine N(6)-methyltransferase
+335237at4751	Duplicated	scaffold_183	9461	12040	-	318.7	235	https://www.orthodb.org/v10?query=335237at4751	P-loop containing nucleoside triphosphate hydrolase protein
+335237at4751	Duplicated	scaffold_183	4353	5617	-	289.6	240	https://www.orthodb.org/v10?query=335237at4751	P-loop containing nucleoside triphosphate hydrolase protein
+335719at4751	Missing
+336181at4751	Complete	scaffold_2076	1339	2637	-	185.7	247	https://www.orthodb.org/v10?query=336181at4751	Adenosine kinase
+336187at4751	Missing
+337150at4751	Missing
+337917at4751	Missing
+338301at4751	Missing
+338808at4751	Complete	scaffold_5161	324	1540	+	216.5	240	https://www.orthodb.org/v10?query=338808at4751	Golgi phosphoprotein 3-like
+339525at4751	Duplicated	scaffold_443	4463	5545	+	139.4	204	https://www.orthodb.org/v10?query=339525at4751	Aminomethyltransferase
+339525at4751	Duplicated	scaffold_25	33802	34890	-	135.4	213	https://www.orthodb.org/v10?query=339525at4751	Aminomethyltransferase
+342642at4751	Complete	scaffold_369	4310	5543	-	282.4	234	https://www.orthodb.org/v10?query=342642at4751	Dihydroorotase
+343196at4751	Missing
+343603at4751	Missing
+343623at4751	Missing
+343717at4751	Missing
+344553at4751	Complete	scaffold_156	5979	7284	-	162.5	112	https://www.orthodb.org/v10?query=344553at4751	Ubiquitin fusion degradation protein 1
+345661at4751	Complete	scaffold_1042	779	1770	-	49.4	46	https://www.orthodb.org/v10?query=345661at4751	tRNA-splicing endonuclease subunit Sen2
+348020at4751	Fragmented	scaffold_2361	416	643	+	56.1	59	https://www.orthodb.org/v10?query=348020at4751	Formyl transferase, N-terminal
+348111at4751	Complete	scaffold_1170	360	1865	+	266.5	253	https://www.orthodb.org/v10?query=348111at4751	Ribosomal protein L2
+349264at4751	Complete	scaffold_5005	329	1561	-	251.9	168	https://www.orthodb.org/v10?query=349264at4751	Proteasome subunit beta type
+350840at4751	Complete	scaffold_60	8747	9549	-	89.1	116	https://www.orthodb.org/v10?query=350840at4751	Isopentenyl-diphosphate delta-isomerase
+351351at4751	Missing
+351482at4751	Complete	scaffold_110	487	1357	+	416.1	238	https://www.orthodb.org/v10?query=351482at4751	Prohibitin-2
+351646at4751	Complete	scaffold_6472	45	788	+	90.0	118	https://www.orthodb.org/v10?query=351646at4751	25S rRNA (uridine-N(3))-methyltransferase
+351651at4751	Fragmented	scaffold_131	11363	13496	-	170.2	186	https://www.orthodb.org/v10?query=351651at4751	Chitobiosyldiphosphodolichol beta-mannosyltransferase
+351849at4751	Missing
+351858at4751	Complete	scaffold_3050	1934	3101	-	291.5	204	https://www.orthodb.org/v10?query=351858at4751	Eukaryotic translation initiation factor 6
+351906at4751	Missing
+352224at4751	Missing
+352999at4751	Missing
+353685at4751	Missing
+353762at4751	Missing
+353991at4751	Complete	scaffold_2703	1406	3361	+	196.3	296	https://www.orthodb.org/v10?query=353991at4751	DnaJ domain
+354679at4751	Fragmented	scaffold_5536	576	1185	-	219.0	132	https://www.orthodb.org/v10?query=354679at4751	Cell differentiation protein rcd1
+354739at4751	Missing
+354778at4751	Complete	scaffold_3625	438	1970	-	327.1	305	https://www.orthodb.org/v10?query=354778at4751	Diphosphomevalonate decarboxylase
+354913at4751	Missing
+355454at4751	Fragmented	scaffold_2587	1375	2694	-	206.1	236	https://www.orthodb.org/v10?query=355454at4751	Iron hydrogenase
+355525at4751	Complete	scaffold_358	11240	12492	-	266.3	314	https://www.orthodb.org/v10?query=355525at4751	Leucine-rich repeat
+355781at4751	Complete	scaffold_63	12037	13128	+	39.9	184	https://www.orthodb.org/v10?query=355781at4751	GTP cyclohydrolase 1 type 2/Nif3
+356079at4751	Missing
+356691at4751	Complete	scaffold_1463	1330	3108	-	228.4	324	https://www.orthodb.org/v10?query=356691at4751	Peroxisome biogenesis factor 1
+356743at4751	Complete	scaffold_189	11549	12504	+	280.9	174	https://www.orthodb.org/v10?query=356743at4751	Ribosomal protein
+357182at4751	Complete	scaffold_193	7269	9894	-	248.1	320	https://www.orthodb.org/v10?query=357182at4751	DNA primase large subunit
+357584at4751	Complete	scaffold_1555	1478	3697	-	165.0	177	https://www.orthodb.org/v10?query=357584at4751	Metal-dependent protein hydrolase
+358012at4751	Missing
+358118at4751	Complete	scaffold_250	2412	3971	-	328.7	336	https://www.orthodb.org/v10?query=358118at4751	Splicing factor 3B subunit 2
+359271at4751	Fragmented	scaffold_667	6802	7437	+	75.1	135	https://www.orthodb.org/v10?query=359271at4751	Membrane protein TMS1
+359482at4751	Complete	scaffold_1191	5959	6892	-	153.4	120	https://www.orthodb.org/v10?query=359482at4751	vesicle transporter SEC22
+359627at4751	Fragmented	scaffold_6636	79	432	+	71.9	61	https://www.orthodb.org/v10?query=359627at4751	Trafficking protein particle complex subunit
+360800at4751	Missing
+361877at4751	Missing
+362218at4751	Missing
+362250at4751	Missing
+362322at4751	Complete	scaffold_1655	3043	4673	-	76.9	108	https://www.orthodb.org/v10?query=362322at4751	RNA cap guanine-N2 methyltransferase
+362601at4751	Missing
+363593at4751	Missing
+364123at4751	Fragmented	scaffold_5027	655	1607	+	152.7	138	https://www.orthodb.org/v10?query=364123at4751	26S Proteasome non-ATPase regulatory subunit 6
+364284at4751	Missing
+365270at4751	Missing
+366595at4751	Complete	scaffold_3245	137	1623	-	169.6	144	https://www.orthodb.org/v10?query=366595at4751	Dolichol-phosphate mannosyltransferase
+366597at4751	Duplicated	scaffold_13	51727	52389	-	130.7	183	https://www.orthodb.org/v10?query=366597at4751	Ribosomal protein
+366597at4751	Duplicated	scaffold_5910	154	759	+	124.2	160	https://www.orthodb.org/v10?query=366597at4751	Ribosomal protein
+366635at4751	Complete	scaffold_344	6857	7786	+	206.7	175	https://www.orthodb.org/v10?query=366635at4751	Matrin/U1-C-like, C2H2-type zinc finger
+367778at4751	Missing
+368706at4751	Fragmented	scaffold_5717	582	1147	+	119.3	94	https://www.orthodb.org/v10?query=368706at4751	Proteasome subunit beta
+369435at4751	Missing
+370505at4751	Missing
+370952at4751	Complete	scaffold_113	12027	12680	+	295.3	180	https://www.orthodb.org/v10?query=370952at4751	Ribosomal protein S3
+371481at4751	Fragmented	scaffold_4301	386	1204	-	88.2	113	https://www.orthodb.org/v10?query=371481at4751	Ribosome maturation protein SBDS, N-terminal
+371674at4751	Missing
+371862at4751	Missing
+372381at4751	Fragmented	scaffold_632	933	2314	+	153.3	241	https://www.orthodb.org/v10?query=372381at4751	Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunit 1
+372510at4751	Fragmented	scaffold_1464	1708	2233	+	76.6	74	https://www.orthodb.org/v10?query=372510at4751	transcription factor Tfb4
+372972at4751	Complete	scaffold_572	3821	5130	+	129.5	98	https://www.orthodb.org/v10?query=372972at4751	tRNA (guanine-N(7)-)-methyltransferase
+374350at4751	Missing
+374548at4751	Complete	scaffold_1391	4553	5119	-	98.9	123	https://www.orthodb.org/v10?query=374548at4751	SGS domain
+376255at4751	Complete	scaffold_5464	167	1150	-	170.3	179	https://www.orthodb.org/v10?query=376255at4751	Transcription elongation factor S-II
+376442at4751	Missing
+376539at4751	Missing
+376586at4751	Fragmented	scaffold_3035	17	804	+	177.8	132	https://www.orthodb.org/v10?query=376586at4751	Deoxycytidylate deaminase
+377787at4751	Missing
+378256at4751	Complete	scaffold_352	1061	1932	+	84.0	122	https://www.orthodb.org/v10?query=378256at4751	Exoribonuclease, PH domain 2 superfamily
+378281at4751	Complete	scaffold_181	3526	4708	+	156.5	180	https://www.orthodb.org/v10?query=378281at4751	Ribosomal protein L3
+378295at4751	Missing
+378376at4751	Missing
+378430at4751	Fragmented	scaffold_346	6573	7388	-	91.0	112	https://www.orthodb.org/v10?query=378430at4751	Serine/threonine-protein kinase RIO1
+378436at4751	Missing
+379525at4751	Missing
+382001at4751	Missing
+383007at4751	Missing
+384156at4751	Fragmented	scaffold_6578	333	596	-	72.9	68	https://www.orthodb.org/v10?query=384156at4751	ATP synthase subunit gamma
+384315at4751	Missing
+385139at4751	Complete	scaffold_1136	803	1912	-	233.3	161	https://www.orthodb.org/v10?query=385139at4751	Proteasome subunit beta type
+385343at4751	Complete	scaffold_1047	6469	7300	+	177.8	168	https://www.orthodb.org/v10?query=385343at4751	GTP cyclohydrolase II
+385564at4751	Missing
+385971at4751	Complete	scaffold_554	3832	5140	+	79.1	125	https://www.orthodb.org/v10?query=385971at4751	Ribonuclease
+386220at4751	Missing
+386245at4751	Complete	scaffold_204	9911	10810	-	99.4	179	https://www.orthodb.org/v10?query=386245at4751	Origin recognition complex subunit 2
+387347at4751	Missing
+387759at4751	Complete	scaffold_557	8620	10152	-	149.5	122	https://www.orthodb.org/v10?query=387759at4751	Mitochondrial inner membrane protease ATP23
+388229at4751	Complete	scaffold_2454	265	1641	+	138.5	139	https://www.orthodb.org/v10?query=388229at4751	RNA polymerase, Rpb5, N-terminal
+389034at4751	Fragmented	scaffold_131	18540	18947	-	169.4	112	https://www.orthodb.org/v10?query=389034at4751	rRNA 2'-O-methyltransferase fibrillarin
+389547at4751	Missing
+389565at4751	Complete	scaffold_225	8559	9692	-	382.1	244	https://www.orthodb.org/v10?query=389565at4751	Cytochrome c-like domain
+390518at4751	Complete	scaffold_3500	1071	2404	+	337.1	238	https://www.orthodb.org/v10?query=390518at4751	26S proteasome regulatory subunit rpn-8
+391384at4751	Missing
+392558at4751	Missing
+393440at4751	Complete	scaffold_4313	157	1428	+	67.1	93	https://www.orthodb.org/v10?query=393440at4751	K Homology domain, type 1
+393996at4751	Complete	scaffold_2813	2015	2682	-	248.3	135	https://www.orthodb.org/v10?query=393996at4751	Ribosomal protein L5
+396097at4751	Missing
+396330at4751	Missing
+396842at4751	Complete	scaffold_2169	2929	4287	+	227.1	179	https://www.orthodb.org/v10?query=396842at4751	18S rRNA (Guanine(1575)-N(7))-methyltransferase
+397465at4751	Complete	scaffold_3014	1477	2707	-	115.9	117	https://www.orthodb.org/v10?query=397465at4751	Vacuolar protein sorting-associated protein 28
+398519at4751	Complete	scaffold_983	3414	4320	+	131.5	126	https://www.orthodb.org/v10?query=398519at4751	chromatin associated protein KTI12
+398592at4751	Fragmented	scaffold_175	11313	12179	-	137.5	165	https://www.orthodb.org/v10?query=398592at4751	NUC153
+398882at4751	Complete	scaffold_980	3608	5093	-	203.0	133	https://www.orthodb.org/v10?query=398882at4751	Ubiquitin-conjugating enzyme E2 8
+398968at4751	Complete	scaffold_1850	1968	3069	-	82.7	81	https://www.orthodb.org/v10?query=398968at4751	Trafficking protein particle complex subunit BET3
+399376at4751	Complete	scaffold_3310	31	1016	-	71.0	122	https://www.orthodb.org/v10?query=399376at4751	Ribosome biogenesis protein BRX1
+399413at4751	Missing
+399810at4751	Missing
+401387at4751	Complete	scaffold_48	22007	23231	+	179.7	212	https://www.orthodb.org/v10?query=401387at4751	phosphopantothenate-cysteine ligase
+402005at4751	Complete	scaffold_2763	855	1355	+	125.5	129	https://www.orthodb.org/v10?query=402005at4751	Protein RER1
+402255at4751	Complete	scaffold_906	3322	5097	+	246.5	190	https://www.orthodb.org/v10?query=402255at4751	F-actin capping protein beta subunit
+403079at4751	Complete	scaffold_4499	466	1389	-	262.9	196	https://www.orthodb.org/v10?query=403079at4751	Vacuolar ATP synthase subunit D
+404050at4751	Complete	scaffold_1232	2898	5161	+	269.6	305	https://www.orthodb.org/v10?query=404050at4751	DNA polymerase alpha/epsilon, subunit B
+405669at4751	Missing
+405898at4751	Complete	scaffold_3420	252	1776	+	259.7	305	https://www.orthodb.org/v10?query=405898at4751	U4/U6 small nuclear ribonucleoprotein Prp3
+406240at4751	Complete	scaffold_2302	2880	4036	-	103.0	114	https://www.orthodb.org/v10?query=406240at4751	RNA polymerase Rpb7-like, N-terminal domain superfamily
+406403at4751	Duplicated	scaffold_579	3690	4229	-	91.9	147	https://www.orthodb.org/v10?query=406403at4751	septum formation protein Maf
+406403at4751	Duplicated	scaffold_14	11457	12026	+	87.4	149	https://www.orthodb.org/v10?query=406403at4751	septum formation protein Maf
+406434at4751	Complete	scaffold_757	5024	6439	-	78.8	152	https://www.orthodb.org/v10?query=406434at4751	EB1, C-terminal
+406793at4751	Complete	scaffold_228	7664	8529	+	123.4	59	https://www.orthodb.org/v10?query=406793at4751	40S ribosomal protein S11
+407348at4751	Missing
+408391at4751	Fragmented	scaffold_6474	221	589	-	63.5	76	https://www.orthodb.org/v10?query=408391at4751	Translocation protein sec66
+408419at4751	Complete	scaffold_1578	2831	4070	+	74.0	128	https://www.orthodb.org/v10?query=408419at4751	Winged helix-like DNA-binding domain superfamily
+409761at4751	Missing
+410458at4751	Complete	scaffold_1727	2461	3539	+	163.6	140	https://www.orthodb.org/v10?query=410458at4751	RNA-binding S4 domain
+410782at4751	Missing
+410986at4751	Complete	scaffold_846	447	1879	+	228.2	146	https://www.orthodb.org/v10?query=410986at4751	PIN domain
+410991at4751	Missing
+411130at4751	Complete	scaffold_4534	296	1457	+	196.8	146	https://www.orthodb.org/v10?query=411130at4751	Snf7 family
+411471at4751	Missing
+411518at4751	Missing
+411677at4751	Complete	scaffold_1866	3672	5062	-	89.5	91	https://www.orthodb.org/v10?query=411677at4751	Rho GDP-dissociation inhibitor
+411754at4751	Complete	scaffold_405	4378	5227	-	237.4	173	https://www.orthodb.org/v10?query=411754at4751	Splicing factor U2AF 23 kDa subunit
+411919at4751	Fragmented	scaffold_2834	1287	3345	+	63.3	117	https://www.orthodb.org/v10?query=411919at4751	Endoplasmic reticulum vesicle transporter, C-terminal
+412006at4751	Fragmented	scaffold_1452	4746	5561	+	161.4	115	https://www.orthodb.org/v10?query=412006at4751	60S ribosome subunit biogenesis protein NIP7
+413850at4751	Fragmented	scaffold_5053	230	1168	-	19.4	100	https://www.orthodb.org/v10?query=413850at4751	mitochondrial glyco protein
+414474at4751	Missing
+414508at4751	Complete	scaffold_422	8107	9220	+	75.9	123	https://www.orthodb.org/v10?query=414508at4751	Ubiquinone biosynthesis protein COQ4, mitochondrial
+416039at4751	Fragmented	scaffold_133	18621	18821	-	54.9	43	https://www.orthodb.org/v10?query=416039at4751	Presequence translocated-associated motor subunit pam17
+416914at4751	Complete	scaffold_931	186	2316	+	288.4	303	https://www.orthodb.org/v10?query=416914at4751	XPC-binding domain
+417109at4751	Fragmented	scaffold_395	83	509	+	44.1	66	https://www.orthodb.org/v10?query=417109at4751	Mediator of RNA polymerase II transcription subunit 7
+417470at4751	Complete	scaffold_3391	179	2802	-	113.5	270	https://www.orthodb.org/v10?query=417470at4751	Exocyst complex component EXO84
+417746at4751	Complete	scaffold_1049	99	1279	+	242.2	196	https://www.orthodb.org/v10?query=417746at4751	Zinc finger, CCCH-type
+418242at4751	Missing
+418644at4751	Missing
+418680at4751	Complete	scaffold_108	13741	15047	+	162.0	155	https://www.orthodb.org/v10?query=418680at4751	Exosome complex exonuclease RRP41
+419048at4751	Complete	scaffold_1684	3893	5119	+	128.4	144	https://www.orthodb.org/v10?query=419048at4751	Synaptobrevin
+419200at4751	Missing
+419232at4751	Missing
+419667at4751	Complete	scaffold_415	3875	4562	+	73.2	115	https://www.orthodb.org/v10?query=419667at4751	Peptidyl-prolyl cis-trans isomerase
+419868at4751	Complete	scaffold_1517	4791	5572	-	159.5	110	https://www.orthodb.org/v10?query=419868at4751	Ribosomal protein S13/S15, N-terminal
+420414at4751	Missing
+420527at4751	Complete	scaffold_745	3959	5320	+	125.4	180	https://www.orthodb.org/v10?query=420527at4751	SEP domain
+421097at4751	Missing
+421687at4751	Fragmented	scaffold_644	5383	5592	+	24.2	28	https://www.orthodb.org/v10?query=421687at4751	putative amino-acid N-acetyltransferase subunit Mak10
+422151at4751	Missing
+422622at4751	Complete	scaffold_106	15031	15727	-	133.6	124	https://www.orthodb.org/v10?query=422622at4751	prefoldin, alpha subunit
+422764at4751	Missing
+423166at4751	Complete	scaffold_704	3387	4018	+	127.6	75	https://www.orthodb.org/v10?query=423166at4751	Ribosomal protein L14P
+423206at4751	Complete	scaffold_5436	172	959	-	91.5	60	https://www.orthodb.org/v10?query=423206at4751	Nuclear cap-binding protein subunit 2
+427250at4751	Missing
+428342at4751	Complete	scaffold_676	560	1331	-	180.9	115	https://www.orthodb.org/v10?query=428342at4751	Ribosomal protein S19
+428569at4751	Complete	scaffold_3919	160	1339	+	92.3	148	https://www.orthodb.org/v10?query=428569at4751	Vacuolar protein sorting-associated protein 29
+428774at4751	Missing
+428984at4751	Complete	scaffold_113	7759	9539	+	354.1	336	https://www.orthodb.org/v10?query=428984at4751	BRCT domain
+429332at4751	Complete	scaffold_4916	363	1634	+	81.6	121	https://www.orthodb.org/v10?query=429332at4751	RNA polymerase III, subunit Rpc25
+429862at4751	Missing
+430556at4751	Fragmented	scaffold_85	6756	9386	-	64.0	289	https://www.orthodb.org/v10?query=430556at4751	Nucleoporin NUP88/NUP82
+431195at4751	Missing
+431607at4751	Complete	scaffold_3157	703	1911	+	95.4	105	https://www.orthodb.org/v10?query=431607at4751	Translation machinery-associated protein 20
+432952at4751	Missing
+433181at4751	Missing
+433384at4751	Complete	scaffold_4307	581	1167	-	29.3	57	https://www.orthodb.org/v10?query=433384at4751	Ran-interacting Mog1 protein
+434428at4751	Complete	scaffold_111	13471	14432	-	230.7	152	https://www.orthodb.org/v10?query=434428at4751	Actin-related protein 2/3 complex subunit 4
+434500at4751	Missing
+434984at4751	Complete	scaffold_1657	2347	3277	-	90.9	95	https://www.orthodb.org/v10?query=434984at4751	U3 small nucleolar RNA-associated protein 11
+435317at4751	Missing
+435471at4751	Fragmented	scaffold_1178	3965	4770	-	20.0	37	https://www.orthodb.org/v10?query=435471at4751	NAD(P)H-hydrate epimerase
+435767at4751	Complete	scaffold_3298	1517	2661	-	275.3	197	https://www.orthodb.org/v10?query=435767at4751	Ribosomal RNA small subunit methyltransferase NEP1
+436872at4751	Missing
+437914at4751	Fragmented	scaffold_3273	1686	2904	-	174.7	121	https://www.orthodb.org/v10?query=437914at4751	Zinc finger C2H2 superfamily
+438274at4751	Complete	scaffold_931	6060	7112	-	89.1	147	https://www.orthodb.org/v10?query=438274at4751	ERF1 methyltransferase catalytic subunit MTQ2
+438731at4751	Missing
+438861at4751	Complete	scaffold_4289	1197	2128	-	71.3	115	https://www.orthodb.org/v10?query=438861at4751	OPI10 family
+439490at4751	Missing
+440401at4751	Missing
+441586at4751	Missing
+443595at4751	Missing
+444174at4751	Complete	scaffold_3140	1725	2555	+	64.3	58	https://www.orthodb.org/v10?query=444174at4751	Cell cycle control protein cwf14
+444399at4751	Complete	scaffold_316	7240	7599	+	104.5	94	https://www.orthodb.org/v10?query=444399at4751	ribosomal protein L14
+444602at4751	Complete	scaffold_1306	4817	5292	-	91.8	77	https://www.orthodb.org/v10?query=444602at4751	ER membrane protein complex subunit 4
+444892at4751	Missing
+445210at4751	Missing
+445401at4751	Missing
+445954at4751	Complete	scaffold_2568	2902	3646	+	96.1	56	https://www.orthodb.org/v10?query=445954at4751	DNA-directed RNA polymerase, 14-18kDa subunit, conserved site
+446124at4751	Complete	scaffold_1442	4579	4986	-	79.9	112	https://www.orthodb.org/v10?query=446124at4751	ribosomal protein L11
+447112at4751	Missing
+447424at4751	Missing
+449717at4751	Complete	scaffold_1887	325	1300	+	265.0	191	https://www.orthodb.org/v10?query=449717at4751	Protein YIP
+449803at4751	Complete	scaffold_694	227	1104	+	168.7	180	https://www.orthodb.org/v10?query=449803at4751	Dephospho-CoA kinase
+451032at4751	Complete	scaffold_3064	547	1563	+	114.9	118	https://www.orthodb.org/v10?query=451032at4751	MIP18 family-like
+451701at4751	Missing
+451811at4751	Fragmented	scaffold_700	8241	9157	+	65.5	108	https://www.orthodb.org/v10?query=451811at4751	Mitochondrial distribution and morphology protein 10
+451849at4751	Complete	scaffold_582	3965	5536	-	98.4	263	https://www.orthodb.org/v10?query=451849at4751	Pre-mRNA-splicing factor SLU7
+452573at4751	Complete	scaffold_334	12938	13554	-	62.1	64	https://www.orthodb.org/v10?query=452573at4751	histone-fold-containing protein
+452692at4751	Complete	scaffold_2133	381	775	+	56.3	95	https://www.orthodb.org/v10?query=452692at4751	Protein GET1
+452759at4751	Complete	scaffold_1627	3119	3896	+	141.1	97	https://www.orthodb.org/v10?query=452759at4751	Translation initiation factor 1A (eIF-1A)
+452947at4751	Missing
+453693at4751	Complete	scaffold_1432	4036	4455	+	164.8	113	https://www.orthodb.org/v10?query=453693at4751	Ribosomal protein L23/L15e core domain superfamily
+453909at4751	Missing
+454746at4751	Missing
+454840at4751	Missing
+455110at4751	Duplicated	scaffold_786	233	649	+	79.2	63	https://www.orthodb.org/v10?query=455110at4751	Iron-sulfur cluster assembly protein
+455110at4751	Duplicated	scaffold_1	161178	161549	+	68.0	63	https://www.orthodb.org/v10?query=455110at4751	Iron-sulfur cluster assembly protein
+456963at4751	Missing
+457161at4751	Missing
+457544at4751	Missing
+457951at4751	Complete	scaffold_84	11253	12030	-	146.3	127	https://www.orthodb.org/v10?query=457951at4751	ribosomal protein L13
+458554at4751	Complete	scaffold_874	3945	5132	+	96.5	106	https://www.orthodb.org/v10?query=458554at4751	Trafficking protein particle complex subunit 2
+458980at4751	Complete	scaffold_5188	40	1200	+	255.1	231	https://www.orthodb.org/v10?query=458980at4751	Pre-mRNA-splicing factor 18
+459844at4751	Complete	scaffold_292	6685	7535	+	137.6	121	https://www.orthodb.org/v10?query=459844at4751	Adenylate kinase isoenzyme 6 homolog
+461238at4751	Fragmented	scaffold_1774	2294	2708	-	48.2	41	https://www.orthodb.org/v10?query=461238at4751	Transcription elongation factor SPT4
+461919at4751	Missing
+464711at4751	Fragmented	scaffold_292	13721	14083	+	84.6	61	https://www.orthodb.org/v10?query=464711at4751	Mitochondrial import inner membrane translocase subunit TIM23
+464772at4751	Complete	scaffold_809	1371	2282	+	261.9	195	https://www.orthodb.org/v10?query=464772at4751	DUF572-domain-containing protein
+464897at4751	Complete	scaffold_3396	2072	2745	-	77.7	72	https://www.orthodb.org/v10?query=464897at4751	RNA polymerase
+465849at4751	Duplicated	scaffold_43	4171	4539	+	143.1	91	https://www.orthodb.org/v10?query=465849at4751	ribosomal protein S12
+465849at4751	Duplicated	scaffold_677	2910	3506	-	134.7	91	https://www.orthodb.org/v10?query=465849at4751	ribosomal protein S12
+467311at4751	Missing
+467847at4751	Complete	scaffold_82	11860	12896	+	107.8	114	https://www.orthodb.org/v10?query=467847at4751	AMMECR1
+467959at4751	Complete	scaffold_320	8955	10240	+	113.9	85	https://www.orthodb.org/v10?query=467959at4751	Pre-mRNA-splicing factor ISY1
+468195at4751	Complete	scaffold_689	9034	9543	-	41.7	67	https://www.orthodb.org/v10?query=468195at4751	Signal peptidase subunit 3
+468224at4751	Missing
+468408at4751	Missing
+469452at4751	Fragmented	scaffold_371	594	1284	+	89.7	81	https://www.orthodb.org/v10?query=469452at4751	Ribosomal protein S5 domain 2-type fold
+470813at4751	Missing
+471205at4751	Missing
+473814at4751	Missing
+474125at4751	Missing
+474320at4751	Missing
+474374at4751	Complete	scaffold_3717	872	1375	-	94.8	74	https://www.orthodb.org/v10?query=474374at4751	Ribosomal protein S10
+477057at4751	Missing
+477122at4751	Missing
+481052at4751	Missing
+482337at4751	Missing
+483049at4751	Missing
+483370at4751	Complete	scaffold_99	15671	16538	-	55.7	58	https://www.orthodb.org/v10?query=483370at4751	Ribosomal protein L27
+483390at4751	Complete	scaffold_982	4283	4987	-	114.8	90	https://www.orthodb.org/v10?query=483390at4751	V-type proton ATPase subunit F
+484080at4751	Missing
+484323at4751	Missing
+484805at4751	Complete	scaffold_2276	3467	4114	-	94.1	128	https://www.orthodb.org/v10?query=484805at4751	Pre-mRNA-splicing factor syf2
+485650at4751	Complete	scaffold_2423	1108	2025	+	115.4	104	https://www.orthodb.org/v10?query=485650at4751	Ribosomal protein L7/L12
+485702at4751	Fragmented	scaffold_1279	1705	2268	-	101.1	87	https://www.orthodb.org/v10?query=485702at4751	translocation protein
+488348at4751	Complete	scaffold_3755	1243	2084	-	112.7	78	https://www.orthodb.org/v10?query=488348at4751	LSM domain, eukaryotic/archaea-type
+488426at4751	Fragmented	scaffold_1228	4687	5116	-	68.3	81	https://www.orthodb.org/v10?query=488426at4751	Pre-mRNA-splicing factor cwc15
+488857at4751	Complete	scaffold_2067	4274	4567	-	59.7	84	https://www.orthodb.org/v10?query=488857at4751	Clathrin light chain
+490662at4751	Missing
+490719at4751	Fragmented	scaffold_3925	828	995	-	55.7	50	https://www.orthodb.org/v10?query=490719at4751	thioredoxin-like protein
+492591at4751	Missing
+493358at4751	Complete	scaffold_923	3003	3728	+	103.2	72	https://www.orthodb.org/v10?query=493358at4751	40S ribosomal protein S26
+494427at4751	Complete	scaffold_1057	2628	2936	-	147.9	97	https://www.orthodb.org/v10?query=494427at4751	Cytochrome c oxidase subunit 6, mitochondrial
+497024at4751	Complete	scaffold_2319	3263	4099	+	71.9	58	https://www.orthodb.org/v10?query=497024at4751	Zinc finger C2H2-type

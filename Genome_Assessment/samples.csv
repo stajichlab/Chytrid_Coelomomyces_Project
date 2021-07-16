@@ -1,0 +1,4 @@
+PREFIX,FREAD,RREAD
+Amber,AmberDNA_R1.fq.gz,AmberDNA_R2.fq.gz
+Meiospore,MeiosporeDNA_R1.fq.gz,MeiosporeDNA_R2.fq.gz
+Orange,OrangeDNA_R1.fq.gz,OrangeDNA_R2.fq.gz

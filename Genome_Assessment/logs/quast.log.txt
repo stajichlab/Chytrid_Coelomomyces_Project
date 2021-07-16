@@ -1,0 +1,6 @@
+Loading busco/5.1.2
+  Unloading conflict: miniconda2/4.4.10
+  Loading requirement: miniconda3/4.3.31
+Usage: quast.py [options]
+
+quast.py: error: option -t: invalid integer value: 'hreads'

@@ -1,0 +1,4 @@
+Assembly	# contigs (>= 0 bp)	# contigs (>= 1000 bp)	# contigs (>= 5000 bp)	# contigs (>= 10000 bp)	# contigs (>= 25000 bp)	# contigs (>= 50000 bp)	Total length (>= 0 bp)	Total length (>= 1000 bp)	Total length (>= 5000 bp)	Total length (>= 10000 bp)	Total length (>= 25000 bp)	Total length (>= 50000 bp)	# contigs	Largest contig	Total length	GC (%)	N50	N90	L50	L90	# N's per 100 kbp
+Coelomomyces_lativittatus_CIRM_AVA_1_Amber.scaffolds	6804	6302	1919	637	62	19	31297980	30915502	19940277	11079315	2942657	1465126	6804	188121	31297980	35.15	7007	2067	1188	4452	510.62
+Coelomomyces_lativittatus_CIRM_AVA_1_Orange.scaffolds	5437	4825	1230	349	12	0	19985198	19522400	11033490	4940252	324313	0	5437	30249	19985198	32.34	5627	1604	1034	3626	362.42
+Coelomomyces_lativittatus_CIRM_AVA_1_Meiospore.scaffolds	5013	4528	1514	465	15	0	21922045	21561612	13985620	6688695	432427	0	5013	37025	21922045	32.33	6695	1998	990	3261	101.61

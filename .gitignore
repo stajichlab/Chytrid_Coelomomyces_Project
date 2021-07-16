@@ -1,0 +1,6 @@
+Genome_Assessment/quast_results/latest
+*.jf
+data
+busco_sequences
+hmmer_output
+metaeuk_output

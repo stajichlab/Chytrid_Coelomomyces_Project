@@ -1,0 +1,448 @@
+Tmp /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp folder does not exist or is not a directory.
+Create dir /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp
+easy-predict --threads 12 data/Coelomomyces_lativittatus_CIRM-AVA-1-Meiospore.scaffolds.fa /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_downloads/lineages/eukaryota_odb10/refseq_db.faa /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/initial_results/Coelomomyces_lativittatus_CIRM-AVA-1-Meiospore.scaffolds.fa /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp --max-intron 130000 --max-seq-len 160000 --min-exon-aa 15 --max-overlap 15 --min-intron 5 --overlap 1 
+
+MMseqs Version:                                             	4.a0f584d
+Substitution matrix                                         	nucl:nucleotide.out,aa:blosum62.out
+Add backtrace                                               	false
+Alignment mode                                              	2
+Allow wrapped scoring                                       	false
+E-value threshold                                           	100
+Seq. id. threshold                                          	0
+Min alignment length                                        	0
+Seq. id. mode                                               	0
+Alternative alignments                                      	0
+Coverage threshold                                          	0
+Coverage mode                                               	0
+Max sequence length                                         	160000
+Compositional bias                                          	1
+Max reject                                                  	2147483647
+Max accept                                                  	2147483647
+Include identical seq. id.                                  	false
+Preload mode                                                	0
+Pseudo count a                                              	1
+Pseudo count b                                              	1.5
+Score bias                                                  	0
+Realign hits                                                	false
+Realign score bias                                          	-0.2
+Realign max seqs                                            	2147483647
+Gap open cost                                               	nucl:5,aa:11
+Gap extension cost                                          	nucl:2,aa:1
+Zdrop                                                       	40
+Threads                                                     	12
+Compressed                                                  	0
+Verbosity                                                   	3
+Seed substitution matrix                                    	nucl:nucleotide.out,aa:VTML80.out
+Sensitivity                                                 	4
+k-mer length                                                	0
+k-score                                                     	2147483647
+Alphabet size                                               	nucl:5,aa:21
+Max results per query                                       	300
+Split database                                              	0
+Split mode                                                  	2
+Split memory limit                                          	0
+Diagonal scoring                                            	true
+Exact k-mer matching                                        	0
+Mask residues                                               	1
+Mask lower case residues                                    	0
+Minimum diagonal score                                      	15
+Spaced k-mers                                               	1
+Spaced k-mer pattern                                        	
+Local temporary path                                        	
+Rescore mode                                                	0
+Remove hits by seq. id. and coverage                        	false
+Sort results                                                	0
+Mask profile                                                	1
+Profile E-value threshold                                   	0.001
+Global sequence weighting                                   	false
+Allow deletions                                             	false
+Filter MSA                                                  	1
+Maximum seq. id. threshold                                  	0.9
+Minimum seq. id.                                            	0
+Minimum score per column                                    	-20
+Minimum coverage                                            	0
+Select N most diverse seqs                                  	1000
+Min codons in orf                                           	15
+Max codons in length                                        	32734
+Max orf gaps                                                	2147483647
+Contig start mode                                           	2
+Contig end mode                                             	2
+Orf start mode                                              	1
+Forward frames                                              	1,2,3
+Reverse frames                                              	1,2,3
+Translation table                                           	1
+Translate orf                                               	0
+Use all table starts                                        	false
+Offset of numeric ids                                       	0
+Create lookup                                               	0
+Add orf stop                                                	false
+Chain overlapping alignments                                	0
+Merge query                                                 	1
+Search type                                                 	0
+Search iterations                                           	1
+Start sensitivity                                           	4
+Search steps                                                	1
+Slice search mode                                           	false
+Strand selection                                            	1
+LCA search mode                                             	false
+Disk space limit                                            	0
+MPI runner                                                  	
+Force restart with latest tmp                               	false
+Remove temporary files                                      	false
+maximal combined evalue of an optimal set                   	0.001
+minimal length ratio between combined optimal set and target	0.5
+Maximal intron length                                       	130000
+Minimal intron length                                       	5
+Minimal exon length aa                                      	15
+Maximal overlap of exons                                    	15
+Gap open penalty                                            	-1
+Gap extend penalty                                          	-1
+allow same-strand overlaps                                  	1
+translate codons to AAs                                     	0
+write target key instead of accession                       	0
+Reverse AA Fragments                                        	0
+
+createdb data/Coelomomyces_lativittatus_CIRM-AVA-1-Meiospore.scaffolds.fa /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/9652442648929994263/contigs --dbtype 2 --compressed 0 -v 3 
+
+Converting sequences
+[
+Time for merging to contigs_h: 0h 0m 0s 18ms
+Time for merging to contigs: 0h 0m 0s 47ms
+Database type: Nucleotide
+Time for processing: 0h 0m 0s 195ms
+createdb /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_downloads/lineages/eukaryota_odb10/refseq_db.faa /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/9652442648929994263/targets --dbtype 1 --compressed 0 -v 3 
+
+Converting sequences
+[==============================
+Time for merging to targets_h: 0h 0m 0s 63ms
+Time for merging to targets: 0h 0m 0s 166ms
+Database type: Aminoacid
+Time for processing: 0h 0m 1s 528ms
+Tmp /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/9652442648929994263/tmp_predict folder does not exist or is not a directory.
+Create dir /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/9652442648929994263/tmp_predict
+predictexons /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/9652442648929994263/contigs /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/9652442648929994263/targets /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/9652442648929994263/MetaEuk_calls /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/9652442648929994263/tmp_predict --sub-mat nucl:nucleotide.out,aa:blosum62.out -a 0 --alignment-mode 2 --wrapped-scoring 0 -e 100 --min-seq-id 0 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0 --cov-mode 0 --max-seq-len 160000 --comp-bias-corr 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca 1 --pcb 1.5 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --gap-open nucl:5,aa:11 --gap-extend nucl:2,aa:1 --zdrop 40 --threads 12 --compressed 0 -v 3 --seed-sub-mat nucl:nucleotide.out,aa:VTML80.out -s 4 -k 0 --k-score 2147483647 --alph-size nucl:5,aa:21 --max-seqs 300 --split 0 --split-mode 2 --split-memory-limit 0 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-lower-case 0 --min-ungapped-score 15 --spaced-kmer-mode 1 --rescore-mode 0 --filter-hits 0 --sort-results 0 --mask-profile 1 --e-profile 0.001 --wg 0 --allow-deletion 0 --filter-msa 1 --max-seq-id 0.9 --qid 0 --qsc -20 --cov 0 --diff 1000 --min-length 15 --max-length 32734 --max-gaps 2147483647 --contig-start-mode 2 --contig-end-mode 2 --orf-start-mode 1 --forward-frames 1,2,3 --reverse-frames 1,2,3 --translation-table 1 --translate 0 --use-all-table-starts 0 --id-offset 0 --create-lookup 0 --add-orf-stop 0 --chain-alignments 0 --merge-query 1 --search-type 0 --num-iterations 1 --start-sens 4 --sens-steps 1 --slice-search 0 --strand 1 --orf-filter 0 --orf-filter-e 100 --orf-filter-s 2 --lca-search 0 --disk-space-limit 0 --force-reuse 0 --remove-tmp-files 0 --metaeuk-eval 0.001 --metaeuk-tcov 0.5 --max-intron 130000 --min-intron 5 --min-exon-aa 15 --max-overlap 15 --set-gap-open -1 --set-gap-extend -1 --reverse-fragments 0 
+
+extractorfs /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/9652442648929994263/contigs /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/9652442648929994263/tmp_predict/9298371427923805222/nucl_6f --min-length 15 --max-length 32734 --max-gaps 2147483647 --contig-start-mode 2 --contig-end-mode 2 --orf-start-mode 1 --forward-frames 1,2,3 --reverse-frames 1,2,3 --translation-table 1 --translate 0 --use-all-table-starts 0 --id-offset 0 --create-lookup 0 --threads 12 --compressed 0 -v 3 
+
+[=================================================================] 5.01K 0s 291ms
+Time for merging to nucl_6f_h: 0h 0m 0s 269ms
+Time for merging to nucl_6f: 0h 0m 0s 337ms
+Time for processing: 0h 0m 1s 243ms
+translatenucs /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/9652442648929994263/tmp_predict/9298371427923805222/nucl_6f /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/9652442648929994263/tmp_predict/9298371427923805222/aa_6f --translation-table 1 --add-orf-stop 0 -v 3 --compressed 0 --threads 12 
+
+[=================================================================] 942.06K 1s 987ms
+Time for merging to aa_6f: 0h 0m 0s 387ms
+Time for processing: 0h 0m 2s 534ms
+Tmp /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/9652442648929994263/tmp_predict/9298371427923805222/tmp_search folder does not exist or is not a directory.
+Create dir /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/9652442648929994263/tmp_predict/9298371427923805222/tmp_search
+search /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/9652442648929994263/tmp_predict/9298371427923805222/aa_6f /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/9652442648929994263/targets /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/9652442648929994263/tmp_predict/9298371427923805222/search_res /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/9652442648929994263/tmp_predict/9298371427923805222/tmp_search --sub-mat nucl:nucleotide.out,aa:blosum62.out -a 0 --alignment-mode 2 --wrapped-scoring 0 -e 100 --min-seq-id 0 --min-aln-len 15 --seq-id-mode 0 --alt-ali 0 -c 0 --cov-mode 0 --max-seq-len 160000 --comp-bias-corr 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca 1 --pcb 1.5 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --gap-open nucl:5,aa:11 --gap-extend nucl:2,aa:1 --zdrop 40 --threads 12 --compressed 0 -v 3 --seed-sub-mat nucl:nucleotide.out,aa:VTML80.out -s 4 -k 0 --k-score 2147483647 --alph-size nucl:5,aa:21 --max-seqs 300 --split 0 --split-mode 2 --split-memory-limit 0 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-lower-case 0 --min-ungapped-score 15 --spaced-kmer-mode 1 --rescore-mode 0 --filter-hits 0 --sort-results 0 --mask-profile 1 --e-profile 0.001 --wg 0 --allow-deletion 0 --filter-msa 1 --max-seq-id 0.9 --qid 0 --qsc -20 --cov 0 --diff 1000 --min-length 15 --max-length 32734 --max-gaps 2147483647 --contig-start-mode 2 --contig-end-mode 2 --orf-start-mode 1 --forward-frames 1,2,3 --reverse-frames 1,2,3 --translation-table 1 --translate 0 --use-all-table-starts 0 --id-offset 0 --create-lookup 0 --add-orf-stop 0 --chain-alignments 0 --merge-query 1 --search-type 0 --num-iterations 1 --start-sens 4 --sens-steps 1 --slice-search 0 --strand 1 --orf-filter 0 --orf-filter-e 100 --orf-filter-s 2 --lca-search 0 --disk-space-limit 0 --force-reuse 0 --remove-tmp-files 0 
+
+prefilter /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/9652442648929994263/tmp_predict/9298371427923805222/aa_6f /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/9652442648929994263/targets /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/9652442648929994263/tmp_predict/9298371427923805222/tmp_search/6704887522803984456/pref_0 --sub-mat nucl:nucleotide.out,aa:blosum62.out --seed-sub-mat nucl:nucleotide.out,aa:VTML80.out -k 0 --k-score 2147483647 --alph-size nucl:5,aa:21 --max-seq-len 160000 --max-seqs 300 --split 0 --split-mode 2 --split-memory-limit 0 -c 0 --cov-mode 0 --comp-bias-corr 1 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-lower-case 0 --min-ungapped-score 15 --add-self-matches 0 --spaced-kmer-mode 1 --db-load-mode 0 --pca 1 --pcb 1.5 --threads 12 --compressed 0 -v 3 -s 4.0 
+
+Query database size: 942063 type: Aminoacid
+Estimated memory consumption: 2G
+Target database size: 302957 type: Aminoacid
+Index table k-mer threshold: 127 at k-mer size 6 
+Index table: counting k-mers
+[=================================================================] 302.96K 6s 19ms
+Index table: Masked residues: 2249115
+Index table: fill
+[=================================================================] 302.96K 4s 338ms
+Index statistics
+Entries:          145543148
+DB size:          1321 MB
+Avg k-mer size:   2.274112
+Top 10 k-mers
+    GSDTLW	1615
+    ASDTLW	1346
+    SGATSL	1194
+    FTGTNN	1191
+    GGQRRS	1182
+    TSSEYV	1171
+    CTALSY	1157
+    EQIRAT	1133
+    LREGLY	1129
+    FEDPAM	1111
+Time for index table init: 0h 0m 11s 91ms
+Process prefiltering step 1 of 1
+
+k-mer similarity threshold: 127
+Starting prefiltering scores calculation (step 1 of 1)
+Query db start 1 to 942063
+Target db start 1 to 302957
+[=================================================================] 942.06K 21s 427ms
+
+38.658616 k-mers per position
+2047 DB matches per sequence
+0 overflows
+0 queries produce too many hits (truncated result)
+10 sequences passed prefiltering per query sequence
+3 median result list length
+238853 sequences with 0 size result lists
+Time for merging to pref_0: 0h 0m 0s 434ms
+Time for processing: 0h 0m 34s 147ms
+align /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/9652442648929994263/tmp_predict/9298371427923805222/aa_6f /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/9652442648929994263/targets /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/9652442648929994263/tmp_predict/9298371427923805222/tmp_search/6704887522803984456/pref_0 /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/9652442648929994263/tmp_predict/9298371427923805222/search_res --sub-mat nucl:nucleotide.out,aa:blosum62.out -a 0 --alignment-mode 2 --wrapped-scoring 0 -e 100 --min-seq-id 0 --min-aln-len 15 --seq-id-mode 0 --alt-ali 0 -c 0 --cov-mode 0 --max-seq-len 160000 --comp-bias-corr 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca 1 --pcb 1.5 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --gap-open nucl:5,aa:11 --gap-extend nucl:2,aa:1 --zdrop 40 --threads 12 --compressed 0 -v 3 
+
+Compute score and coverage
+Query database size: 942063 type: Aminoacid
+Target database size: 302957 type: Aminoacid
+Calculation of alignments
+[=================================================================] 942.06K 36s 813ms
+Time for merging to search_res: 0h 0m 0s 372ms
+9879171 alignments calculated
+471753 sequence pairs passed the thresholds (0.047752 of overall calculated)
+0.500766 hits per query sequence
+Time for processing: 0h 0m 38s 109ms
+resultspercontig /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/9652442648929994263/contigs /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/9652442648929994263/tmp_predict/9298371427923805222/nucl_6f /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/9652442648929994263/tmp_predict/9298371427923805222/search_res /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/9652442648929994263/tmp_predict/9298371427923805222/search_res_by_contig --threads 12 --compressed 0 -v 3 
+
+Computing ORF lookup
+Computing contig offsets
+Computing contig lookup
+Time for contig lookup: 0h 0m 0s 349ms
+[=================================================================] 5.01K 0s 166ms
+Time for merging to search_res_by_contig: 0h 0m 0s 5ms
+Time for processing: 0h 0m 0s 888ms
+collectoptimalset /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/9652442648929994263/tmp_predict/9298371427923805222/search_res_by_contig /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/9652442648929994263/targets /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/9652442648929994263/tmp_predict/9298371427923805222/dp_predictions --metaeuk-eval 0.001 --metaeuk-tcov 0.5 --max-intron 130000 --min-intron 5 --min-exon-aa 15 --max-overlap 15 --set-gap-open -1 --set-gap-extend -1 --score-bias 0 --threads 12 --compressed 0 -v 3 
+
+[=================================================================] 5.01K 0s 87ms
+Time for merging to dp_predictions: 0h 0m 0s 7ms
+Time for processing: 0h 0m 0s 144ms
+mvdb /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/9652442648929994263/tmp_predict/9298371427923805222/dp_predictions /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/9652442648929994263/MetaEuk_calls 
+
+Time for processing: 0h 0m 0s 2ms
+reduceredundancy /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/9652442648929994263/MetaEuk_calls /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/9652442648929994263/MetaEuk_preds /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/9652442648929994263/MetaEuk_preds_clust --overlap 1 --threads 12 --compressed 0 -v 3 
+
+[=================================================================] 5.01K 0s 17ms
+Time for merging to MetaEuk_preds_clust: 0h 0m 0s 4ms
+Time for merging to MetaEuk_preds: 0h 0m 0s 4ms
+Time for processing: 0h 0m 0s 60ms
+unitesetstofasta /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/9652442648929994263/contigs /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/9652442648929994263/targets /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/9652442648929994263/MetaEuk_preds /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/initial_results/Coelomomyces_lativittatus_CIRM-AVA-1-Meiospore.scaffolds.fa --protein 0 --translation-table 1 --target-key 0 --threads 12 --compressed 0 -v 3 
+
+[=================================================================] 5.01K 0s 9ms
+Time for merging to Coelomomyces_lativittatus_CIRM-AVA-1-Meiospore.scaffolds.fa.fas: 0h 0m 0s 6ms
+Time for merging to Coelomomyces_lativittatus_CIRM-AVA-1-Meiospore.scaffolds.fa.codon.fas: 0h 0m 0s 6ms
+Time for merging to Coelomomyces_lativittatus_CIRM-AVA-1-Meiospore.scaffolds.fa.headersMap.tsv: 0h 0m 0s 6ms
+Time for processing: 0h 0m 0s 99ms
+easy-predict --threads 12 data/Coelomomyces_lativittatus_CIRM-AVA-1-Meiospore.scaffolds.fa /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/refseq_db_rerun.faa /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/rerun_results/Coelomomyces_lativittatus_CIRM-AVA-1-Meiospore.scaffolds.fa /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp --max-intron 130000 --max-seq-len 160000 --min-exon-aa 5 --max-overlap 5 --min-intron 1 --overlap 1 -s 6 
+
+MMseqs Version:                                             	4.a0f584d
+Substitution matrix                                         	nucl:nucleotide.out,aa:blosum62.out
+Add backtrace                                               	false
+Alignment mode                                              	2
+Allow wrapped scoring                                       	false
+E-value threshold                                           	100
+Seq. id. threshold                                          	0
+Min alignment length                                        	0
+Seq. id. mode                                               	0
+Alternative alignments                                      	0
+Coverage threshold                                          	0
+Coverage mode                                               	0
+Max sequence length                                         	160000
+Compositional bias                                          	1
+Max reject                                                  	2147483647
+Max accept                                                  	2147483647
+Include identical seq. id.                                  	false
+Preload mode                                                	0
+Pseudo count a                                              	1
+Pseudo count b                                              	1.5
+Score bias                                                  	0
+Realign hits                                                	false
+Realign score bias                                          	-0.2
+Realign max seqs                                            	2147483647
+Gap open cost                                               	nucl:5,aa:11
+Gap extension cost                                          	nucl:2,aa:1
+Zdrop                                                       	40
+Threads                                                     	12
+Compressed                                                  	0
+Verbosity                                                   	3
+Seed substitution matrix                                    	nucl:nucleotide.out,aa:VTML80.out
+Sensitivity                                                 	6
+k-mer length                                                	0
+k-score                                                     	2147483647
+Alphabet size                                               	nucl:5,aa:21
+Max results per query                                       	300
+Split database                                              	0
+Split mode                                                  	2
+Split memory limit                                          	0
+Diagonal scoring                                            	true
+Exact k-mer matching                                        	0
+Mask residues                                               	1
+Mask lower case residues                                    	0
+Minimum diagonal score                                      	15
+Spaced k-mers                                               	1
+Spaced k-mer pattern                                        	
+Local temporary path                                        	
+Rescore mode                                                	0
+Remove hits by seq. id. and coverage                        	false
+Sort results                                                	0
+Mask profile                                                	1
+Profile E-value threshold                                   	0.001
+Global sequence weighting                                   	false
+Allow deletions                                             	false
+Filter MSA                                                  	1
+Maximum seq. id. threshold                                  	0.9
+Minimum seq. id.                                            	0
+Minimum score per column                                    	-20
+Minimum coverage                                            	0
+Select N most diverse seqs                                  	1000
+Min codons in orf                                           	15
+Max codons in length                                        	32734
+Max orf gaps                                                	2147483647
+Contig start mode                                           	2
+Contig end mode                                             	2
+Orf start mode                                              	1
+Forward frames                                              	1,2,3
+Reverse frames                                              	1,2,3
+Translation table                                           	1
+Translate orf                                               	0
+Use all table starts                                        	false
+Offset of numeric ids                                       	0
+Create lookup                                               	0
+Add orf stop                                                	false
+Chain overlapping alignments                                	0
+Merge query                                                 	1
+Search type                                                 	0
+Search iterations                                           	1
+Start sensitivity                                           	4
+Search steps                                                	1
+Slice search mode                                           	false
+Strand selection                                            	1
+LCA search mode                                             	false
+Disk space limit                                            	0
+MPI runner                                                  	
+Force restart with latest tmp                               	false
+Remove temporary files                                      	false
+maximal combined evalue of an optimal set                   	0.001
+minimal length ratio between combined optimal set and target	0.5
+Maximal intron length                                       	130000
+Minimal intron length                                       	1
+Minimal exon length aa                                      	5
+Maximal overlap of exons                                    	5
+Gap open penalty                                            	-1
+Gap extend penalty                                          	-1
+allow same-strand overlaps                                  	1
+translate codons to AAs                                     	0
+write target key instead of accession                       	0
+Reverse AA Fragments                                        	0
+
+createdb data/Coelomomyces_lativittatus_CIRM-AVA-1-Meiospore.scaffolds.fa /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/17159228254206527866/contigs --dbtype 2 --compressed 0 -v 3 
+
+Converting sequences
+[
+Time for merging to contigs_h: 0h 0m 0s 51ms
+Time for merging to contigs: 0h 0m 0s 74ms
+Database type: Nucleotide
+Time for processing: 0h 0m 0s 321ms
+createdb /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/refseq_db_rerun.faa /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/17159228254206527866/targets --dbtype 1 --compressed 0 -v 3 
+
+Converting sequences
+[=============
+Time for merging to targets_h: 0h 0m 0s 39ms
+Time for merging to targets: 0h 0m 0s 109ms
+Database type: Aminoacid
+Time for processing: 0h 0m 0s 763ms
+Tmp /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/17159228254206527866/tmp_predict folder does not exist or is not a directory.
+Create dir /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/17159228254206527866/tmp_predict
+predictexons /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/17159228254206527866/contigs /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/17159228254206527866/targets /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/17159228254206527866/MetaEuk_calls /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/17159228254206527866/tmp_predict --sub-mat nucl:nucleotide.out,aa:blosum62.out -a 0 --alignment-mode 2 --wrapped-scoring 0 -e 100 --min-seq-id 0 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0 --cov-mode 0 --max-seq-len 160000 --comp-bias-corr 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca 1 --pcb 1.5 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --gap-open nucl:5,aa:11 --gap-extend nucl:2,aa:1 --zdrop 40 --threads 12 --compressed 0 -v 3 --seed-sub-mat nucl:nucleotide.out,aa:VTML80.out -s 6 -k 0 --k-score 2147483647 --alph-size nucl:5,aa:21 --max-seqs 300 --split 0 --split-mode 2 --split-memory-limit 0 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-lower-case 0 --min-ungapped-score 15 --spaced-kmer-mode 1 --rescore-mode 0 --filter-hits 0 --sort-results 0 --mask-profile 1 --e-profile 0.001 --wg 0 --allow-deletion 0 --filter-msa 1 --max-seq-id 0.9 --qid 0 --qsc -20 --cov 0 --diff 1000 --min-length 15 --max-length 32734 --max-gaps 2147483647 --contig-start-mode 2 --contig-end-mode 2 --orf-start-mode 1 --forward-frames 1,2,3 --reverse-frames 1,2,3 --translation-table 1 --translate 0 --use-all-table-starts 0 --id-offset 0 --create-lookup 0 --add-orf-stop 0 --chain-alignments 0 --merge-query 1 --search-type 0 --num-iterations 1 --start-sens 4 --sens-steps 1 --slice-search 0 --strand 1 --orf-filter 0 --orf-filter-e 100 --orf-filter-s 2 --lca-search 0 --disk-space-limit 0 --force-reuse 0 --remove-tmp-files 0 --metaeuk-eval 0.001 --metaeuk-tcov 0.5 --max-intron 130000 --min-intron 1 --min-exon-aa 5 --max-overlap 5 --set-gap-open -1 --set-gap-extend -1 --reverse-fragments 0 
+
+extractorfs /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/17159228254206527866/contigs /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/17159228254206527866/tmp_predict/15384251913719965693/nucl_6f --min-length 15 --max-length 32734 --max-gaps 2147483647 --contig-start-mode 2 --contig-end-mode 2 --orf-start-mode 1 --forward-frames 1,2,3 --reverse-frames 1,2,3 --translation-table 1 --translate 0 --use-all-table-starts 0 --id-offset 0 --create-lookup 0 --threads 12 --compressed 0 -v 3 
+
+[=================================================================] 5.01K 0s 258ms
+Time for merging to nucl_6f_h: 0h 0m 0s 266ms
+Time for merging to nucl_6f: 0h 0m 0s 332ms
+Time for processing: 0h 0m 1s 194ms
+translatenucs /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/17159228254206527866/tmp_predict/15384251913719965693/nucl_6f /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/17159228254206527866/tmp_predict/15384251913719965693/aa_6f --translation-table 1 --add-orf-stop 0 -v 3 --compressed 0 --threads 12 
+
+[=================================================================] 942.06K 1s 911ms
+Time for merging to aa_6f: 0h 0m 0s 379ms
+Time for processing: 0h 0m 2s 454ms
+Tmp /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/17159228254206527866/tmp_predict/15384251913719965693/tmp_search folder does not exist or is not a directory.
+Create dir /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/17159228254206527866/tmp_predict/15384251913719965693/tmp_search
+search /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/17159228254206527866/tmp_predict/15384251913719965693/aa_6f /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/17159228254206527866/targets /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/17159228254206527866/tmp_predict/15384251913719965693/search_res /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/17159228254206527866/tmp_predict/15384251913719965693/tmp_search --sub-mat nucl:nucleotide.out,aa:blosum62.out -a 0 --alignment-mode 2 --wrapped-scoring 0 -e 100 --min-seq-id 0 --min-aln-len 5 --seq-id-mode 0 --alt-ali 0 -c 0 --cov-mode 0 --max-seq-len 160000 --comp-bias-corr 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca 1 --pcb 1.5 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --gap-open nucl:5,aa:11 --gap-extend nucl:2,aa:1 --zdrop 40 --threads 12 --compressed 0 -v 3 --seed-sub-mat nucl:nucleotide.out,aa:VTML80.out -s 6 -k 0 --k-score 2147483647 --alph-size nucl:5,aa:21 --max-seqs 300 --split 0 --split-mode 2 --split-memory-limit 0 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-lower-case 0 --min-ungapped-score 15 --spaced-kmer-mode 1 --rescore-mode 0 --filter-hits 0 --sort-results 0 --mask-profile 1 --e-profile 0.001 --wg 0 --allow-deletion 0 --filter-msa 1 --max-seq-id 0.9 --qid 0 --qsc -20 --cov 0 --diff 1000 --min-length 15 --max-length 32734 --max-gaps 2147483647 --contig-start-mode 2 --contig-end-mode 2 --orf-start-mode 1 --forward-frames 1,2,3 --reverse-frames 1,2,3 --translation-table 1 --translate 0 --use-all-table-starts 0 --id-offset 0 --create-lookup 0 --add-orf-stop 0 --chain-alignments 0 --merge-query 1 --search-type 0 --num-iterations 1 --start-sens 4 --sens-steps 1 --slice-search 0 --strand 1 --orf-filter 0 --orf-filter-e 100 --orf-filter-s 2 --lca-search 0 --disk-space-limit 0 --force-reuse 0 --remove-tmp-files 0 
+
+prefilter /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/17159228254206527866/tmp_predict/15384251913719965693/aa_6f /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/17159228254206527866/targets /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/17159228254206527866/tmp_predict/15384251913719965693/tmp_search/17668787664203479882/pref_0 --sub-mat nucl:nucleotide.out,aa:blosum62.out --seed-sub-mat nucl:nucleotide.out,aa:VTML80.out -k 0 --k-score 2147483647 --alph-size nucl:5,aa:21 --max-seq-len 160000 --max-seqs 300 --split 0 --split-mode 2 --split-memory-limit 0 -c 0 --cov-mode 0 --comp-bias-corr 1 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-lower-case 0 --min-ungapped-score 15 --add-self-matches 0 --spaced-kmer-mode 1 --db-load-mode 0 --pca 1 --pcb 1.5 --threads 12 --compressed 0 -v 3 -s 6.0 
+
+Query database size: 942063 type: Aminoacid
+Estimated memory consumption: 1G
+Target database size: 139759 type: Aminoacid
+Index table k-mer threshold: 109 at k-mer size 6 
+Index table: counting k-mers
+[=================================================================] 139.76K 2s 491ms
+Index table: Masked residues: 810364
+Index table: fill
+[=================================================================] 139.76K 1s 875ms
+Index statistics
+Entries:          63627907
+DB size:          852 MB
+Avg k-mer size:   0.994186
+Top 10 k-mers
+    GDFCCP	1244
+    GGEGSG	1194
+    FTGTNN	1189
+    GGQRRS	1180
+    TSSEYV	1164
+    CTALSY	1157
+    LNFGMR	1131
+    KGTPKR	1100
+    LLDRRW	1100
+    IYLVMY	1069
+Time for index table init: 0h 0m 4s 953ms
+Process prefiltering step 1 of 1
+
+k-mer similarity threshold: 109
+Starting prefiltering scores calculation (step 1 of 1)
+Query db start 1 to 942063
+Target db start 1 to 139759
+[=================================================================] 942.06K 1m 13s 885ms
+
+260.845146 k-mers per position
+7218 DB matches per sequence
+0 overflows
+0 queries produce too many hits (truncated result)
+46 sequences passed prefiltering per query sequence
+18 median result list length
+112652 sequences with 0 size result lists
+Time for merging to pref_0: 0h 0m 0s 470ms
+Time for processing: 0h 1m 20s 965ms
+align /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/17159228254206527866/tmp_predict/15384251913719965693/aa_6f /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/17159228254206527866/targets /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/17159228254206527866/tmp_predict/15384251913719965693/tmp_search/17668787664203479882/pref_0 /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/17159228254206527866/tmp_predict/15384251913719965693/search_res --sub-mat nucl:nucleotide.out,aa:blosum62.out -a 0 --alignment-mode 2 --wrapped-scoring 0 -e 100 --min-seq-id 0 --min-aln-len 5 --seq-id-mode 0 --alt-ali 0 -c 0 --cov-mode 0 --max-seq-len 160000 --comp-bias-corr 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca 1 --pcb 1.5 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --gap-open nucl:5,aa:11 --gap-extend nucl:2,aa:1 --zdrop 40 --threads 12 --compressed 0 -v 3 
+
+Compute score and coverage
+Query database size: 942063 type: Aminoacid
+Target database size: 139759 type: Aminoacid
+Calculation of alignments
+[=================================================================] 942.06K 2m 4s 586ms
+Time for merging to search_res: 0h 0m 0s 411ms
+43817260 alignments calculated
+2506929 sequence pairs passed the thresholds (0.057213 of overall calculated)
+2.661105 hits per query sequence
+Time for processing: 0h 2m 5s 510ms
+resultspercontig /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/17159228254206527866/contigs /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/17159228254206527866/tmp_predict/15384251913719965693/nucl_6f /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/17159228254206527866/tmp_predict/15384251913719965693/search_res /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/17159228254206527866/tmp_predict/15384251913719965693/search_res_by_contig --threads 12 --compressed 0 -v 3 
+
+Computing ORF lookup
+Computing contig offsets
+Computing contig lookup
+Time for contig lookup: 0h 0m 0s 334ms
+[=================================================================] 5.01K 0s 724ms
+Time for merging to search_res_by_contig: 0h 0m 0s 5ms
+Time for processing: 0h 0m 1s 502ms
+collectoptimalset /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/17159228254206527866/tmp_predict/15384251913719965693/search_res_by_contig /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/17159228254206527866/targets /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/17159228254206527866/tmp_predict/15384251913719965693/dp_predictions --metaeuk-eval 0.001 --metaeuk-tcov 0.5 --max-intron 130000 --min-intron 1 --min-exon-aa 5 --max-overlap 5 --set-gap-open -1 --set-gap-extend -1 --score-bias 0 --threads 12 --compressed 0 -v 3 
+
+[=================================================================] 5.01K 0s 400ms
+Time for merging to dp_predictions: 0h 0m 0s 5ms
+Time for processing: 0h 0m 0s 442ms
+mvdb /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/17159228254206527866/tmp_predict/15384251913719965693/dp_predictions /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/17159228254206527866/MetaEuk_calls 
+
+Time for processing: 0h 0m 0s 2ms
+reduceredundancy /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/17159228254206527866/MetaEuk_calls /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/17159228254206527866/MetaEuk_preds /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/17159228254206527866/MetaEuk_preds_clust --overlap 1 --threads 12 --compressed 0 -v 3 
+
+[=================================================================] 5.01K 0s 16ms
+Time for merging to MetaEuk_preds_clust: 0h 0m 0s 9ms
+Time for merging to MetaEuk_preds: 0h 0m 0s 7ms
+Time for processing: 0h 0m 0s 72ms
+unitesetstofasta /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/17159228254206527866/contigs /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/17159228254206527866/targets /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/tmp/17159228254206527866/MetaEuk_preds /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore/run_eukaryota_odb10/metaeuk_output/rerun_results/Coelomomyces_lativittatus_CIRM-AVA-1-Meiospore.scaffolds.fa --protein 0 --translation-table 1 --target-key 0 --threads 12 --compressed 0 -v 3 
+
+[=================================================================] 5.01K 0s 8ms
+Time for merging to Coelomomyces_lativittatus_CIRM-AVA-1-Meiospore.scaffolds.fa.fas: 0h 0m 0s 11ms
+Time for merging to Coelomomyces_lativittatus_CIRM-AVA-1-Meiospore.scaffolds.fa.codon.fas: 0h 0m 0s 20ms
+Time for merging to Coelomomyces_lativittatus_CIRM-AVA-1-Meiospore.scaffolds.fa.headersMap.tsv: 0h 0m 0s 19ms
+Time for processing: 0h 0m 0s 161ms

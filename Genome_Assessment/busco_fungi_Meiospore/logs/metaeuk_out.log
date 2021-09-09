@@ -1,6 +1,6 @@
 Tmp /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp folder does not exist or is not a directory.
 Create dir /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp
-easy-predict --threads 12 data/Coelomomyces_lativittatus_CIRM-AVA-1-Meiospore.scaffolds.fa /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_downloads/lineages/fungi_odb10/refseq_db.faa /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/initial_results/Coelomomyces_lativittatus_CIRM-AVA-1-Meiospore.scaffolds.fa /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp --max-intron 60000 --max-seq-len 70000 --min-exon-aa 15 --max-overlap 15 --min-intron 5 --overlap 1 
+easy-predict --threads 12 data/Coelomomyces_lativittatus_CIRM-AVA-1-Meiospore.scaffolds.filtered.fa /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_downloads/lineages/fungi_odb10/refseq_db.faa /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/initial_results/Coelomomyces_lativittatus_CIRM-AVA-1-Meiospore.scaffolds.filtered.fa /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp --max-intron 60000 --max-seq-len 70000 --min-exon-aa 15 --max-overlap 15 --min-intron 5 --overlap 1 
 
 MMseqs Version:                                             	4.a0f584d
 Substitution matrix                                         	nucl:nucleotide.out,aa:blosum62.out
@@ -102,52 +102,52 @@ translate codons to AAs                                     	0
 write target key instead of accession                       	0
 Reverse AA Fragments                                        	0
 
-createdb data/Coelomomyces_lativittatus_CIRM-AVA-1-Meiospore.scaffolds.fa /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/4700887788124712593/contigs --dbtype 2 --compressed 0 -v 3 
+createdb data/Coelomomyces_lativittatus_CIRM-AVA-1-Meiospore.scaffolds.filtered.fa /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/3827923403535572453/contigs --dbtype 2 --compressed 0 -v 3 
 
 Converting sequences
 [
-Time for merging to contigs_h: 0h 0m 0s 16ms
-Time for merging to contigs: 0h 0m 0s 41ms
+Time for merging to contigs_h: 0h 0m 0s 48ms
+Time for merging to contigs: 0h 0m 0s 60ms
 Database type: Nucleotide
-Time for processing: 0h 0m 0s 180ms
-createdb /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_downloads/lineages/fungi_odb10/refseq_db.faa /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/4700887788124712593/targets --dbtype 1 --compressed 0 -v 3 
+Time for processing: 0h 0m 0s 221ms
+createdb /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_downloads/lineages/fungi_odb10/refseq_db.faa /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/3827923403535572453/targets --dbtype 1 --compressed 0 -v 3 
 
 Converting sequences
 [=======================================
-Time for merging to targets_h: 0h 0m 0s 70ms
-Time for merging to targets: 0h 0m 0s 222ms
+Time for merging to targets_h: 0h 0m 0s 77ms
+Time for merging to targets: 0h 0m 0s 246ms
 Database type: Aminoacid
-Time for processing: 0h 0m 2s 151ms
-Tmp /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/4700887788124712593/tmp_predict folder does not exist or is not a directory.
-Create dir /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/4700887788124712593/tmp_predict
-predictexons /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/4700887788124712593/contigs /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/4700887788124712593/targets /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/4700887788124712593/MetaEuk_calls /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/4700887788124712593/tmp_predict --sub-mat nucl:nucleotide.out,aa:blosum62.out -a 0 --alignment-mode 2 --wrapped-scoring 0 -e 100 --min-seq-id 0 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0 --cov-mode 0 --max-seq-len 70000 --comp-bias-corr 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca 1 --pcb 1.5 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --gap-open nucl:5,aa:11 --gap-extend nucl:2,aa:1 --zdrop 40 --threads 12 --compressed 0 -v 3 --seed-sub-mat nucl:nucleotide.out,aa:VTML80.out -s 4 -k 0 --k-score 2147483647 --alph-size nucl:5,aa:21 --max-seqs 300 --split 0 --split-mode 2 --split-memory-limit 0 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-lower-case 0 --min-ungapped-score 15 --spaced-kmer-mode 1 --rescore-mode 0 --filter-hits 0 --sort-results 0 --mask-profile 1 --e-profile 0.001 --wg 0 --allow-deletion 0 --filter-msa 1 --max-seq-id 0.9 --qid 0 --qsc -20 --cov 0 --diff 1000 --min-length 15 --max-length 32734 --max-gaps 2147483647 --contig-start-mode 2 --contig-end-mode 2 --orf-start-mode 1 --forward-frames 1,2,3 --reverse-frames 1,2,3 --translation-table 1 --translate 0 --use-all-table-starts 0 --id-offset 0 --create-lookup 0 --add-orf-stop 0 --chain-alignments 0 --merge-query 1 --search-type 0 --num-iterations 1 --start-sens 4 --sens-steps 1 --slice-search 0 --strand 1 --orf-filter 0 --orf-filter-e 100 --orf-filter-s 2 --lca-search 0 --disk-space-limit 0 --force-reuse 0 --remove-tmp-files 0 --metaeuk-eval 0.001 --metaeuk-tcov 0.5 --max-intron 60000 --min-intron 5 --min-exon-aa 15 --max-overlap 15 --set-gap-open -1 --set-gap-extend -1 --reverse-fragments 0 
+Time for processing: 0h 0m 1s 848ms
+Tmp /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/3827923403535572453/tmp_predict folder does not exist or is not a directory.
+Create dir /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/3827923403535572453/tmp_predict
+predictexons /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/3827923403535572453/contigs /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/3827923403535572453/targets /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/3827923403535572453/MetaEuk_calls /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/3827923403535572453/tmp_predict --sub-mat nucl:nucleotide.out,aa:blosum62.out -a 0 --alignment-mode 2 --wrapped-scoring 0 -e 100 --min-seq-id 0 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0 --cov-mode 0 --max-seq-len 70000 --comp-bias-corr 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca 1 --pcb 1.5 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --gap-open nucl:5,aa:11 --gap-extend nucl:2,aa:1 --zdrop 40 --threads 12 --compressed 0 -v 3 --seed-sub-mat nucl:nucleotide.out,aa:VTML80.out -s 4 -k 0 --k-score 2147483647 --alph-size nucl:5,aa:21 --max-seqs 300 --split 0 --split-mode 2 --split-memory-limit 0 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-lower-case 0 --min-ungapped-score 15 --spaced-kmer-mode 1 --rescore-mode 0 --filter-hits 0 --sort-results 0 --mask-profile 1 --e-profile 0.001 --wg 0 --allow-deletion 0 --filter-msa 1 --max-seq-id 0.9 --qid 0 --qsc -20 --cov 0 --diff 1000 --min-length 15 --max-length 32734 --max-gaps 2147483647 --contig-start-mode 2 --contig-end-mode 2 --orf-start-mode 1 --forward-frames 1,2,3 --reverse-frames 1,2,3 --translation-table 1 --translate 0 --use-all-table-starts 0 --id-offset 0 --create-lookup 0 --add-orf-stop 0 --chain-alignments 0 --merge-query 1 --search-type 0 --num-iterations 1 --start-sens 4 --sens-steps 1 --slice-search 0 --strand 1 --orf-filter 0 --orf-filter-e 100 --orf-filter-s 2 --lca-search 0 --disk-space-limit 0 --force-reuse 0 --remove-tmp-files 0 --metaeuk-eval 0.001 --metaeuk-tcov 0.5 --max-intron 60000 --min-intron 5 --min-exon-aa 15 --max-overlap 15 --set-gap-open -1 --set-gap-extend -1 --reverse-fragments 0 
 
-extractorfs /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/4700887788124712593/contigs /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/4700887788124712593/tmp_predict/6206486894901684881/nucl_6f --min-length 15 --max-length 32734 --max-gaps 2147483647 --contig-start-mode 2 --contig-end-mode 2 --orf-start-mode 1 --forward-frames 1,2,3 --reverse-frames 1,2,3 --translation-table 1 --translate 0 --use-all-table-starts 0 --id-offset 0 --create-lookup 0 --threads 12 --compressed 0 -v 3 
+extractorfs /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/3827923403535572453/contigs /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/3827923403535572453/tmp_predict/3333628048232715968/nucl_6f --min-length 15 --max-length 32734 --max-gaps 2147483647 --contig-start-mode 2 --contig-end-mode 2 --orf-start-mode 1 --forward-frames 1,2,3 --reverse-frames 1,2,3 --translation-table 1 --translate 0 --use-all-table-starts 0 --id-offset 0 --create-lookup 0 --threads 12 --compressed 0 -v 3 
 
-[=================================================================] 5.01K 0s 304ms
-Time for merging to nucl_6f_h: 0h 0m 0s 270ms
-Time for merging to nucl_6f: 0h 0m 0s 343ms
-Time for processing: 0h 0m 1s 237ms
-translatenucs /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/4700887788124712593/tmp_predict/6206486894901684881/nucl_6f /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/4700887788124712593/tmp_predict/6206486894901684881/aa_6f --translation-table 1 --add-orf-stop 0 -v 3 --compressed 0 --threads 12 
+[=================================================================] 5.00K 0s 302ms
+Time for merging to nucl_6f_h: 0h 0m 0s 267ms
+Time for merging to nucl_6f: 0h 0m 0s 329ms
+Time for processing: 0h 0m 1s 227ms
+translatenucs /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/3827923403535572453/tmp_predict/3333628048232715968/nucl_6f /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/3827923403535572453/tmp_predict/3333628048232715968/aa_6f --translation-table 1 --add-orf-stop 0 -v 3 --compressed 0 --threads 12 
 
-[=================================================================] 942.06K 1s 855ms
-Time for merging to aa_6f: 0h 0m 0s 413ms
-Time for processing: 0h 0m 2s 419ms
-Tmp /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/4700887788124712593/tmp_predict/6206486894901684881/tmp_search folder does not exist or is not a directory.
-Create dir /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/4700887788124712593/tmp_predict/6206486894901684881/tmp_search
-search /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/4700887788124712593/tmp_predict/6206486894901684881/aa_6f /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/4700887788124712593/targets /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/4700887788124712593/tmp_predict/6206486894901684881/search_res /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/4700887788124712593/tmp_predict/6206486894901684881/tmp_search --sub-mat nucl:nucleotide.out,aa:blosum62.out -a 0 --alignment-mode 2 --wrapped-scoring 0 -e 100 --min-seq-id 0 --min-aln-len 15 --seq-id-mode 0 --alt-ali 0 -c 0 --cov-mode 0 --max-seq-len 70000 --comp-bias-corr 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca 1 --pcb 1.5 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --gap-open nucl:5,aa:11 --gap-extend nucl:2,aa:1 --zdrop 40 --threads 12 --compressed 0 -v 3 --seed-sub-mat nucl:nucleotide.out,aa:VTML80.out -s 4 -k 0 --k-score 2147483647 --alph-size nucl:5,aa:21 --max-seqs 300 --split 0 --split-mode 2 --split-memory-limit 0 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-lower-case 0 --min-ungapped-score 15 --spaced-kmer-mode 1 --rescore-mode 0 --filter-hits 0 --sort-results 0 --mask-profile 1 --e-profile 0.001 --wg 0 --allow-deletion 0 --filter-msa 1 --max-seq-id 0.9 --qid 0 --qsc -20 --cov 0 --diff 1000 --min-length 15 --max-length 32734 --max-gaps 2147483647 --contig-start-mode 2 --contig-end-mode 2 --orf-start-mode 1 --forward-frames 1,2,3 --reverse-frames 1,2,3 --translation-table 1 --translate 0 --use-all-table-starts 0 --id-offset 0 --create-lookup 0 --add-orf-stop 0 --chain-alignments 0 --merge-query 1 --search-type 0 --num-iterations 1 --start-sens 4 --sens-steps 1 --slice-search 0 --strand 1 --orf-filter 0 --orf-filter-e 100 --orf-filter-s 2 --lca-search 0 --disk-space-limit 0 --force-reuse 0 --remove-tmp-files 0 
+[=================================================================] 939.40K 1s 416ms
+Time for merging to aa_6f: 0h 0m 0s 391ms
+Time for processing: 0h 0m 1s 952ms
+Tmp /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/3827923403535572453/tmp_predict/3333628048232715968/tmp_search folder does not exist or is not a directory.
+Create dir /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/3827923403535572453/tmp_predict/3333628048232715968/tmp_search
+search /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/3827923403535572453/tmp_predict/3333628048232715968/aa_6f /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/3827923403535572453/targets /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/3827923403535572453/tmp_predict/3333628048232715968/search_res /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/3827923403535572453/tmp_predict/3333628048232715968/tmp_search --sub-mat nucl:nucleotide.out,aa:blosum62.out -a 0 --alignment-mode 2 --wrapped-scoring 0 -e 100 --min-seq-id 0 --min-aln-len 15 --seq-id-mode 0 --alt-ali 0 -c 0 --cov-mode 0 --max-seq-len 70000 --comp-bias-corr 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca 1 --pcb 1.5 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --gap-open nucl:5,aa:11 --gap-extend nucl:2,aa:1 --zdrop 40 --threads 12 --compressed 0 -v 3 --seed-sub-mat nucl:nucleotide.out,aa:VTML80.out -s 4 -k 0 --k-score 2147483647 --alph-size nucl:5,aa:21 --max-seqs 300 --split 0 --split-mode 2 --split-memory-limit 0 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-lower-case 0 --min-ungapped-score 15 --spaced-kmer-mode 1 --rescore-mode 0 --filter-hits 0 --sort-results 0 --mask-profile 1 --e-profile 0.001 --wg 0 --allow-deletion 0 --filter-msa 1 --max-seq-id 0.9 --qid 0 --qsc -20 --cov 0 --diff 1000 --min-length 15 --max-length 32734 --max-gaps 2147483647 --contig-start-mode 2 --contig-end-mode 2 --orf-start-mode 1 --forward-frames 1,2,3 --reverse-frames 1,2,3 --translation-table 1 --translate 0 --use-all-table-starts 0 --id-offset 0 --create-lookup 0 --add-orf-stop 0 --chain-alignments 0 --merge-query 1 --search-type 0 --num-iterations 1 --start-sens 4 --sens-steps 1 --slice-search 0 --strand 1 --orf-filter 0 --orf-filter-e 100 --orf-filter-s 2 --lca-search 0 --disk-space-limit 0 --force-reuse 0 --remove-tmp-files 0 
 
-prefilter /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/4700887788124712593/tmp_predict/6206486894901684881/aa_6f /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/4700887788124712593/targets /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/4700887788124712593/tmp_predict/6206486894901684881/tmp_search/14475593815526002397/pref_0 --sub-mat nucl:nucleotide.out,aa:blosum62.out --seed-sub-mat nucl:nucleotide.out,aa:VTML80.out -k 0 --k-score 2147483647 --alph-size nucl:5,aa:21 --max-seq-len 70000 --max-seqs 300 --split 0 --split-mode 2 --split-memory-limit 0 -c 0 --cov-mode 0 --comp-bias-corr 1 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-lower-case 0 --min-ungapped-score 15 --add-self-matches 0 --spaced-kmer-mode 1 --db-load-mode 0 --pca 1 --pcb 1.5 --threads 12 --compressed 0 -v 3 -s 4.0 
+prefilter /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/3827923403535572453/tmp_predict/3333628048232715968/aa_6f /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/3827923403535572453/targets /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/3827923403535572453/tmp_predict/3333628048232715968/tmp_search/5104720469770852940/pref_0 --sub-mat nucl:nucleotide.out,aa:blosum62.out --seed-sub-mat nucl:nucleotide.out,aa:VTML80.out -k 0 --k-score 2147483647 --alph-size nucl:5,aa:21 --max-seq-len 70000 --max-seqs 300 --split 0 --split-mode 2 --split-memory-limit 0 -c 0 --cov-mode 0 --comp-bias-corr 1 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-lower-case 0 --min-ungapped-score 15 --add-self-matches 0 --spaced-kmer-mode 1 --db-load-mode 0 --pca 1 --pcb 1.5 --threads 12 --compressed 0 -v 3 -s 4.0 
 
-Query database size: 942063 type: Aminoacid
+Query database size: 939403 type: Aminoacid
 Estimated memory consumption: 2G
 Target database size: 395986 type: Aminoacid
 Index table k-mer threshold: 127 at k-mer size 6 
 Index table: counting k-mers
-[=================================================================] 395.99K 9s 962ms
+[=================================================================] 395.99K 12s 695ms
 Index table: Masked residues: 3196682
 Index table: fill
-[=================================================================] 395.99K 6s 715ms
+[=================================================================] 395.99K 7s 144ms
 Index statistics
 Entries:          226435397
 DB size:          1783 MB
@@ -163,67 +163,67 @@ Top 10 k-mers
     DVGAGS	1117
     GLNGCY	1044
     DVAGIP	901
-Time for index table init: 0h 0m 17s 559ms
+Time for index table init: 0h 0m 20s 741ms
 Process prefiltering step 1 of 1
 
 k-mer similarity threshold: 127
 Starting prefiltering scores calculation (step 1 of 1)
-Query db start 1 to 942063
+Query db start 1 to 939403
 Target db start 1 to 395986
-[=================================================================] 942.06K 23s 661ms
+[=================================================================] 939.40K 26s 499ms
 
-38.658616 k-mers per position
+38.668313 k-mers per position
 2981 DB matches per sequence
 0 overflows
 0 queries produce too many hits (truncated result)
 14 sequences passed prefiltering per query sequence
 5 median result list length
-201203 sequences with 0 size result lists
-Time for merging to pref_0: 0h 0m 0s 401ms
-Time for processing: 0h 0m 42s 885ms
-align /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/4700887788124712593/tmp_predict/6206486894901684881/aa_6f /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/4700887788124712593/targets /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/4700887788124712593/tmp_predict/6206486894901684881/tmp_search/14475593815526002397/pref_0 /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/4700887788124712593/tmp_predict/6206486894901684881/search_res --sub-mat nucl:nucleotide.out,aa:blosum62.out -a 0 --alignment-mode 2 --wrapped-scoring 0 -e 100 --min-seq-id 0 --min-aln-len 15 --seq-id-mode 0 --alt-ali 0 -c 0 --cov-mode 0 --max-seq-len 70000 --comp-bias-corr 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca 1 --pcb 1.5 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --gap-open nucl:5,aa:11 --gap-extend nucl:2,aa:1 --zdrop 40 --threads 12 --compressed 0 -v 3 
+200609 sequences with 0 size result lists
+Time for merging to pref_0: 0h 0m 0s 458ms
+Time for processing: 0h 0m 48s 958ms
+align /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/3827923403535572453/tmp_predict/3333628048232715968/aa_6f /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/3827923403535572453/targets /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/3827923403535572453/tmp_predict/3333628048232715968/tmp_search/5104720469770852940/pref_0 /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/3827923403535572453/tmp_predict/3333628048232715968/search_res --sub-mat nucl:nucleotide.out,aa:blosum62.out -a 0 --alignment-mode 2 --wrapped-scoring 0 -e 100 --min-seq-id 0 --min-aln-len 15 --seq-id-mode 0 --alt-ali 0 -c 0 --cov-mode 0 --max-seq-len 70000 --comp-bias-corr 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca 1 --pcb 1.5 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --gap-open nucl:5,aa:11 --gap-extend nucl:2,aa:1 --zdrop 40 --threads 12 --compressed 0 -v 3 
 
 Compute score and coverage
-Query database size: 942063 type: Aminoacid
+Query database size: 939403 type: Aminoacid
 Target database size: 395986 type: Aminoacid
 Calculation of alignments
-[=================================================================] 942.06K 1m 4s 425ms
-Time for merging to search_res: 0h 0m 0s 394ms
-13865927 alignments calculated
-847535 sequence pairs passed the thresholds (0.061124 of overall calculated)
-0.899659 hits per query sequence
-Time for processing: 0h 1m 5s 230ms
-resultspercontig /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/4700887788124712593/contigs /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/4700887788124712593/tmp_predict/6206486894901684881/nucl_6f /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/4700887788124712593/tmp_predict/6206486894901684881/search_res /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/4700887788124712593/tmp_predict/6206486894901684881/search_res_by_contig --threads 12 --compressed 0 -v 3 
+[=================================================================] 939.40K 1m 5s 814ms
+Time for merging to search_res: 0h 0m 0s 370ms
+13826347 alignments calculated
+845616 sequence pairs passed the thresholds (0.061160 of overall calculated)
+0.900163 hits per query sequence
+Time for processing: 0h 1m 6s 558ms
+resultspercontig /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/3827923403535572453/contigs /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/3827923403535572453/tmp_predict/3333628048232715968/nucl_6f /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/3827923403535572453/tmp_predict/3333628048232715968/search_res /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/3827923403535572453/tmp_predict/3333628048232715968/search_res_by_contig --threads 12 --compressed 0 -v 3 
 
 Computing ORF lookup
 Computing contig offsets
 Computing contig lookup
-Time for contig lookup: 0h 0m 0s 329ms
-[=================================================================] 5.01K 0s 264ms
+Time for contig lookup: 0h 0m 0s 283ms
+[=================================================================] 5.00K 0s 334ms
 Time for merging to search_res_by_contig: 0h 0m 0s 5ms
-Time for processing: 0h 0m 0s 938ms
-collectoptimalset /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/4700887788124712593/tmp_predict/6206486894901684881/search_res_by_contig /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/4700887788124712593/targets /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/4700887788124712593/tmp_predict/6206486894901684881/dp_predictions --metaeuk-eval 0.001 --metaeuk-tcov 0.5 --max-intron 60000 --min-intron 5 --min-exon-aa 15 --max-overlap 15 --set-gap-open -1 --set-gap-extend -1 --score-bias 0 --threads 12 --compressed 0 -v 3 
+Time for processing: 0h 0m 0s 951ms
+collectoptimalset /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/3827923403535572453/tmp_predict/3333628048232715968/search_res_by_contig /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/3827923403535572453/targets /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/3827923403535572453/tmp_predict/3333628048232715968/dp_predictions --metaeuk-eval 0.001 --metaeuk-tcov 0.5 --max-intron 60000 --min-intron 5 --min-exon-aa 15 --max-overlap 15 --set-gap-open -1 --set-gap-extend -1 --score-bias 0 --threads 12 --compressed 0 -v 3 
 
-[=================================================================] 5.01K 0s 186ms
-Time for merging to dp_predictions: 0h 0m 0s 7ms
-Time for processing: 0h 0m 0s 253ms
-mvdb /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/4700887788124712593/tmp_predict/6206486894901684881/dp_predictions /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/4700887788124712593/MetaEuk_calls 
+[=================================================================] 5.00K 0s 185ms
+Time for merging to dp_predictions: 0h 0m 0s 4ms
+Time for processing: 0h 0m 0s 246ms
+mvdb /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/3827923403535572453/tmp_predict/3333628048232715968/dp_predictions /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/3827923403535572453/MetaEuk_calls 
 
 Time for processing: 0h 0m 0s 2ms
-reduceredundancy /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/4700887788124712593/MetaEuk_calls /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/4700887788124712593/MetaEuk_preds /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/4700887788124712593/MetaEuk_preds_clust --overlap 1 --threads 12 --compressed 0 -v 3 
+reduceredundancy /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/3827923403535572453/MetaEuk_calls /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/3827923403535572453/MetaEuk_preds /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/3827923403535572453/MetaEuk_preds_clust --overlap 1 --threads 12 --compressed 0 -v 3 
 
-[=================================================================] 5.01K 0s 51ms
-Time for merging to MetaEuk_preds_clust: 0h 0m 0s 5ms
+[=================================================================] 5.00K 0s 56ms
+Time for merging to MetaEuk_preds_clust: 0h 0m 0s 4ms
 Time for merging to MetaEuk_preds: 0h 0m 0s 4ms
-Time for processing: 0h 0m 0s 98ms
-unitesetstofasta /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/4700887788124712593/contigs /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/4700887788124712593/targets /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/4700887788124712593/MetaEuk_preds /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/initial_results/Coelomomyces_lativittatus_CIRM-AVA-1-Meiospore.scaffolds.fa --protein 0 --translation-table 1 --target-key 0 --threads 12 --compressed 0 -v 3 
+Time for processing: 0h 0m 0s 100ms
+unitesetstofasta /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/3827923403535572453/contigs /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/3827923403535572453/targets /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/3827923403535572453/MetaEuk_preds /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/initial_results/Coelomomyces_lativittatus_CIRM-AVA-1-Meiospore.scaffolds.filtered.fa --protein 0 --translation-table 1 --target-key 0 --threads 12 --compressed 0 -v 3 
 
-[=================================================================] 5.01K 0s 8ms
-Time for merging to Coelomomyces_lativittatus_CIRM-AVA-1-Meiospore.scaffolds.fa.fas: 0h 0m 0s 4ms
-Time for merging to Coelomomyces_lativittatus_CIRM-AVA-1-Meiospore.scaffolds.fa.codon.fas: 0h 0m 0s 8ms
-Time for merging to Coelomomyces_lativittatus_CIRM-AVA-1-Meiospore.scaffolds.fa.headersMap.tsv: 0h 0m 0s 3ms
-Time for processing: 0h 0m 0s 99ms
-easy-predict --threads 12 data/Coelomomyces_lativittatus_CIRM-AVA-1-Meiospore.scaffolds.fa /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/refseq_db_rerun.faa /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/rerun_results/Coelomomyces_lativittatus_CIRM-AVA-1-Meiospore.scaffolds.fa /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp --max-intron 60000 --max-seq-len 70000 --min-exon-aa 5 --max-overlap 5 --min-intron 1 --overlap 1 -s 6 
+[=================================================================] 5.00K 0s 8ms
+Time for merging to Coelomomyces_lativittatus_CIRM-AVA-1-Meiospore.scaffolds.filtered.fa.fas: 0h 0m 0s 5ms
+Time for merging to Coelomomyces_lativittatus_CIRM-AVA-1-Meiospore.scaffolds.filtered.fa.codon.fas: 0h 0m 0s 6ms
+Time for merging to Coelomomyces_lativittatus_CIRM-AVA-1-Meiospore.scaffolds.filtered.fa.headersMap.tsv: 0h 0m 0s 3ms
+Time for processing: 0h 0m 0s 92ms
+easy-predict --threads 12 data/Coelomomyces_lativittatus_CIRM-AVA-1-Meiospore.scaffolds.filtered.fa /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/refseq_db_rerun.faa /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/rerun_results/Coelomomyces_lativittatus_CIRM-AVA-1-Meiospore.scaffolds.filtered.fa /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp --max-intron 60000 --max-seq-len 70000 --min-exon-aa 5 --max-overlap 5 --min-intron 1 --overlap 1 -s 6 
 
 MMseqs Version:                                             	4.a0f584d
 Substitution matrix                                         	nucl:nucleotide.out,aa:blosum62.out
@@ -325,52 +325,52 @@ translate codons to AAs                                     	0
 write target key instead of accession                       	0
 Reverse AA Fragments                                        	0
 
-createdb data/Coelomomyces_lativittatus_CIRM-AVA-1-Meiospore.scaffolds.fa /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17144448344009704917/contigs --dbtype 2 --compressed 0 -v 3 
+createdb data/Coelomomyces_lativittatus_CIRM-AVA-1-Meiospore.scaffolds.filtered.fa /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17704919668124344480/contigs --dbtype 2 --compressed 0 -v 3 
 
 Converting sequences
 [
-Time for merging to contigs_h: 0h 0m 0s 48ms
-Time for merging to contigs: 0h 0m 0s 71ms
+Time for merging to contigs_h: 0h 0m 0s 47ms
+Time for merging to contigs: 0h 0m 0s 78ms
 Database type: Nucleotide
-Time for processing: 0h 0m 0s 318ms
-createdb /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/refseq_db_rerun.faa /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17144448344009704917/targets --dbtype 1 --compressed 0 -v 3 
+Time for processing: 0h 0m 0s 337ms
+createdb /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/refseq_db_rerun.faa /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17704919668124344480/targets --dbtype 1 --compressed 0 -v 3 
 
 Converting sequences
 [=======================
-Time for merging to targets_h: 0h 0m 0s 54ms
-Time for merging to targets: 0h 0m 0s 145ms
+Time for merging to targets_h: 0h 0m 0s 89ms
+Time for merging to targets: 0h 0m 0s 187ms
 Database type: Aminoacid
-Time for processing: 0h 0m 1s 116ms
-Tmp /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17144448344009704917/tmp_predict folder does not exist or is not a directory.
-Create dir /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17144448344009704917/tmp_predict
-predictexons /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17144448344009704917/contigs /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17144448344009704917/targets /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17144448344009704917/MetaEuk_calls /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17144448344009704917/tmp_predict --sub-mat nucl:nucleotide.out,aa:blosum62.out -a 0 --alignment-mode 2 --wrapped-scoring 0 -e 100 --min-seq-id 0 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0 --cov-mode 0 --max-seq-len 70000 --comp-bias-corr 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca 1 --pcb 1.5 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --gap-open nucl:5,aa:11 --gap-extend nucl:2,aa:1 --zdrop 40 --threads 12 --compressed 0 -v 3 --seed-sub-mat nucl:nucleotide.out,aa:VTML80.out -s 6 -k 0 --k-score 2147483647 --alph-size nucl:5,aa:21 --max-seqs 300 --split 0 --split-mode 2 --split-memory-limit 0 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-lower-case 0 --min-ungapped-score 15 --spaced-kmer-mode 1 --rescore-mode 0 --filter-hits 0 --sort-results 0 --mask-profile 1 --e-profile 0.001 --wg 0 --allow-deletion 0 --filter-msa 1 --max-seq-id 0.9 --qid 0 --qsc -20 --cov 0 --diff 1000 --min-length 15 --max-length 32734 --max-gaps 2147483647 --contig-start-mode 2 --contig-end-mode 2 --orf-start-mode 1 --forward-frames 1,2,3 --reverse-frames 1,2,3 --translation-table 1 --translate 0 --use-all-table-starts 0 --id-offset 0 --create-lookup 0 --add-orf-stop 0 --chain-alignments 0 --merge-query 1 --search-type 0 --num-iterations 1 --start-sens 4 --sens-steps 1 --slice-search 0 --strand 1 --orf-filter 0 --orf-filter-e 100 --orf-filter-s 2 --lca-search 0 --disk-space-limit 0 --force-reuse 0 --remove-tmp-files 0 --metaeuk-eval 0.001 --metaeuk-tcov 0.5 --max-intron 60000 --min-intron 1 --min-exon-aa 5 --max-overlap 5 --set-gap-open -1 --set-gap-extend -1 --reverse-fragments 0 
+Time for processing: 0h 0m 1s 218ms
+Tmp /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17704919668124344480/tmp_predict folder does not exist or is not a directory.
+Create dir /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17704919668124344480/tmp_predict
+predictexons /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17704919668124344480/contigs /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17704919668124344480/targets /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17704919668124344480/MetaEuk_calls /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17704919668124344480/tmp_predict --sub-mat nucl:nucleotide.out,aa:blosum62.out -a 0 --alignment-mode 2 --wrapped-scoring 0 -e 100 --min-seq-id 0 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0 --cov-mode 0 --max-seq-len 70000 --comp-bias-corr 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca 1 --pcb 1.5 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --gap-open nucl:5,aa:11 --gap-extend nucl:2,aa:1 --zdrop 40 --threads 12 --compressed 0 -v 3 --seed-sub-mat nucl:nucleotide.out,aa:VTML80.out -s 6 -k 0 --k-score 2147483647 --alph-size nucl:5,aa:21 --max-seqs 300 --split 0 --split-mode 2 --split-memory-limit 0 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-lower-case 0 --min-ungapped-score 15 --spaced-kmer-mode 1 --rescore-mode 0 --filter-hits 0 --sort-results 0 --mask-profile 1 --e-profile 0.001 --wg 0 --allow-deletion 0 --filter-msa 1 --max-seq-id 0.9 --qid 0 --qsc -20 --cov 0 --diff 1000 --min-length 15 --max-length 32734 --max-gaps 2147483647 --contig-start-mode 2 --contig-end-mode 2 --orf-start-mode 1 --forward-frames 1,2,3 --reverse-frames 1,2,3 --translation-table 1 --translate 0 --use-all-table-starts 0 --id-offset 0 --create-lookup 0 --add-orf-stop 0 --chain-alignments 0 --merge-query 1 --search-type 0 --num-iterations 1 --start-sens 4 --sens-steps 1 --slice-search 0 --strand 1 --orf-filter 0 --orf-filter-e 100 --orf-filter-s 2 --lca-search 0 --disk-space-limit 0 --force-reuse 0 --remove-tmp-files 0 --metaeuk-eval 0.001 --metaeuk-tcov 0.5 --max-intron 60000 --min-intron 1 --min-exon-aa 5 --max-overlap 5 --set-gap-open -1 --set-gap-extend -1 --reverse-fragments 0 
 
-extractorfs /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17144448344009704917/contigs /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17144448344009704917/tmp_predict/8843874667831677876/nucl_6f --min-length 15 --max-length 32734 --max-gaps 2147483647 --contig-start-mode 2 --contig-end-mode 2 --orf-start-mode 1 --forward-frames 1,2,3 --reverse-frames 1,2,3 --translation-table 1 --translate 0 --use-all-table-starts 0 --id-offset 0 --create-lookup 0 --threads 12 --compressed 0 -v 3 
+extractorfs /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17704919668124344480/contigs /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17704919668124344480/tmp_predict/7261918747457190472/nucl_6f --min-length 15 --max-length 32734 --max-gaps 2147483647 --contig-start-mode 2 --contig-end-mode 2 --orf-start-mode 1 --forward-frames 1,2,3 --reverse-frames 1,2,3 --translation-table 1 --translate 0 --use-all-table-starts 0 --id-offset 0 --create-lookup 0 --threads 12 --compressed 0 -v 3 
 
-[=================================================================] 5.01K 0s 270ms
-Time for merging to nucl_6f_h: 0h 0m 0s 266ms
-Time for merging to nucl_6f: 0h 0m 0s 328ms
-Time for processing: 0h 0m 1s 180ms
-translatenucs /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17144448344009704917/tmp_predict/8843874667831677876/nucl_6f /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17144448344009704917/tmp_predict/8843874667831677876/aa_6f --translation-table 1 --add-orf-stop 0 -v 3 --compressed 0 --threads 12 
+[=================================================================] 5.00K 0s 353ms
+Time for merging to nucl_6f_h: 0h 0m 0s 248ms
+Time for merging to nucl_6f: 0h 0m 0s 299ms
+Time for processing: 0h 0m 1s 210ms
+translatenucs /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17704919668124344480/tmp_predict/7261918747457190472/nucl_6f /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17704919668124344480/tmp_predict/7261918747457190472/aa_6f --translation-table 1 --add-orf-stop 0 -v 3 --compressed 0 --threads 12 
 
-[=================================================================] 942.06K 1s 945ms
-Time for merging to aa_6f: 0h 0m 0s 375ms
-Time for processing: 0h 0m 2s 468ms
-Tmp /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17144448344009704917/tmp_predict/8843874667831677876/tmp_search folder does not exist or is not a directory.
-Create dir /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17144448344009704917/tmp_predict/8843874667831677876/tmp_search
-search /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17144448344009704917/tmp_predict/8843874667831677876/aa_6f /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17144448344009704917/targets /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17144448344009704917/tmp_predict/8843874667831677876/search_res /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17144448344009704917/tmp_predict/8843874667831677876/tmp_search --sub-mat nucl:nucleotide.out,aa:blosum62.out -a 0 --alignment-mode 2 --wrapped-scoring 0 -e 100 --min-seq-id 0 --min-aln-len 5 --seq-id-mode 0 --alt-ali 0 -c 0 --cov-mode 0 --max-seq-len 70000 --comp-bias-corr 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca 1 --pcb 1.5 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --gap-open nucl:5,aa:11 --gap-extend nucl:2,aa:1 --zdrop 40 --threads 12 --compressed 0 -v 3 --seed-sub-mat nucl:nucleotide.out,aa:VTML80.out -s 6 -k 0 --k-score 2147483647 --alph-size nucl:5,aa:21 --max-seqs 300 --split 0 --split-mode 2 --split-memory-limit 0 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-lower-case 0 --min-ungapped-score 15 --spaced-kmer-mode 1 --rescore-mode 0 --filter-hits 0 --sort-results 0 --mask-profile 1 --e-profile 0.001 --wg 0 --allow-deletion 0 --filter-msa 1 --max-seq-id 0.9 --qid 0 --qsc -20 --cov 0 --diff 1000 --min-length 15 --max-length 32734 --max-gaps 2147483647 --contig-start-mode 2 --contig-end-mode 2 --orf-start-mode 1 --forward-frames 1,2,3 --reverse-frames 1,2,3 --translation-table 1 --translate 0 --use-all-table-starts 0 --id-offset 0 --create-lookup 0 --add-orf-stop 0 --chain-alignments 0 --merge-query 1 --search-type 0 --num-iterations 1 --start-sens 4 --sens-steps 1 --slice-search 0 --strand 1 --orf-filter 0 --orf-filter-e 100 --orf-filter-s 2 --lca-search 0 --disk-space-limit 0 --force-reuse 0 --remove-tmp-files 0 
+[=================================================================] 939.40K 1s 253ms
+Time for merging to aa_6f: 0h 0m 0s 380ms
+Time for processing: 0h 0m 1s 772ms
+Tmp /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17704919668124344480/tmp_predict/7261918747457190472/tmp_search folder does not exist or is not a directory.
+Create dir /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17704919668124344480/tmp_predict/7261918747457190472/tmp_search
+search /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17704919668124344480/tmp_predict/7261918747457190472/aa_6f /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17704919668124344480/targets /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17704919668124344480/tmp_predict/7261918747457190472/search_res /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17704919668124344480/tmp_predict/7261918747457190472/tmp_search --sub-mat nucl:nucleotide.out,aa:blosum62.out -a 0 --alignment-mode 2 --wrapped-scoring 0 -e 100 --min-seq-id 0 --min-aln-len 5 --seq-id-mode 0 --alt-ali 0 -c 0 --cov-mode 0 --max-seq-len 70000 --comp-bias-corr 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca 1 --pcb 1.5 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --gap-open nucl:5,aa:11 --gap-extend nucl:2,aa:1 --zdrop 40 --threads 12 --compressed 0 -v 3 --seed-sub-mat nucl:nucleotide.out,aa:VTML80.out -s 6 -k 0 --k-score 2147483647 --alph-size nucl:5,aa:21 --max-seqs 300 --split 0 --split-mode 2 --split-memory-limit 0 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-lower-case 0 --min-ungapped-score 15 --spaced-kmer-mode 1 --rescore-mode 0 --filter-hits 0 --sort-results 0 --mask-profile 1 --e-profile 0.001 --wg 0 --allow-deletion 0 --filter-msa 1 --max-seq-id 0.9 --qid 0 --qsc -20 --cov 0 --diff 1000 --min-length 15 --max-length 32734 --max-gaps 2147483647 --contig-start-mode 2 --contig-end-mode 2 --orf-start-mode 1 --forward-frames 1,2,3 --reverse-frames 1,2,3 --translation-table 1 --translate 0 --use-all-table-starts 0 --id-offset 0 --create-lookup 0 --add-orf-stop 0 --chain-alignments 0 --merge-query 1 --search-type 0 --num-iterations 1 --start-sens 4 --sens-steps 1 --slice-search 0 --strand 1 --orf-filter 0 --orf-filter-e 100 --orf-filter-s 2 --lca-search 0 --disk-space-limit 0 --force-reuse 0 --remove-tmp-files 0 
 
-prefilter /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17144448344009704917/tmp_predict/8843874667831677876/aa_6f /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17144448344009704917/targets /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17144448344009704917/tmp_predict/8843874667831677876/tmp_search/18033687721766188546/pref_0 --sub-mat nucl:nucleotide.out,aa:blosum62.out --seed-sub-mat nucl:nucleotide.out,aa:VTML80.out -k 0 --k-score 2147483647 --alph-size nucl:5,aa:21 --max-seq-len 70000 --max-seqs 300 --split 0 --split-mode 2 --split-memory-limit 0 -c 0 --cov-mode 0 --comp-bias-corr 1 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-lower-case 0 --min-ungapped-score 15 --add-self-matches 0 --spaced-kmer-mode 1 --db-load-mode 0 --pca 1 --pcb 1.5 --threads 12 --compressed 0 -v 3 -s 6.0 
+prefilter /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17704919668124344480/tmp_predict/7261918747457190472/aa_6f /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17704919668124344480/targets /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17704919668124344480/tmp_predict/7261918747457190472/tmp_search/7362652787106430757/pref_0 --sub-mat nucl:nucleotide.out,aa:blosum62.out --seed-sub-mat nucl:nucleotide.out,aa:VTML80.out -k 0 --k-score 2147483647 --alph-size nucl:5,aa:21 --max-seq-len 70000 --max-seqs 300 --split 0 --split-mode 2 --split-memory-limit 0 -c 0 --cov-mode 0 --comp-bias-corr 1 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-lower-case 0 --min-ungapped-score 15 --add-self-matches 0 --spaced-kmer-mode 1 --db-load-mode 0 --pca 1 --pcb 1.5 --threads 12 --compressed 0 -v 3 -s 6.0 
 
-Query database size: 942063 type: Aminoacid
+Query database size: 939403 type: Aminoacid
 Estimated memory consumption: 2G
 Target database size: 236566 type: Aminoacid
 Index table k-mer threshold: 109 at k-mer size 6 
 Index table: counting k-mers
-[=================================================================] 236.57K 5s 250ms
+[=================================================================] 236.57K 7s 732ms
 Index table: Masked residues: 2067505
 Index table: fill
-[=================================================================] 236.57K 4s 58ms
+[=================================================================] 236.57K 4s 308ms
 Index statistics
 Entries:          138346779
 DB size:          1279 MB
@@ -386,63 +386,63 @@ Top 10 k-mers
     VHDKNL	629
     LSSDVR	612
     PKFHGR	600
-Time for index table init: 0h 0m 10s 48ms
+Time for index table init: 0h 0m 12s 812ms
 Process prefiltering step 1 of 1
 
 k-mer similarity threshold: 109
 Starting prefiltering scores calculation (step 1 of 1)
-Query db start 1 to 942063
+Query db start 1 to 939403
 Target db start 1 to 236566
-[=================================================================] 942.06K 1m 32s 238ms
+[=================================================================] 939.40K 1m 25s 236ms
 
-260.845146 k-mers per position
-14771 DB matches per sequence
+260.902338 k-mers per position
+14770 DB matches per sequence
 14 overflows
 0 queries produce too many hits (truncated result)
 78 sequences passed prefiltering per query sequence
 38 median result list length
-83608 sequences with 0 size result lists
-Time for merging to pref_0: 0h 0m 0s 467ms
-Time for processing: 0h 1m 44s 313ms
-align /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17144448344009704917/tmp_predict/8843874667831677876/aa_6f /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17144448344009704917/targets /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17144448344009704917/tmp_predict/8843874667831677876/tmp_search/18033687721766188546/pref_0 /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17144448344009704917/tmp_predict/8843874667831677876/search_res --sub-mat nucl:nucleotide.out,aa:blosum62.out -a 0 --alignment-mode 2 --wrapped-scoring 0 -e 100 --min-seq-id 0 --min-aln-len 5 --seq-id-mode 0 --alt-ali 0 -c 0 --cov-mode 0 --max-seq-len 70000 --comp-bias-corr 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca 1 --pcb 1.5 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --gap-open nucl:5,aa:11 --gap-extend nucl:2,aa:1 --zdrop 40 --threads 12 --compressed 0 -v 3 
+83359 sequences with 0 size result lists
+Time for merging to pref_0: 0h 0m 0s 384ms
+Time for processing: 0h 1m 39s 942ms
+align /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17704919668124344480/tmp_predict/7261918747457190472/aa_6f /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17704919668124344480/targets /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17704919668124344480/tmp_predict/7261918747457190472/tmp_search/7362652787106430757/pref_0 /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17704919668124344480/tmp_predict/7261918747457190472/search_res --sub-mat nucl:nucleotide.out,aa:blosum62.out -a 0 --alignment-mode 2 --wrapped-scoring 0 -e 100 --min-seq-id 0 --min-aln-len 5 --seq-id-mode 0 --alt-ali 0 -c 0 --cov-mode 0 --max-seq-len 70000 --comp-bias-corr 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca 1 --pcb 1.5 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --gap-open nucl:5,aa:11 --gap-extend nucl:2,aa:1 --zdrop 40 --threads 12 --compressed 0 -v 3 
 
 Compute score and coverage
-Query database size: 942063 type: Aminoacid
+Query database size: 939403 type: Aminoacid
 Target database size: 236566 type: Aminoacid
 Calculation of alignments
-[=================================================================] 942.06K 3m 46s 177ms
-Time for merging to search_res: 0h 0m 0s 433ms
-73781255 alignments calculated
-2815004 sequence pairs passed the thresholds (0.038153 of overall calculated)
-2.988127 hits per query sequence
-Time for processing: 0h 3m 47s 75ms
-resultspercontig /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17144448344009704917/contigs /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17144448344009704917/tmp_predict/8843874667831677876/nucl_6f /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17144448344009704917/tmp_predict/8843874667831677876/search_res /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17144448344009704917/tmp_predict/8843874667831677876/search_res_by_contig --threads 12 --compressed 0 -v 3 
+[=================================================================] 939.40K 4m 10s 346ms
+Time for merging to search_res: 0h 0m 0s 473ms
+73571014 alignments calculated
+2808459 sequence pairs passed the thresholds (0.038173 of overall calculated)
+2.989621 hits per query sequence
+Time for processing: 0h 4m 11s 300ms
+resultspercontig /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17704919668124344480/contigs /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17704919668124344480/tmp_predict/7261918747457190472/nucl_6f /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17704919668124344480/tmp_predict/7261918747457190472/search_res /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17704919668124344480/tmp_predict/7261918747457190472/search_res_by_contig --threads 12 --compressed 0 -v 3 
 
 Computing ORF lookup
 Computing contig offsets
 Computing contig lookup
-Time for contig lookup: 0h 0m 0s 326ms
-[=================================================================] 5.01K 0s 806ms
+Time for contig lookup: 0h 0m 0s 327ms
+[=================================================================] 5.00K 1s 54ms
 Time for merging to search_res_by_contig: 0h 0m 0s 5ms
-Time for processing: 0h 0m 1s 549ms
-collectoptimalset /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17144448344009704917/tmp_predict/8843874667831677876/search_res_by_contig /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17144448344009704917/targets /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17144448344009704917/tmp_predict/8843874667831677876/dp_predictions --metaeuk-eval 0.001 --metaeuk-tcov 0.5 --max-intron 60000 --min-intron 1 --min-exon-aa 5 --max-overlap 5 --set-gap-open -1 --set-gap-extend -1 --score-bias 0 --threads 12 --compressed 0 -v 3 
+Time for processing: 0h 0m 1s 813ms
+collectoptimalset /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17704919668124344480/tmp_predict/7261918747457190472/search_res_by_contig /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17704919668124344480/targets /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17704919668124344480/tmp_predict/7261918747457190472/dp_predictions --metaeuk-eval 0.001 --metaeuk-tcov 0.5 --max-intron 60000 --min-intron 1 --min-exon-aa 5 --max-overlap 5 --set-gap-open -1 --set-gap-extend -1 --score-bias 0 --threads 12 --compressed 0 -v 3 
 
-[=================================================================] 5.01K 0s 442ms
+[=================================================================] 5.00K 0s 508ms
 Time for merging to dp_predictions: 0h 0m 0s 5ms
-Time for processing: 0h 0m 0s 497ms
-mvdb /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17144448344009704917/tmp_predict/8843874667831677876/dp_predictions /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17144448344009704917/MetaEuk_calls 
+Time for processing: 0h 0m 0s 559ms
+mvdb /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17704919668124344480/tmp_predict/7261918747457190472/dp_predictions /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17704919668124344480/MetaEuk_calls 
 
 Time for processing: 0h 0m 0s 2ms
-reduceredundancy /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17144448344009704917/MetaEuk_calls /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17144448344009704917/MetaEuk_preds /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17144448344009704917/MetaEuk_preds_clust --overlap 1 --threads 12 --compressed 0 -v 3 
+reduceredundancy /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17704919668124344480/MetaEuk_calls /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17704919668124344480/MetaEuk_preds /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17704919668124344480/MetaEuk_preds_clust --overlap 1 --threads 12 --compressed 0 -v 3 
 
-[=================================================================] 5.01K 0s 27ms
-Time for merging to MetaEuk_preds_clust: 0h 0m 0s 6ms
-Time for merging to MetaEuk_preds: 0h 0m 0s 4ms
-Time for processing: 0h 0m 0s 76ms
-unitesetstofasta /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17144448344009704917/contigs /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17144448344009704917/targets /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17144448344009704917/MetaEuk_preds /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/rerun_results/Coelomomyces_lativittatus_CIRM-AVA-1-Meiospore.scaffolds.fa --protein 0 --translation-table 1 --target-key 0 --threads 12 --compressed 0 -v 3 
+[=================================================================] 5.00K 0s 25ms
+Time for merging to MetaEuk_preds_clust: 0h 0m 0s 8ms
+Time for merging to MetaEuk_preds: 0h 0m 0s 7ms
+Time for processing: 0h 0m 0s 73ms
+unitesetstofasta /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17704919668124344480/contigs /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17704919668124344480/targets /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/tmp/17704919668124344480/MetaEuk_preds /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore/run_fungi_odb10/metaeuk_output/rerun_results/Coelomomyces_lativittatus_CIRM-AVA-1-Meiospore.scaffolds.filtered.fa --protein 0 --translation-table 1 --target-key 0 --threads 12 --compressed 0 -v 3 
 
-[=================================================================] 5.01K 0s 8ms
-Time for merging to Coelomomyces_lativittatus_CIRM-AVA-1-Meiospore.scaffolds.fa.fas: 0h 0m 0s 6ms
-Time for merging to Coelomomyces_lativittatus_CIRM-AVA-1-Meiospore.scaffolds.fa.codon.fas: 0h 0m 0s 18ms
-Time for merging to Coelomomyces_lativittatus_CIRM-AVA-1-Meiospore.scaffolds.fa.headersMap.tsv: 0h 0m 0s 15ms
-Time for processing: 0h 0m 0s 138ms
+[=================================================================] 5.00K 0s 7ms
+Time for merging to Coelomomyces_lativittatus_CIRM-AVA-1-Meiospore.scaffolds.filtered.fa.fas: 0h 0m 0s 3ms
+Time for merging to Coelomomyces_lativittatus_CIRM-AVA-1-Meiospore.scaffolds.filtered.fa.codon.fas: 0h 0m 0s 6ms
+Time for merging to Coelomomyces_lativittatus_CIRM-AVA-1-Meiospore.scaffolds.filtered.fa.headersMap.tsv: 0h 0m 0s 3ms
+Time for processing: 0h 0m 0s 80ms

@@ -17,5 +17,5 @@ module load busco
 INDIR=data
 
 
-/rhome/cassande/bigdata/software/quast-5.1.0rc1/quast.py  $INDIR/Coelomomyces_lativittatus_CIRM-AVA-1-Amber.scaffolds.fa $INDIR/Coelomomyces_lativittatus_CIRM-AVA-1-Orange.scaffolds.fa $INDIR/Coelomomyces_lativittatus_CIRM-AVA-1-Meiospore.scaffolds.fa --threads 12 --eukaryote --space-efficient 
+/rhome/cassande/bigdata/software/quast-5.1.0rc1/quast.py  $INDIR/Coelomomyces_lativittatus_CIRM-AVA-1-Amber.scaffolds.filtered.fa $INDIR/Coelomomyces_lativittatus_CIRM-AVA-1-Orange.scaffolds.filtered.fa $INDIR/Coelomomyces_lativittatus_CIRM-AVA-1-Meiospore.scaffolds.filtered.fa --threads 12 --eukaryote --space-efficient 
 

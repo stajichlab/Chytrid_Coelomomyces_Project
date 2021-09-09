@@ -1,0 +1,27 @@
+
+WARNING
+===============================================
+You are running an experimental workflow not every part of which may be fully
+and thoroughly tested :) Please scrutinize your output carefully after analysis,
+and keep us posted if you see things that surprise you.
+
+Contigs DB ...................................: anvio/Amber/Amber.db
+Profile DB ...................................: anvio/Amber/Amber_SAMPLES_MERGED/PROFILE.db
+Binning module ...............................: MetaBAT2
+Cluster type .................................: contig
+Working directory ............................: /tmp/tmplnosb_wf
+
+CITATION
+===============================================
+Anvi'o is now passing all your data to the binning module 'MetaBAT2'. If you
+publish results from this workflow, please do not forget to reference the
+following citation.
+
+* Kang DD, Li F, Kirton E, Thomas A, Egan R, An H, Wang Z. 2019. MetaBAT 2: an
+adaptive binning algorithm for robust and efficient genome reconstruction from
+metagenome assemblies. PeerJ 7:e7359 https://doi.org/10.7717/peerj.7359
+
+                                                                                [48;5;6m[38;5;0m[02 Sep 21 14:27:31 metabat2] Running using 16 threads...                      [0m                                                                                
+* metabat2 formed 7 clusters, which are being added to the database as a
+collection named METABAT.
+

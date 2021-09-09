@@ -1,0 +1,22 @@
+Assembly	Coelomomyces_lativittatus_CIRM_AVA_1_Amber.scaffolds.filtered	Coelomomyces_lativittatus_CIRM_AVA_1_Orange.scaffolds.filtered	Coelomomyces_lativittatus_CIRM_AVA_1_Meiospore.scaffolds.filtered
+# contigs (>= 0 bp)	5799	5413	5002
+# contigs (>= 1000 bp)	5297	4804	4517
+# contigs (>= 5000 bp)	1435	1225	1510
+# contigs (>= 10000 bp)	436	347	463
+# contigs (>= 25000 bp)	17	12	15
+# contigs (>= 50000 bp)	1	0	0
+Total length (>= 0 bp)	22882397	19891335	21857322
+Total length (>= 1000 bp)	22499919	19431201	21496889
+Total length (>= 5000 bp)	13350328	10980508	13939452
+Total length (>= 10000 bp)	6420485	4910107	6655449
+Total length (>= 25000 bp)	571702	324313	432427
+Total length (>= 50000 bp)	56469	0	0
+# contigs	5799	5413	5002
+Largest contig	56469	30249	37025
+Total length	22882397	19891335	21857322
+GC (%)	33.43	32.32	32.33
+N50	6067	5623	6695
+N90	1782	1603	1996
+L50	1089	1030	988
+L90	3884	3610	3254
+# N's per 100 kbp	480.40	362.27	101.38

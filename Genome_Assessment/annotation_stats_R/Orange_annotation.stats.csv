@@ -1,14 +1,14 @@
 "Category","Value"
-"Number of mRNA genes",7346
-"Number of tRNA genes",72
-"Total number of coding genes",7418
-"Percentage of genes with PFAM hit",44.8908061472095
-"Percentage of genes with InterProScan hit",63.7638177406309
-"Percentage of genes with EggNog hit",52.8309517390132
-"Percentage of genes with COG hit",52.0895119978431
-"Percentage of genes with GO Term",45.6592073335131
-"Average intron length",359.226940268184
-"Average exon length",358.189979757085
-"Average gene length",1293.40199514694
-"Average tRNA length",74.6388888888889
-"Average mRNA length",1305.34739994555
+"Number of mRNA genes",7289
+"Number of tRNA genes",55
+"Total number of coding genes",7344
+"Percentage of genes with PFAM hit",44.9074074074074
+"Percentage of genes with InterProScan hit",63.8208061002179
+"Percentage of genes with EggNog hit",52.7777777777778
+"Percentage of genes with COG hit",52.0288671023965
+"Percentage of genes with GO Term",45.6835511982571
+"Average intron length",358.977029096478
+"Average exon length",358.180911173327
+"Average gene length",1299.78036492375
+"Average tRNA length",74.6181818181818
+"Average mRNA length",1309.02496913157

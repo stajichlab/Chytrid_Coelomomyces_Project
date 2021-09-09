@@ -4,3 +4,7 @@ data
 busco_sequences
 hmmer_output
 metaeuk_output
+*.afphoto
+anvio
+blobtools
+exploratory

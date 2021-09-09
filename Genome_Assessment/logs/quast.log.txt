@@ -1,6 +1,60 @@
 Loading busco/5.1.2
   Unloading conflict: miniconda2/4.4.10
   Loading requirement: miniconda3/4.3.31
-Usage: quast.py [options]
+/rhome/cassande/bigdata/software/quast-5.1.0rc1/quast.py data/Coelomomyces_lativittatus_CIRM-AVA-1-Amber.scaffolds.filtered.fa data/Coelomomyces_lativittatus_CIRM-AVA-1-Orange.scaffolds.filtered.fa data/Coelomomyces_lativittatus_CIRM-AVA-1-Meiospore.scaffolds.filtered.fa --threads 12 --eukaryote --space-efficient
 
-quast.py: error: option -t: invalid integer value: 'hreads'
+Version: 5.1.0rc1
+
+System information:
+  OS: Linux-3.10.0-1160.15.2.el7.x86_64-x86_64-with-glibc2.17 (linux_64)
+  Python version: 3.9.4
+  CPUs number: 64
+
+Started: 2021-09-08 17:49:59
+
+Logging to /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/quast_results/results_2021_09_08_17_49_59/quast.log
+
+CWD: /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment
+Main parameters: 
+  MODE: default, threads: 12, eukaryotic: true, min contig length: 500, min alignment length: 65, \
+  min alignment IDY: 95.0, ambiguity: one, threshold for extensive misassembly size: 1000
+
+WARNING: Can't draw plots: python-matplotlib is missing or corrupted.
+
+Contigs:
+  Pre-processing...
+  1  data/Coelomomyces_lativittatus_CIRM-AVA-1-Amber.scaffolds.filtered.fa ==> Coelomomyces_lativittatus_CIRM_AVA_1_Amber.scaffolds.filtered
+  2  data/Coelomomyces_lativittatus_CIRM-AVA-1-Orange.scaffolds.filtered.fa ==> Coelomomyces_lativittatus_CIRM_AVA_1_Orange.scaffolds.filtered
+  3  data/Coelomomyces_lativittatus_CIRM-AVA-1-Meiospore.scaffolds.filtered.fa ==> Coelomomyces_lativittatus_CIRM_AVA_1_Meiospore.scaffolds.filtered
+
+2021-09-08 17:50:03
+Running Basic statistics processor...
+  Contig files: 
+    1  Coelomomyces_lativittatus_CIRM_AVA_1_Amber.scaffolds.filtered
+    2  Coelomomyces_lativittatus_CIRM_AVA_1_Orange.scaffolds.filtered
+    3  Coelomomyces_lativittatus_CIRM_AVA_1_Meiospore.scaffolds.filtered
+  Calculating N50 and L50...
+    1  Coelomomyces_lativittatus_CIRM_AVA_1_Amber.scaffolds.filtered, N50 = 6067, L50 = 1089, Total length = 22882397, GC % = 33.43, # N's per 100 kbp =  480.40
+    2  Coelomomyces_lativittatus_CIRM_AVA_1_Orange.scaffolds.filtered, N50 = 5623, L50 = 1030, Total length = 19891335, GC % = 32.32, # N's per 100 kbp =  362.27
+    3  Coelomomyces_lativittatus_CIRM_AVA_1_Meiospore.scaffolds.filtered, N50 = 6695, L50 = 988, Total length = 21857322, GC % = 32.33, # N's per 100 kbp =  101.38
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2021-09-08 17:50:06
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+Done
+
+2021-09-08 17:50:06
+RESULTS:
+  Text versions of total report are saved to /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/quast_results/results_2021_09_08_17_49_59/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/quast_results/results_2021_09_08_17_49_59/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/quast_results/results_2021_09_08_17_49_59/report.html
+  Log is saved to /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/quast_results/results_2021_09_08_17_49_59/quast.log
+
+Finished: 2021-09-08 17:50:06
+Elapsed time: 0:00:07.065624
+NOTICEs: 1; WARNINGs: 1; non-fatal ERRORs: 0
+
+Thank you for using QUAST!

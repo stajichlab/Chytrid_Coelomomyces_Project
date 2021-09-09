@@ -2,13 +2,18 @@ Loading augustus/3.3.3
   Loading requirement: lp_solve/5.5 boost/1.68.0 bamtools/2.4.0
 # conda environments:
 #
+                         /bigdata/stajichlab/cassande/software/db-vs2/conda_envs/d597dfe4
 base                     /opt/linux/centos/7.x/x86_64/pkgs/miniconda3/4.3.31
 AAFTF                    /opt/linux/centos/7.x/x86_64/pkgs/miniconda3/4.3.31/envs/AAFTF
 BASTA                    /opt/linux/centos/7.x/x86_64/pkgs/miniconda3/4.3.31/envs/BASTA
+DRAM-1.2.4               /opt/linux/centos/7.x/x86_64/pkgs/miniconda3/4.3.31/envs/DRAM-1.2.4
 GAL                      /opt/linux/centos/7.x/x86_64/pkgs/miniconda3/4.3.31/envs/GAL
+KEGGDecoder              /opt/linux/centos/7.x/x86_64/pkgs/miniconda3/4.3.31/envs/KEGGDecoder
 SALSA                    /opt/linux/centos/7.x/x86_64/pkgs/miniconda3/4.3.31/envs/SALSA
+alphafold-2.0            /opt/linux/centos/7.x/x86_64/pkgs/miniconda3/4.3.31/envs/alphafold-2.0
 amptk-1.5.1              /opt/linux/centos/7.x/x86_64/pkgs/miniconda3/4.3.31/envs/amptk-1.5.1
 antismash5_2             /opt/linux/centos/7.x/x86_64/pkgs/miniconda3/4.3.31/envs/antismash5_2
+antismash6_0             /opt/linux/centos/7.x/x86_64/pkgs/miniconda3/4.3.31/envs/antismash6_0
 arbitr                   /opt/linux/centos/7.x/x86_64/pkgs/miniconda3/4.3.31/envs/arbitr
 arcs                     /opt/linux/centos/7.x/x86_64/pkgs/miniconda3/4.3.31/envs/arcs
 autometa                 /opt/linux/centos/7.x/x86_64/pkgs/miniconda3/4.3.31/envs/autometa
@@ -41,7 +46,10 @@ ltr_retriever            /opt/linux/centos/7.x/x86_64/pkgs/miniconda3/4.3.31/env
 maker-3.01.03            /opt/linux/centos/7.x/x86_64/pkgs/miniconda3/4.3.31/envs/maker-3.01.03
 masurca                  /opt/linux/centos/7.x/x86_64/pkgs/miniconda3/4.3.31/envs/masurca
 mcclintock               /opt/linux/centos/7.x/x86_64/pkgs/miniconda3/4.3.31/envs/mcclintock
+medaka                   /opt/linux/centos/7.x/x86_64/pkgs/miniconda3/4.3.31/envs/medaka
+medaka-gpu               /opt/linux/centos/7.x/x86_64/pkgs/miniconda3/4.3.31/envs/medaka-gpu
 metasanity               /opt/linux/centos/7.x/x86_64/pkgs/miniconda3/4.3.31/envs/metasanity
+methylpy                 /opt/linux/centos/7.x/x86_64/pkgs/miniconda3/4.3.31/envs/methylpy
 mosdepth                 /opt/linux/centos/7.x/x86_64/pkgs/miniconda3/4.3.31/envs/mosdepth
 nanofilt                 /opt/linux/centos/7.x/x86_64/pkgs/miniconda3/4.3.31/envs/nanofilt
 nanopore                 /opt/linux/centos/7.x/x86_64/pkgs/miniconda3/4.3.31/envs/nanopore
@@ -50,6 +58,7 @@ ncbi_download            /opt/linux/centos/7.x/x86_64/pkgs/miniconda3/4.3.31/env
 pangloss                 /opt/linux/centos/7.x/x86_64/pkgs/miniconda3/4.3.31/envs/pangloss
 pangloss-py2             /opt/linux/centos/7.x/x86_64/pkgs/miniconda3/4.3.31/envs/pangloss-py2
 parallel-fastq-dump      /opt/linux/centos/7.x/x86_64/pkgs/miniconda3/4.3.31/envs/parallel-fastq-dump
+pb_arrow                 /opt/linux/centos/7.x/x86_64/pkgs/miniconda3/4.3.31/envs/pb_arrow
 pbbioconda               /opt/linux/centos/7.x/x86_64/pkgs/miniconda3/4.3.31/envs/pbbioconda
 perlmods                 /opt/linux/centos/7.x/x86_64/pkgs/miniconda3/4.3.31/envs/perlmods
 phasegenomics            /opt/linux/centos/7.x/x86_64/pkgs/miniconda3/4.3.31/envs/phasegenomics
@@ -58,6 +67,7 @@ phyloflash               /opt/linux/centos/7.x/x86_64/pkgs/miniconda3/4.3.31/env
 pyvcf                    /opt/linux/centos/7.x/x86_64/pkgs/miniconda3/4.3.31/envs/pyvcf
 qiime2-2017.12           /opt/linux/centos/7.x/x86_64/pkgs/miniconda3/4.3.31/envs/qiime2-2017.12
 repet                    /opt/linux/centos/7.x/x86_64/pkgs/miniconda3/4.3.31/envs/repet
+run_dbcan                /opt/linux/centos/7.x/x86_64/pkgs/miniconda3/4.3.31/envs/run_dbcan
 savage                   /opt/linux/centos/7.x/x86_64/pkgs/miniconda3/4.3.31/envs/savage
 shasta                   /opt/linux/centos/7.x/x86_64/pkgs/miniconda3/4.3.31/envs/shasta
 shovill                  /opt/linux/centos/7.x/x86_64/pkgs/miniconda3/4.3.31/envs/shovill
@@ -66,24 +76,30 @@ synapse                  /opt/linux/centos/7.x/x86_64/pkgs/miniconda3/4.3.31/env
 test                     /opt/linux/centos/7.x/x86_64/pkgs/miniconda3/4.3.31/envs/test
 virMine                  /opt/linux/centos/7.x/x86_64/pkgs/miniconda3/4.3.31/envs/virMine
 EDTA                     /rhome/cassande/bigdata/.conda/envs/EDTA
+alphafold                /rhome/cassande/bigdata/.conda/envs/alphafold
 anvio-7                  /rhome/cassande/bigdata/.conda/envs/anvio-7
 btk_env                  /rhome/cassande/bigdata/.conda/envs/btk_env
 busco5                *  /rhome/cassande/bigdata/.conda/envs/busco5
+checkv                   /rhome/cassande/bigdata/.conda/envs/checkv
+deepvirfinder            /rhome/cassande/bigdata/.conda/envs/deepvirfinder
 gtdbtk-1.3.0             /rhome/cassande/bigdata/.conda/envs/gtdbtk-1.3.0
+gtdbtk-1.5.0             /rhome/cassande/bigdata/.conda/envs/gtdbtk-1.5.0
+pyseer                   /rhome/cassande/bigdata/.conda/envs/pyseer
 tRNAscan                 /rhome/cassande/bigdata/.conda/envs/tRNAscan
+vContact2                /rhome/cassande/bigdata/.conda/envs/vContact2
+virsorter2               /rhome/cassande/bigdata/.conda/envs/virsorter2
 
-INFO:	***** Start a BUSCO v5.0.0 analysis, current time: 06/04/2021 14:24:27 *****
+INFO:	***** Start a BUSCO v5.0.0 analysis, current time: 09/08/2021 17:53:04 *****
 INFO:	Configuring BUSCO with /bigdata/stajichlab/cassande/eisenlab/sg_colleo/funannotate/config.ini
 INFO:	Mode is genome
-INFO:	Input file is data/Coelomomyces_lativittatus_CIRM-AVA-1-Amber.scaffolds.fa
+INFO:	Input file is data/Coelomomyces_lativittatus_CIRM-AVA-1-Amber.scaffolds.filtered.fa
 INFO:	Downloading information on latest versions of BUSCO data...
-INFO:	Downloading file 'https://busco-data.ezlab.org/v5/data/lineages/fungi_odb10.2020-09-10.tar.gz'
-INFO:	Decompressing file '/bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_downloads/lineages/fungi_odb10.tar.gz'
+WARNING:	The file or folder /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_downloads/lineages/fungi_odb10 is not the last available version. To update all data files to the last version, add the parameter --update-data in your next run.
 INFO:	Running BUSCO using lineage dataset fungi_odb10 (eukaryota, 2020-09-10)
-INFO:	Running 1 job(s) on metaeuk, starting at 06/04/2021 14:24:52
+INFO:	Running 1 job(s) on metaeuk, starting at 09/08/2021 17:53:06
 INFO:	[metaeuk]	1 of 1 task(s) completed
 INFO:	***** Run HMMER on gene sequences *****
-INFO:	Running 758 job(s) on hmmsearch, starting at 06/04/2021 14:27:42
+INFO:	Running 758 job(s) on hmmsearch, starting at 09/08/2021 17:55:16
 INFO:	[hmmsearch]	76 of 758 task(s) completed
 INFO:	[hmmsearch]	152 of 758 task(s) completed
 INFO:	[hmmsearch]	228 of 758 task(s) completed
@@ -95,50 +111,55 @@ INFO:	[hmmsearch]	607 of 758 task(s) completed
 INFO:	[hmmsearch]	683 of 758 task(s) completed
 INFO:	[hmmsearch]	758 of 758 task(s) completed
 INFO:	Extracting missing and fragmented buscos from the file refseq_db.faa...
-INFO:	Running 1 job(s) on metaeuk, starting at 06/04/2021 14:28:17
+INFO:	Running 1 job(s) on metaeuk, starting at 09/08/2021 17:55:52
 INFO:	[metaeuk]	1 of 1 task(s) completed
 INFO:	***** Run HMMER on gene sequences *****
-INFO:	Running 429 job(s) on hmmsearch, starting at 06/04/2021 14:36:31
-INFO:	[hmmsearch]	43 of 429 task(s) completed
-INFO:	[hmmsearch]	86 of 429 task(s) completed
-INFO:	[hmmsearch]	129 of 429 task(s) completed
-INFO:	[hmmsearch]	172 of 429 task(s) completed
-INFO:	[hmmsearch]	215 of 429 task(s) completed
-INFO:	[hmmsearch]	258 of 429 task(s) completed
-INFO:	[hmmsearch]	301 of 429 task(s) completed
-INFO:	[hmmsearch]	344 of 429 task(s) completed
-INFO:	[hmmsearch]	387 of 429 task(s) completed
-INFO:	[hmmsearch]	429 of 429 task(s) completed
+INFO:	Running 442 job(s) on hmmsearch, starting at 09/08/2021 18:02:33
+INFO:	[hmmsearch]	45 of 442 task(s) completed
+INFO:	[hmmsearch]	89 of 442 task(s) completed
+INFO:	[hmmsearch]	133 of 442 task(s) completed
+INFO:	[hmmsearch]	177 of 442 task(s) completed
+INFO:	[hmmsearch]	222 of 442 task(s) completed
+INFO:	[hmmsearch]	266 of 442 task(s) completed
+INFO:	[hmmsearch]	310 of 442 task(s) completed
+INFO:	[hmmsearch]	354 of 442 task(s) completed
+INFO:	[hmmsearch]	398 of 442 task(s) completed
+INFO:	[hmmsearch]	442 of 442 task(s) completed
 INFO:	Validating exons and removing overlapping matches
-INFO:	Results:	C:47.0%[S:44.9%,D:2.1%],F:13.3%,M:39.7%,n:758	   
+INFO:	Results:	C:45.6%[S:45.3%,D:0.3%],F:13.9%,M:40.5%,n:758	   
 
 INFO:	
 
 	--------------------------------------------------
 	|Results from dataset fungi_odb10                 |
 	--------------------------------------------------
-	|C:47.0%[S:44.9%,D:2.1%],F:13.3%,M:39.7%,n:758    |
-	|356	Complete BUSCOs (C)                       |
-	|340	Complete and single-copy BUSCOs (S)       |
-	|16	Complete and duplicated BUSCOs (D)        |
-	|101	Fragmented BUSCOs (F)                     |
-	|301	Missing BUSCOs (M)                        |
+	|C:45.6%[S:45.3%,D:0.3%],F:13.9%,M:40.5%,n:758    |
+	|345	Complete BUSCOs (C)                       |
+	|343	Complete and single-copy BUSCOs (S)       |
+	|2	Complete and duplicated BUSCOs (D)        |
+	|105	Fragmented BUSCOs (F)                     |
+	|308	Missing BUSCOs (M)                        |
 	|758	Total BUSCO groups searched               |
 	--------------------------------------------------
-INFO:	BUSCO analysis done. Total running time: 739 seconds
+INFO:	BUSCO analysis done with WARNING(s). Total running time: 582 seconds
+
+***** Summary of warnings: *****
+WARNING:busco.BuscoDownloadManager	The file or folder /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_downloads/lineages/fungi_odb10 is not the last available version. To update all data files to the last version, add the parameter --update-data in your next run.
+
 INFO:	Results written in /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Amber
 INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
 
-INFO:	***** Start a BUSCO v5.0.0 analysis, current time: 06/04/2021 14:36:48 *****
+INFO:	***** Start a BUSCO v5.0.0 analysis, current time: 09/08/2021 18:02:48 *****
 INFO:	Configuring BUSCO with /bigdata/stajichlab/cassande/eisenlab/sg_colleo/funannotate/config.ini
 INFO:	Mode is genome
-INFO:	Input file is data/Coelomomyces_lativittatus_CIRM-AVA-1-Orange.scaffolds.fa
+INFO:	Input file is data/Coelomomyces_lativittatus_CIRM-AVA-1-Orange.scaffolds.filtered.fa
 INFO:	Downloading information on latest versions of BUSCO data...
+WARNING:	The file or folder /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_downloads/lineages/fungi_odb10 is not the last available version. To update all data files to the last version, add the parameter --update-data in your next run.
 INFO:	Running BUSCO using lineage dataset fungi_odb10 (eukaryota, 2020-09-10)
-INFO:	Running 1 job(s) on metaeuk, starting at 06/04/2021 14:36:49
+INFO:	Running 1 job(s) on metaeuk, starting at 09/08/2021 18:02:49
 INFO:	[metaeuk]	1 of 1 task(s) completed
 INFO:	***** Run HMMER on gene sequences *****
-INFO:	Running 758 job(s) on hmmsearch, starting at 06/04/2021 14:38:40
+INFO:	Running 758 job(s) on hmmsearch, starting at 09/08/2021 18:04:44
 INFO:	[hmmsearch]	76 of 758 task(s) completed
 INFO:	[hmmsearch]	152 of 758 task(s) completed
 INFO:	[hmmsearch]	228 of 758 task(s) completed
@@ -150,10 +171,10 @@ INFO:	[hmmsearch]	607 of 758 task(s) completed
 INFO:	[hmmsearch]	683 of 758 task(s) completed
 INFO:	[hmmsearch]	758 of 758 task(s) completed
 INFO:	Extracting missing and fragmented buscos from the file refseq_db.faa...
-INFO:	Running 1 job(s) on metaeuk, starting at 06/04/2021 14:39:18
+INFO:	Running 1 job(s) on metaeuk, starting at 09/08/2021 18:05:19
 INFO:	[metaeuk]	1 of 1 task(s) completed
 INFO:	***** Run HMMER on gene sequences *****
-INFO:	Running 496 job(s) on hmmsearch, starting at 06/04/2021 14:44:48
+INFO:	Running 496 job(s) on hmmsearch, starting at 09/08/2021 18:10:49
 INFO:	[hmmsearch]	50 of 496 task(s) completed
 INFO:	[hmmsearch]	100 of 496 task(s) completed
 INFO:	[hmmsearch]	149 of 496 task(s) completed
@@ -180,20 +201,25 @@ INFO:
 	|340	Missing BUSCOs (M)                        |
 	|758	Total BUSCO groups searched               |
 	--------------------------------------------------
-INFO:	BUSCO analysis done. Total running time: 493 seconds
+INFO:	BUSCO analysis done with WARNING(s). Total running time: 493 seconds
+
+***** Summary of warnings: *****
+WARNING:busco.BuscoDownloadManager	The file or folder /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_downloads/lineages/fungi_odb10 is not the last available version. To update all data files to the last version, add the parameter --update-data in your next run.
+
 INFO:	Results written in /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Orange
 INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
 
-INFO:	***** Start a BUSCO v5.0.0 analysis, current time: 06/04/2021 14:45:02 *****
+INFO:	***** Start a BUSCO v5.0.0 analysis, current time: 09/08/2021 18:11:03 *****
 INFO:	Configuring BUSCO with /bigdata/stajichlab/cassande/eisenlab/sg_colleo/funannotate/config.ini
 INFO:	Mode is genome
-INFO:	Input file is data/Coelomomyces_lativittatus_CIRM-AVA-1-Meiospore.scaffolds.fa
+INFO:	Input file is data/Coelomomyces_lativittatus_CIRM-AVA-1-Meiospore.scaffolds.filtered.fa
 INFO:	Downloading information on latest versions of BUSCO data...
+WARNING:	The file or folder /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_downloads/lineages/fungi_odb10 is not the last available version. To update all data files to the last version, add the parameter --update-data in your next run.
 INFO:	Running BUSCO using lineage dataset fungi_odb10 (eukaryota, 2020-09-10)
-INFO:	Running 1 job(s) on metaeuk, starting at 06/04/2021 14:45:03
+INFO:	Running 1 job(s) on metaeuk, starting at 09/08/2021 18:11:04
 INFO:	[metaeuk]	1 of 1 task(s) completed
 INFO:	***** Run HMMER on gene sequences *****
-INFO:	Running 758 job(s) on hmmsearch, starting at 06/04/2021 14:47:01
+INFO:	Running 758 job(s) on hmmsearch, starting at 09/08/2021 18:13:09
 INFO:	[hmmsearch]	76 of 758 task(s) completed
 INFO:	[hmmsearch]	152 of 758 task(s) completed
 INFO:	[hmmsearch]	228 of 758 task(s) completed
@@ -205,10 +231,10 @@ INFO:	[hmmsearch]	607 of 758 task(s) completed
 INFO:	[hmmsearch]	683 of 758 task(s) completed
 INFO:	[hmmsearch]	758 of 758 task(s) completed
 INFO:	Extracting missing and fragmented buscos from the file refseq_db.faa...
-INFO:	Running 1 job(s) on metaeuk, starting at 06/04/2021 14:47:37
+INFO:	Running 1 job(s) on metaeuk, starting at 09/08/2021 18:13:44
 INFO:	[metaeuk]	1 of 1 task(s) completed
 INFO:	***** Run HMMER on gene sequences *****
-INFO:	Running 448 job(s) on hmmsearch, starting at 06/04/2021 14:53:18
+INFO:	Running 448 job(s) on hmmsearch, starting at 09/08/2021 18:19:44
 INFO:	[hmmsearch]	45 of 448 task(s) completed
 INFO:	[hmmsearch]	90 of 448 task(s) completed
 INFO:	[hmmsearch]	135 of 448 task(s) completed
@@ -217,6 +243,7 @@ INFO:	[hmmsearch]	224 of 448 task(s) completed
 INFO:	[hmmsearch]	269 of 448 task(s) completed
 INFO:	[hmmsearch]	314 of 448 task(s) completed
 INFO:	[hmmsearch]	359 of 448 task(s) completed
+INFO:	[hmmsearch]	404 of 448 task(s) completed
 INFO:	[hmmsearch]	404 of 448 task(s) completed
 INFO:	[hmmsearch]	448 of 448 task(s) completed
 INFO:	Validating exons and removing overlapping matches
@@ -235,7 +262,11 @@ INFO:
 	|296	Missing BUSCOs (M)                        |
 	|758	Total BUSCO groups searched               |
 	--------------------------------------------------
-INFO:	BUSCO analysis done. Total running time: 511 seconds
+INFO:	BUSCO analysis done with WARNING(s). Total running time: 534 seconds
+
+***** Summary of warnings: *****
+WARNING:busco.BuscoDownloadManager	The file or folder /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_downloads/lineages/fungi_odb10 is not the last available version. To update all data files to the last version, add the parameter --update-data in your next run.
+
 INFO:	Results written in /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_fungi_Meiospore
 INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
 

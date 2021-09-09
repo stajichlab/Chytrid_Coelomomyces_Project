@@ -5,12 +5,29 @@ library(tidyverse)
 library(vroom)
 
 #read in annotation and gff3 files
-# annotations <- vroom("data/Coelomomyces_lativittatus_CIRM-AVA-1-Amber.annotations.txt")
+annotations <- vroom("data/Coelomomyces_lativittatus_CIRM-AVA-1-Amber.annotations.txt")
 # gff <- vroom("data/Coelomomyces_lativittatus_CIRM-AVA-1-Amber.gff3", skip = 1, col_names = c("scaffold", "software", "feature", "start", "stop", "score", "strand", "frame", "attribute")) #line one is header of gff3
 # annotations <- vroom("data/Coelomomyces_lativittatus_CIRM-AVA-1-Orange.annotations.txt")
 # gff <- vroom("data/Coelomomyces_lativittatus_CIRM-AVA-1-Orange.gff3", skip = 1, col_names = c("scaffold", "software", "feature", "start", "stop", "score", "strand", "frame", "attribute")) #line one is header of gff3
-annotations <- vroom("data/Coelomomyces_lativittatus_CIRM-AVA-1-Meiospore.annotations.txt")
-gff <- vroom("data/Coelomomyces_lativittatus_CIRM-AVA-1-Meiospore.gff3", skip = 1, col_names = c("scaffold", "software", "feature", "start", "stop", "score", "strand", "frame", "attribute")) #line one is header of gff3
+# annotations <- vroom("data/Coelomomyces_lativittatus_CIRM-AVA-1-Meiospore.annotations.txt")
+# gff <- vroom("data/Coelomomyces_lativittatus_CIRM-AVA-1-Meiospore.gff3", skip = 1, col_names = c("scaffold", "software", "feature", "start", "stop", "score", "strand", "frame", "attribute")) #line one is header of gff3
+
+
+#remove contaminated scaffolds
+contam <- read.delim("data/amber_scaff_remove.txt", header=FALSE, col.names = "scaffold")
+# contam <- read.delim("data/orange_scaffolds_bacteria.txt", header=FALSE, col.names = "scaffold")
+# contam <- read.delim("data/meio_scaffolds_bacteria_archaea.txt", header=FALSE, col.names = "scaffold")
+   
+#filter out contaminants
+gff <- gff %>% filter(!scaffold %in% contam$scaffold)
+annotations <- annotations %>% filter(!Contig %in% contam$scaffold)
+
+write.table(annotations, "data/Coelomomyces_lativittatus_CIRM-AVA-1-Amber.annotations.filt.txt", row.names=FALSE, sep="\t", quote = FALSE)
+write.table(gff, "data/Coelomomyces_lativittatus_CIRM-AVA-1-Amber.filt.gff3", row.names=FALSE, sep="\t", quote = FALSE)
+# write.table(annotations, "data/Coelomomyces_lativittatus_CIRM-AVA-1-Orange.annotations.filt.txt", row.names=FALSE, sep="\t", quote = FALSE)
+# write.table(gff, "data/Coelomomyces_lativittatus_CIRM-AVA-1-Orange.filt.gff3", row.names=FALSE, sep="\t", quote = FALSE)
+# write.table(annotations, "data/Coelomomyces_lativittatus_CIRM-AVA-1-Meiospore.annotations.filt.txt", row.names=FALSE, sep="\t", quote = FALSE)
+# write.table(gff, "data/Coelomomyces_lativittatus_CIRM-AVA-1-Meiospore.filt.gff3", row.names=FALSE, sep="\t", quote = FALSE)
 
 
 #coding genes vs. trna
@@ -42,7 +59,7 @@ annotation.stats <- annotation.stats %>%
   add_row(Category = "Average mRNA length", Value = gff.feat.avgs$avg.len[gff.feat.avgs$feature == "mRNA"]) 
 
 
-#write.csv(annotation.stats, "Amber_annotation.stats.csv", row.names = FALSE)
+write.csv(annotation.stats, "Amber_annotation.stats.csv", row.names = FALSE)
 #write.csv(annotation.stats, "Orange_annotation.stats.csv", row.names = FALSE)
-write.csv(annotation.stats, "Meio_annotation.stats.csv", row.names = FALSE)
+#write.csv(annotation.stats, "Meio_annotation.stats.csv", row.names = FALSE)
 

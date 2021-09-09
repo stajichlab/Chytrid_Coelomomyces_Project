@@ -6,7 +6,7 @@ Loading augustus/3.3.3
 base                     /opt/linux/centos/7.x/x86_64/pkgs/miniconda3/4.3.31
 AAFTF                    /opt/linux/centos/7.x/x86_64/pkgs/miniconda3/4.3.31/envs/AAFTF
 BASTA                    /opt/linux/centos/7.x/x86_64/pkgs/miniconda3/4.3.31/envs/BASTA
-DRAM-1.2.3               /opt/linux/centos/7.x/x86_64/pkgs/miniconda3/4.3.31/envs/DRAM-1.2.3
+DRAM-1.2.4               /opt/linux/centos/7.x/x86_64/pkgs/miniconda3/4.3.31/envs/DRAM-1.2.4
 GAL                      /opt/linux/centos/7.x/x86_64/pkgs/miniconda3/4.3.31/envs/GAL
 KEGGDecoder              /opt/linux/centos/7.x/x86_64/pkgs/miniconda3/4.3.31/envs/KEGGDecoder
 SALSA                    /opt/linux/centos/7.x/x86_64/pkgs/miniconda3/4.3.31/envs/SALSA
@@ -89,73 +89,16 @@ tRNAscan                 /rhome/cassande/bigdata/.conda/envs/tRNAscan
 vContact2                /rhome/cassande/bigdata/.conda/envs/vContact2
 virsorter2               /rhome/cassande/bigdata/.conda/envs/virsorter2
 
-INFO:	***** Start a BUSCO v5.0.0 analysis, current time: 08/26/2021 21:14:42 *****
+INFO:	***** Start a BUSCO v5.0.0 analysis, current time: 09/08/2021 17:53:23 *****
 INFO:	Configuring BUSCO with /bigdata/stajichlab/cassande/eisenlab/sg_colleo/funannotate/config.ini
 INFO:	Mode is genome
-INFO:	Input file is data/Coelomomyces_lativittatus_CIRM-AVA-1-Amber.scaffolds.fa
-INFO:	Downloading information on latest versions of BUSCO data...
-INFO:	Downloading file 'https://busco-data.ezlab.org/v5/data/lineages/eukaryota_odb10.2020-09-10.tar.gz'
-INFO:	Decompressing file '/bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_downloads/lineages/eukaryota_odb10.tar.gz'
-INFO:	Running BUSCO using lineage dataset eukaryota_odb10 (eukaryota, 2020-09-10)
-INFO:	Running 1 job(s) on metaeuk, starting at 08/26/2021 21:14:59
-INFO:	[metaeuk]	1 of 1 task(s) completed
-INFO:	***** Run HMMER on gene sequences *****
-INFO:	Running 255 job(s) on hmmsearch, starting at 08/26/2021 21:17:00
-INFO:	[hmmsearch]	51 of 255 task(s) completed
-INFO:	[hmmsearch]	77 of 255 task(s) completed
-INFO:	[hmmsearch]	102 of 255 task(s) completed
-INFO:	[hmmsearch]	128 of 255 task(s) completed
-INFO:	[hmmsearch]	153 of 255 task(s) completed
-INFO:	[hmmsearch]	179 of 255 task(s) completed
-INFO:	[hmmsearch]	179 of 255 task(s) completed
-INFO:	[hmmsearch]	204 of 255 task(s) completed
-INFO:	[hmmsearch]	230 of 255 task(s) completed
-INFO:	[hmmsearch]	255 of 255 task(s) completed
-INFO:	Extracting missing and fragmented buscos from the file refseq_db.faa...
-INFO:	Running 1 job(s) on metaeuk, starting at 08/26/2021 21:17:12
-INFO:	[metaeuk]	1 of 1 task(s) completed
-INFO:	***** Run HMMER on gene sequences *****
-INFO:	Running 113 job(s) on hmmsearch, starting at 08/26/2021 21:22:19
-INFO:	[hmmsearch]	12 of 113 task(s) completed
-INFO:	[hmmsearch]	23 of 113 task(s) completed
-INFO:	[hmmsearch]	34 of 113 task(s) completed
-INFO:	[hmmsearch]	46 of 113 task(s) completed
-INFO:	[hmmsearch]	57 of 113 task(s) completed
-INFO:	[hmmsearch]	68 of 113 task(s) completed
-INFO:	[hmmsearch]	80 of 113 task(s) completed
-INFO:	[hmmsearch]	91 of 113 task(s) completed
-INFO:	[hmmsearch]	102 of 113 task(s) completed
-INFO:	[hmmsearch]	113 of 113 task(s) completed
-INFO:	Validating exons and removing overlapping matches
-INFO:	Results:	C:62.4%[S:61.2%,D:1.2%],F:20.8%,M:16.8%,n:255	   
-
-INFO:	
-
-	--------------------------------------------------
-	|Results from dataset eukaryota_odb10             |
-	--------------------------------------------------
-	|C:62.4%[S:61.2%,D:1.2%],F:20.8%,M:16.8%,n:255    |
-	|159	Complete BUSCOs (C)                       |
-	|156	Complete and single-copy BUSCOs (S)       |
-	|3	Complete and duplicated BUSCOs (D)        |
-	|53	Fragmented BUSCOs (F)                     |
-	|43	Missing BUSCOs (M)                        |
-	|255	Total BUSCO groups searched               |
-	--------------------------------------------------
-INFO:	BUSCO analysis done. Total running time: 463 seconds
-INFO:	Results written in /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Amber
-INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
-
-INFO:	***** Start a BUSCO v5.0.0 analysis, current time: 08/26/2021 21:22:27 *****
-INFO:	Configuring BUSCO with /bigdata/stajichlab/cassande/eisenlab/sg_colleo/funannotate/config.ini
-INFO:	Mode is genome
-INFO:	Input file is data/Coelomomyces_lativittatus_CIRM-AVA-1-Orange.scaffolds.fa
+INFO:	Input file is data/Coelomomyces_lativittatus_CIRM-AVA-1-Amber.scaffolds.filtered.fa
 INFO:	Downloading information on latest versions of BUSCO data...
 INFO:	Running BUSCO using lineage dataset eukaryota_odb10 (eukaryota, 2020-09-10)
-INFO:	Running 1 job(s) on metaeuk, starting at 08/26/2021 21:22:28
+INFO:	Running 1 job(s) on metaeuk, starting at 09/08/2021 17:53:24
 INFO:	[metaeuk]	1 of 1 task(s) completed
 INFO:	***** Run HMMER on gene sequences *****
-INFO:	Running 255 job(s) on hmmsearch, starting at 08/26/2021 21:23:42
+INFO:	Running 255 job(s) on hmmsearch, starting at 09/08/2021 17:54:52
 INFO:	[hmmsearch]	26 of 255 task(s) completed
 INFO:	[hmmsearch]	51 of 255 task(s) completed
 INFO:	[hmmsearch]	77 of 255 task(s) completed
@@ -167,10 +110,66 @@ INFO:	[hmmsearch]	204 of 255 task(s) completed
 INFO:	[hmmsearch]	230 of 255 task(s) completed
 INFO:	[hmmsearch]	255 of 255 task(s) completed
 INFO:	Extracting missing and fragmented buscos from the file refseq_db.faa...
-INFO:	Running 1 job(s) on metaeuk, starting at 08/26/2021 21:23:55
+INFO:	Running 1 job(s) on metaeuk, starting at 09/08/2021 17:55:04
 INFO:	[metaeuk]	1 of 1 task(s) completed
 INFO:	***** Run HMMER on gene sequences *****
-INFO:	Running 137 job(s) on hmmsearch, starting at 08/26/2021 21:27:35
+INFO:	Running 117 job(s) on hmmsearch, starting at 09/08/2021 17:58:50
+INFO:	[hmmsearch]	12 of 117 task(s) completed
+INFO:	[hmmsearch]	24 of 117 task(s) completed
+INFO:	[hmmsearch]	36 of 117 task(s) completed
+INFO:	[hmmsearch]	47 of 117 task(s) completed
+INFO:	[hmmsearch]	59 of 117 task(s) completed
+INFO:	[hmmsearch]	59 of 117 task(s) completed
+INFO:	[hmmsearch]	71 of 117 task(s) completed
+INFO:	[hmmsearch]	82 of 117 task(s) completed
+INFO:	[hmmsearch]	94 of 117 task(s) completed
+INFO:	[hmmsearch]	106 of 117 task(s) completed
+INFO:	[hmmsearch]	117 of 117 task(s) completed
+INFO:	Validating exons and removing overlapping matches
+INFO:	Results:	C:60.4%[S:60.4%,D:0.0%],F:22.0%,M:17.6%,n:255	   
+
+INFO:	
+
+	--------------------------------------------------
+	|Results from dataset eukaryota_odb10             |
+	--------------------------------------------------
+	|C:60.4%[S:60.4%,D:0.0%],F:22.0%,M:17.6%,n:255    |
+	|154	Complete BUSCOs (C)                       |
+	|154	Complete and single-copy BUSCOs (S)       |
+	|0	Complete and duplicated BUSCOs (D)        |
+	|56	Fragmented BUSCOs (F)                     |
+	|45	Missing BUSCOs (M)                        |
+	|255	Total BUSCO groups searched               |
+	--------------------------------------------------
+INFO:	BUSCO analysis done. Total running time: 333 seconds
+INFO:	Results written in /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Amber
+INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
+
+INFO:	***** Start a BUSCO v5.0.0 analysis, current time: 09/08/2021 17:58:57 *****
+INFO:	Configuring BUSCO with /bigdata/stajichlab/cassande/eisenlab/sg_colleo/funannotate/config.ini
+INFO:	Mode is genome
+INFO:	Input file is data/Coelomomyces_lativittatus_CIRM-AVA-1-Orange.scaffolds.filtered.fa
+INFO:	Downloading information on latest versions of BUSCO data...
+INFO:	Running BUSCO using lineage dataset eukaryota_odb10 (eukaryota, 2020-09-10)
+INFO:	Running 1 job(s) on metaeuk, starting at 09/08/2021 17:58:58
+INFO:	[metaeuk]	1 of 1 task(s) completed
+INFO:	***** Run HMMER on gene sequences *****
+INFO:	Running 255 job(s) on hmmsearch, starting at 09/08/2021 18:00:12
+INFO:	[hmmsearch]	26 of 255 task(s) completed
+INFO:	[hmmsearch]	51 of 255 task(s) completed
+INFO:	[hmmsearch]	77 of 255 task(s) completed
+INFO:	[hmmsearch]	102 of 255 task(s) completed
+INFO:	[hmmsearch]	128 of 255 task(s) completed
+INFO:	[hmmsearch]	153 of 255 task(s) completed
+INFO:	[hmmsearch]	179 of 255 task(s) completed
+INFO:	[hmmsearch]	204 of 255 task(s) completed
+INFO:	[hmmsearch]	230 of 255 task(s) completed
+INFO:	[hmmsearch]	255 of 255 task(s) completed
+INFO:	Extracting missing and fragmented buscos from the file refseq_db.faa...
+INFO:	Running 1 job(s) on metaeuk, starting at 09/08/2021 18:00:25
+INFO:	[metaeuk]	1 of 1 task(s) completed
+INFO:	***** Run HMMER on gene sequences *****
+INFO:	Running 137 job(s) on hmmsearch, starting at 09/08/2021 18:04:03
 INFO:	[hmmsearch]	14 of 137 task(s) completed
 INFO:	[hmmsearch]	28 of 137 task(s) completed
 INFO:	[hmmsearch]	42 of 137 task(s) completed
@@ -197,21 +196,20 @@ INFO:
 	|68	Missing BUSCOs (M)                        |
 	|255	Total BUSCO groups searched               |
 	--------------------------------------------------
-INFO:	BUSCO analysis done. Total running time: 314 seconds
+INFO:	BUSCO analysis done. Total running time: 312 seconds
 INFO:	Results written in /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Orange
 INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
 
-INFO:	***** Start a BUSCO v5.0.0 analysis, current time: 08/26/2021 21:27:43 *****
+INFO:	***** Start a BUSCO v5.0.0 analysis, current time: 09/08/2021 18:04:10 *****
 INFO:	Configuring BUSCO with /bigdata/stajichlab/cassande/eisenlab/sg_colleo/funannotate/config.ini
 INFO:	Mode is genome
-INFO:	Input file is data/Coelomomyces_lativittatus_CIRM-AVA-1-Meiospore.scaffolds.fa
+INFO:	Input file is data/Coelomomyces_lativittatus_CIRM-AVA-1-Meiospore.scaffolds.filtered.fa
 INFO:	Downloading information on latest versions of BUSCO data...
 INFO:	Running BUSCO using lineage dataset eukaryota_odb10 (eukaryota, 2020-09-10)
-INFO:	Running 1 job(s) on metaeuk, starting at 08/26/2021 21:27:44
+INFO:	Running 1 job(s) on metaeuk, starting at 09/08/2021 18:04:11
 INFO:	[metaeuk]	1 of 1 task(s) completed
 INFO:	***** Run HMMER on gene sequences *****
-INFO:	Running 255 job(s) on hmmsearch, starting at 08/26/2021 21:29:05
-INFO:	[hmmsearch]	26 of 255 task(s) completed
+INFO:	Running 255 job(s) on hmmsearch, starting at 09/08/2021 18:05:34
 INFO:	[hmmsearch]	26 of 255 task(s) completed
 INFO:	[hmmsearch]	51 of 255 task(s) completed
 INFO:	[hmmsearch]	77 of 255 task(s) completed
@@ -223,10 +221,10 @@ INFO:	[hmmsearch]	204 of 255 task(s) completed
 INFO:	[hmmsearch]	230 of 255 task(s) completed
 INFO:	[hmmsearch]	255 of 255 task(s) completed
 INFO:	Extracting missing and fragmented buscos from the file refseq_db.faa...
-INFO:	Running 1 job(s) on metaeuk, starting at 08/26/2021 21:29:17
+INFO:	Running 1 job(s) on metaeuk, starting at 09/08/2021 18:05:46
 INFO:	[metaeuk]	1 of 1 task(s) completed
 INFO:	***** Run HMMER on gene sequences *****
-INFO:	Running 119 job(s) on hmmsearch, starting at 08/26/2021 21:32:52
+INFO:	Running 119 job(s) on hmmsearch, starting at 09/08/2021 18:09:26
 INFO:	[hmmsearch]	12 of 119 task(s) completed
 INFO:	[hmmsearch]	24 of 119 task(s) completed
 INFO:	[hmmsearch]	36 of 119 task(s) completed
@@ -253,7 +251,7 @@ INFO:
 	|50	Missing BUSCOs (M)                        |
 	|255	Total BUSCO groups searched               |
 	--------------------------------------------------
-INFO:	BUSCO analysis done. Total running time: 314 seconds
+INFO:	BUSCO analysis done. Total running time: 322 seconds
 INFO:	Results written in /bigdata/stajichlab/shared/projects/Chytrid/Coelomomyces/Chytrid_Coelomomyces_Assessment/busco_euk_Meiospore
 INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
 

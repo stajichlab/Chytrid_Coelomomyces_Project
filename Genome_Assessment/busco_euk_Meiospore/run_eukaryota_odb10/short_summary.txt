@@ -1,6 +1,6 @@
 # BUSCO version is: 5.0.0 
 # The lineage dataset is: eukaryota_odb10 (Creation date: 2020-09-10, number of species: 70, number of BUSCOs: 255)
-# Summarized benchmarking in BUSCO notation for file data/Coelomomyces_lativittatus_CIRM-AVA-1-Meiospore.scaffolds.fa
+# Summarized benchmarking in BUSCO notation for file data/Coelomomyces_lativittatus_CIRM-AVA-1-Meiospore.scaffolds.filtered.fa
 # BUSCO was run in mode: genome
 # Gene predictor used: metaeuk
 

@@ -1,0 +1,14 @@
+# BUSCO version is: 5.0.0 
+# The lineage dataset is: eukaryota_odb10 (Creation date: 2020-09-10, number of species: 70, number of BUSCOs: 255)
+# Summarized benchmarking in BUSCO notation for file data/filtered/Coelomomyces_lativittatus_CIRM-AVA-1-Amber.transcripts.fasta
+# BUSCO was run in mode: transcriptome
+
+	***** Results: *****
+
+	C:64.7%[S:64.7%,D:0.0%],F:20.4%,M:14.9%,n:255	   
+	165	Complete BUSCOs (C)			   
+	165	Complete and single-copy BUSCOs (S)	   
+	0	Complete and duplicated BUSCOs (D)	   
+	52	Fragmented BUSCOs (F)			   
+	38	Missing BUSCOs (M)			   
+	255	Total BUSCO groups searched		   

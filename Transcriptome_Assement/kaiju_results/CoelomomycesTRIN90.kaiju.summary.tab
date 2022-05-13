@@ -1,0 +1,136 @@
+file	percent	reads	taxon_id	taxon_name
+kaiju/CoelomomycesTRIN90.kaiju.out	3.363436	3054	1224	Proteobacteria
+kaiju/CoelomomycesTRIN90.kaiju.out	3.093612	2809	4890	Ascomycota
+kaiju/CoelomomycesTRIN90.kaiju.out	2.933921	2664	451459	Blastocladiomycota
+kaiju/CoelomomycesTRIN90.kaiju.out	2.001101	1817	5204	Basidiomycota
+kaiju/CoelomomycesTRIN90.kaiju.out	1.621145	1472	1913637	Mucoromycota
+kaiju/CoelomomycesTRIN90.kaiju.out	1.572687	1428	201174	Actinobacteria
+kaiju/CoelomomycesTRIN90.kaiju.out	1.555066	1412	4761	Chytridiomycota
+kaiju/CoelomomycesTRIN90.kaiju.out	0.940529	854	1913638	Zoopagomycota
+kaiju/CoelomomycesTRIN90.kaiju.out	0.904185	821	1239	Firmicutes
+kaiju/CoelomomycesTRIN90.kaiju.out	0.704846	640	5752	Heterolobosea
+kaiju/CoelomomycesTRIN90.kaiju.out	0.667401	606	976	Bacteroidetes
+kaiju/CoelomomycesTRIN90.kaiju.out	0.621145	564	3041	Chlorophyta
+kaiju/CoelomomycesTRIN90.kaiju.out	0.551762	501	2605435	Evosea
+kaiju/CoelomomycesTRIN90.kaiju.out	0.328194	298	5878	Ciliophora
+kaiju/CoelomomycesTRIN90.kaiju.out	0.323789	294	5794	Apicomplexa
+kaiju/CoelomomycesTRIN90.kaiju.out	0.248899	226	33682	Euglenozoa
+kaiju/CoelomomycesTRIN90.kaiju.out	0.183921	167	2763	Rhodophyta
+kaiju/CoelomomycesTRIN90.kaiju.out	0.176211	160	203682	Planctomycetes
+kaiju/CoelomomycesTRIN90.kaiju.out	0.175110	159	1117	Cyanobacteria
+kaiju/CoelomomycesTRIN90.kaiju.out	0.174009	158	1031332	Cryptomycota
+kaiju/CoelomomycesTRIN90.kaiju.out	0.129956	118	555280	Discosea
+kaiju/CoelomomycesTRIN90.kaiju.out	0.126652	115	200795	Chloroflexi
+kaiju/CoelomomycesTRIN90.kaiju.out	0.111233	101	28890	Euryarchaeota
+kaiju/CoelomomycesTRIN90.kaiju.out	0.109031	99	57723	Acidobacteria
+kaiju/CoelomomycesTRIN90.kaiju.out	0.099119	90	2608109	Haptista
+kaiju/CoelomomycesTRIN90.kaiju.out	0.096916	88	2836	Bacillariophyta
+kaiju/CoelomomycesTRIN90.kaiju.out	0.083700	76	6029	Microsporidia
+kaiju/CoelomomycesTRIN90.kaiju.out	0.066079	60	74201	Verrucomicrobia
+kaiju/CoelomomycesTRIN90.kaiju.out	0.063877	58	29178	Foraminifera
+kaiju/CoelomomycesTRIN90.kaiju.out	0.055066	50	203691	Spirochaetes
+kaiju/CoelomomycesTRIN90.kaiju.out	0.050661	46	2604748	Endomyxa
+kaiju/CoelomomycesTRIN90.kaiju.out	0.046256	42	2497438	Perkinsozoa
+kaiju/CoelomomycesTRIN90.kaiju.out	0.038546	35	204428	Chlamydiae
+kaiju/CoelomomycesTRIN90.kaiju.out	0.035242	32	5719	Parabasalia
+kaiju/CoelomomycesTRIN90.kaiju.out	0.025330	23	544448	Tenericutes
+kaiju/CoelomomycesTRIN90.kaiju.out	0.020925	19	28889	Crenarchaeota
+kaiju/CoelomomycesTRIN90.kaiju.out	0.018722	17	142182	Gemmatimonadetes
+kaiju/CoelomomycesTRIN90.kaiju.out	0.017621	16	207245	Fornicata
+kaiju/CoelomomycesTRIN90.kaiju.out	0.016520	15	1297	Deinococcus-Thermus
+kaiju/CoelomomycesTRIN90.kaiju.out	0.016520	15	2662611	Preaxostyla
+kaiju/CoelomomycesTRIN90.kaiju.out	0.015419	14	67812	Candidatus Omnitrophica
+kaiju/CoelomomycesTRIN90.kaiju.out	0.014317	13	40117	Nitrospirae
+kaiju/CoelomomycesTRIN90.kaiju.out	0.012115	11	74152	Elusimicrobia
+kaiju/CoelomomycesTRIN90.kaiju.out	0.012115	11	1655434	Candidatus Lokiarchaeota
+kaiju/CoelomomycesTRIN90.kaiju.out	0.011013	10	200918	Thermotogae
+kaiju/CoelomomycesTRIN90.kaiju.out	0.009912	9	651137	Thaumarchaeota
+kaiju/CoelomomycesTRIN90.kaiju.out	0.009912	9	928852	Candidatus Bathyarchaeota
+kaiju/CoelomomycesTRIN90.kaiju.out	0.008811	8	1752731	Candidatus Magasanikbacteria
+kaiju/CoelomomycesTRIN90.kaiju.out	0.008811	8	1930617	Calditrichaeota
+kaiju/CoelomomycesTRIN90.kaiju.out	0.007709	7	1090	Chlorobi
+kaiju/CoelomomycesTRIN90.kaiju.out	0.007709	7	1936987	Balneolaeota
+kaiju/CoelomomycesTRIN90.kaiju.out	0.006608	6	65842	Fibrobacteres
+kaiju/CoelomomycesTRIN90.kaiju.out	0.006608	6	508458	Synergistetes
+kaiju/CoelomomycesTRIN90.kaiju.out	0.006608	6	1379697	candidate division Zixibacteria
+kaiju/CoelomomycesTRIN90.kaiju.out	0.006608	6	1619053	Candidatus Peregrinibacteria
+kaiju/CoelomomycesTRIN90.kaiju.out	0.006608	6	1706441	Candidatus Thorarchaeota
+kaiju/CoelomomycesTRIN90.kaiju.out	0.006608	6	1752708	Candidatus Rokubacteria
+kaiju/CoelomomycesTRIN90.kaiju.out	0.005507	5	95818	Candidatus Saccharibacteria
+kaiju/CoelomomycesTRIN90.kaiju.out	0.005507	5	134625	Kiritimatiellaeota
+kaiju/CoelomomycesTRIN90.kaiju.out	0.005507	5	200783	Aquificae
+kaiju/CoelomomycesTRIN90.kaiju.out	0.005507	5	256845	Lentisphaerae
+kaiju/CoelomomycesTRIN90.kaiju.out	0.005507	5	1134404	Ignavibacteriae
+kaiju/CoelomomycesTRIN90.kaiju.out	0.005507	5	1752729	Candidatus Nomurabacteria
+kaiju/CoelomomycesTRIN90.kaiju.out	0.004405	4	67817	Candidatus Aminicenantes
+kaiju/CoelomomycesTRIN90.kaiju.out	0.004405	4	67819	Armatimonadetes
+kaiju/CoelomomycesTRIN90.kaiju.out	0.004405	4	640293	candidate division NC10
+kaiju/CoelomomycesTRIN90.kaiju.out	0.004405	4	1752732	Candidatus Uhrbacteria
+kaiju/CoelomomycesTRIN90.kaiju.out	0.004405	4	1802339	Candidatus Tectomicrobia
+kaiju/CoelomomycesTRIN90.kaiju.out	0.003304	3	62680	Candidatus Marinimicrobia
+kaiju/CoelomomycesTRIN90.kaiju.out	0.003304	3	200930	Deferribacteres
+kaiju/CoelomomycesTRIN90.kaiju.out	0.003304	3	221216	Candidatus Parcubacteria
+kaiju/CoelomomycesTRIN90.kaiju.out	0.003304	3	363464	Candidatus Gracilibacteria
+kaiju/CoelomomycesTRIN90.kaiju.out	0.003304	3	422282	candidate division WWE3
+kaiju/CoelomomycesTRIN90.kaiju.out	0.003304	3	1752720	Candidatus Gottesmanbacteria
+kaiju/CoelomomycesTRIN90.kaiju.out	0.003304	3	1752737	Candidatus Moranbacteria
+kaiju/CoelomomycesTRIN90.kaiju.out	0.003304	3	1801616	Candidatus Woesearchaeota
+kaiju/CoelomomycesTRIN90.kaiju.out	0.003304	3	1817801	Candidatus Eisenbacteria
+kaiju/CoelomomycesTRIN90.kaiju.out	0.002203	2	32066	Fusobacteria
+kaiju/CoelomomycesTRIN90.kaiju.out	0.002203	2	51967	Candidatus Korarchaeota
+kaiju/CoelomomycesTRIN90.kaiju.out	0.002203	2	142187	Candidatus Hydrogenedentes
+kaiju/CoelomomycesTRIN90.kaiju.out	0.002203	2	200295	Candidatus Sumerlaeota
+kaiju/CoelomomycesTRIN90.kaiju.out	0.002203	2	200938	Chrysiogenetes
+kaiju/CoelomomycesTRIN90.kaiju.out	0.002203	2	456828	Candidatus Cloacimonetes
+kaiju/CoelomomycesTRIN90.kaiju.out	0.002203	2	555369	Tubulinea
+kaiju/CoelomomycesTRIN90.kaiju.out	0.002203	2	1052815	Candidatus Aerophobetes
+kaiju/CoelomomycesTRIN90.kaiju.out	0.002203	2	1736114	Imbricatea
+kaiju/CoelomomycesTRIN90.kaiju.out	0.002203	2	1752716	Candidatus Dadabacteria
+kaiju/CoelomomycesTRIN90.kaiju.out	0.002203	2	1752717	Candidatus Curtissbacteria
+kaiju/CoelomomycesTRIN90.kaiju.out	0.002203	2	1752718	Candidatus Daviesbacteria
+kaiju/CoelomomycesTRIN90.kaiju.out	0.002203	2	1752722	Candidatus Woesebacteria
+kaiju/CoelomomycesTRIN90.kaiju.out	0.002203	2	1752724	Candidatus Pacebacteria
+kaiju/CoelomomycesTRIN90.kaiju.out	0.002203	2	1752734	Candidatus Kaiserbacteria
+kaiju/CoelomomycesTRIN90.kaiju.out	0.002203	2	1752739	Candidatus Jorgensenbacteria
+kaiju/CoelomomycesTRIN90.kaiju.out	0.002203	2	1752741	Candidatus Azambacteria
+kaiju/CoelomomycesTRIN90.kaiju.out	0.002203	2	1798710	Candidatus Melainabacteria
+kaiju/CoelomomycesTRIN90.kaiju.out	0.002203	2	1801631	Candidatus Micrarchaeota
+kaiju/CoelomomycesTRIN90.kaiju.out	0.002203	2	1817812	Candidatus Wallbacteria
+kaiju/CoelomomycesTRIN90.kaiju.out	0.002203	2	1853220	Rhodothermaeota
+kaiju/CoelomomycesTRIN90.kaiju.out	0.002203	2	1855361	Candidatus Kryptonia
+kaiju/CoelomomycesTRIN90.kaiju.out	0.002203	2	1978152	Candidatus Marsarchaeota
+kaiju/CoelomomycesTRIN90.kaiju.out	0.002203	2	2202805	Olpidiomycota
+kaiju/CoelomomycesTRIN90.kaiju.out	0.001101	1	67810	Candidatus Bipolaricaulota
+kaiju/CoelomomycesTRIN90.kaiju.out	0.001101	1	67818	Candidatus Atribacteria
+kaiju/CoelomomycesTRIN90.kaiju.out	0.001101	1	68297	Dictyoglomi
+kaiju/CoelomomycesTRIN90.kaiju.out	0.001101	1	136419	Cercozoa
+kaiju/CoelomomycesTRIN90.kaiju.out	0.001101	1	265317	Candidatus Poribacteria
+kaiju/CoelomomycesTRIN90.kaiju.out	0.001101	1	743725	Candidatus Diapherotrites
+kaiju/CoelomomycesTRIN90.kaiju.out	0.001101	1	1293497	Nitrospinae
+kaiju/CoelomomycesTRIN90.kaiju.out	0.001101	1	1752719	Candidatus Levybacteria
+kaiju/CoelomomycesTRIN90.kaiju.out	0.001101	1	1752721	Candidatus Shapirobacteria
+kaiju/CoelomomycesTRIN90.kaiju.out	0.001101	1	1752725	Candidatus Collierbacteria
+kaiju/CoelomomycesTRIN90.kaiju.out	0.001101	1	1752728	Candidatus Falkowbacteria
+kaiju/CoelomomycesTRIN90.kaiju.out	0.001101	1	1752735	Candidatus Wolfebacteria
+kaiju/CoelomomycesTRIN90.kaiju.out	0.001101	1	1817799	Candidatus Doudnabacteria
+kaiju/CoelomomycesTRIN90.kaiju.out	0.001101	1	1817806	Candidatus Handelsmanbacteria
+kaiju/CoelomomycesTRIN90.kaiju.out	0.001101	1	1817807	Candidatus Lindowbacteria
+kaiju/CoelomomycesTRIN90.kaiju.out	0.001101	1	1817808	Candidatus Margulisbacteria
+kaiju/CoelomomycesTRIN90.kaiju.out	0.001101	1	1817898	Candidatus Blackburnbacteria
+kaiju/CoelomomycesTRIN90.kaiju.out	0.001101	1	1817901	Candidatus Andersenbacteria
+kaiju/CoelomomycesTRIN90.kaiju.out	0.001101	1	1817905	Candidatus Harrisonbacteria
+kaiju/CoelomomycesTRIN90.kaiju.out	0.001101	1	1817911	Candidatus Nealsonbacteria
+kaiju/CoelomomycesTRIN90.kaiju.out	0.001101	1	1817913	Candidatus Portnoybacteria
+kaiju/CoelomomycesTRIN90.kaiju.out	0.001101	1	1817915	Candidatus Spechtbacteria
+kaiju/CoelomomycesTRIN90.kaiju.out	0.001101	1	1817916	Candidatus Staskawiczbacteria
+kaiju/CoelomomycesTRIN90.kaiju.out	0.001101	1	1817920	Candidatus Terrybacteria
+kaiju/CoelomomycesTRIN90.kaiju.out	0.001101	1	1817925	Candidatus Zambryskibacteria
+kaiju/CoelomomycesTRIN90.kaiju.out	0.001101	1	1819803	Candidatus Desantisbacteria
+kaiju/CoelomomycesTRIN90.kaiju.out	0.001101	1	2052312	Candidatus Dormibacteraeota
+kaiju/CoelomomycesTRIN90.kaiju.out	0.001101	1	2093358	Candidatus Abyssubacteria
+kaiju/CoelomomycesTRIN90.kaiju.out	0.001101	1	2109258	Abditibacteriota
+kaiju/CoelomomycesTRIN90.kaiju.out	0.001101	1	2576005	candidate division LCP-89
+kaiju/CoelomomycesTRIN90.kaiju.out	0.001101	1	2582935	Candidatus Altiarchaeota
+kaiju/CoelomomycesTRIN90.kaiju.out	0.145374	132	10239	Viruses
+kaiju/CoelomomycesTRIN90.kaiju.out	3.283040	2981	NA	cannot be assigned to a (non-viral) phylum
+kaiju/CoelomomycesTRIN90.kaiju.out	72.873348	66169	NA	unclassified

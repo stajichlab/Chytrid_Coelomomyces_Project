@@ -1,0 +1,14 @@
+# BUSCO version is: 5.0.0 
+# The lineage dataset is: eukaryota_odb10 (Creation date: 2020-09-10, number of species: 70, number of BUSCOs: 255)
+# Summarized benchmarking in BUSCO notation for file combined_transcripts/fun_90.fa
+# BUSCO was run in mode: transcriptome
+
+	***** Results: *****
+
+	C:81.6%[S:80.0%,D:1.6%],F:9.4%,M:9.0%,n:255	   
+	208	Complete BUSCOs (C)			   
+	204	Complete and single-copy BUSCOs (S)	   
+	4	Complete and duplicated BUSCOs (D)	   
+	24	Fragmented BUSCOs (F)			   
+	23	Missing BUSCOs (M)			   
+	255	Total BUSCO groups searched		   

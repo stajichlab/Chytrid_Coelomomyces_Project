@@ -1,0 +1,15 @@
+# BUSCO version is: 5.0.0 
+# The lineage dataset is: fungi_odb10 (Creation date: 2020-09-10, number of species: 549, number of BUSCOs: 758)
+# Summarized benchmarking in BUSCO notation for file data/JGI/Catan2_AssemblyScaffolds_Repeatmasked.fasta
+# BUSCO was run in mode: genome
+# Gene predictor used: metaeuk
+
+	***** Results: *****
+
+	C:71.6%[S:43.1%,D:28.5%],F:7.1%,M:21.3%,n:758	   
+	543	Complete BUSCOs (C)			   
+	327	Complete and single-copy BUSCOs (S)	   
+	216	Complete and duplicated BUSCOs (D)	   
+	54	Fragmented BUSCOs (F)			   
+	161	Missing BUSCOs (M)			   
+	758	Total BUSCO groups searched		   

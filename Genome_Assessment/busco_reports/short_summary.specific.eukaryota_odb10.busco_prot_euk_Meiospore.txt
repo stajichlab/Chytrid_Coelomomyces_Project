@@ -1,0 +1,14 @@
+# BUSCO version is: 5.0.0 
+# The lineage dataset is: eukaryota_odb10 (Creation date: 2020-09-10, number of species: 70, number of BUSCOs: 255)
+# Summarized benchmarking in BUSCO notation for file data/filtered/Coelomomyces_lativittatus_CIRM-AVA-1-Meiospore.prot.fa
+# BUSCO was run in mode: proteins
+
+	***** Results: *****
+
+	C:67.1%[S:66.7%,D:0.4%],F:19.2%,M:13.7%,n:255	   
+	171	Complete BUSCOs (C)			   
+	170	Complete and single-copy BUSCOs (S)	   
+	1	Complete and duplicated BUSCOs (D)	   
+	49	Fragmented BUSCOs (F)			   
+	35	Missing BUSCOs (M)			   
+	255	Total BUSCO groups searched		   

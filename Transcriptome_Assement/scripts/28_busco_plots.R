@@ -130,12 +130,12 @@ tree_plus <- chy.tre.w.meta.plot +
              width=.6)  +
   scale_fill_viridis_d(option = "magma", begin=.25, direction=-1) + new_scale_fill() +
   geom_facet(panel = "eukaryota_odb10", 
-             data = busco.stats.v3.aom, geom = geom_bar, 
+             data = busco.stats.v3.aom.euk, geom = geom_bar, 
              aes(x = percent, fill = busco_cat), 
              orientation = 'y', stat="identity", position="stack",
              width=.6) + 
   geom_facet(panel = "fungi_odb10", 
-             data = busco.stats.v3.aom, geom = geom_bar, 
+             data = busco.stats.v3.aom.fun, geom = geom_bar, 
              aes(x = percent, fill = busco_cat), 
              orientation = 'y', stat="identity", position="stack",
              width=.6) + 

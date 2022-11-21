@@ -1,0 +1,84 @@
+,GO term,Gene Count,P-value,Category
+1,aspartate family amino acid metabolic process,5,1.57E-05,BP
+2,cellular process,104,0.016273918,BP
+3,nucleosome organization,3,0.000498269,BP
+4,anion transmembrane transport,4,0.005658072,BP
+5,small molecule metabolic process,23,0.002119206,BP
+6,cellular metabolic compound salvage,2,0.023313533,BP
+7,biosynthetic process,40,0.028992499,BP
+8,purine-containing compound salvage,2,0.014467858,BP
+9,purine-containing compound metabolic process,6,0.035872501,BP
+10,organonitrogen compound biosynthetic process,29,0.001606394,BP
+11,glucose metabolic process,2,0.033815459,BP
+12,cellular amide metabolic process,20,0.001289443,BP
+13,nucleoside metabolic process,4,0.013720065,BP
+14,ribosome biogenesis,7,0.012017202,BP
+15,transmembrane transport,15,0.002409163,BP
+16,organic acid metabolic process,12,0.029918853,BP
+17,glycosyl compound metabolic process,4,0.013720065,BP
+18,nucleobase-containing small molecule biosynthetic process,2,0.045784724,BP
+19,cellular nitrogen compound biosynthetic process,31,0.017818184,BP
+20,nucleobase-containing small molecule metabolic process,9,0.044238484,BP
+21,DNA packaging,3,0.00599764,BP
+22,cellular component biogenesis,13,0.020712728,BP
+23,methionine metabolic process,3,0.00012939,BP
+24,protein-DNA complex subunit organization,3,0.00866493,BP
+25,organic substance biosynthetic process,39,0.022154837,BP
+26,alpha-amino acid metabolic process,5,0.01209396,BP
+27,purine-containing compound biosynthetic process,5,0.033573944,BP
+28,tRNA aminoacylation for protein translation,5,0.049913932,BP
+29,sulfur amino acid metabolic process,3,0.001199345,BP
+30,nucleosome,6,1.38E-07,CC
+31,non-membrane-bounded organelle,29,2.47E-06,CC
+32,protein-DNA complex,6,3.65E-06,CC
+33,DNA packaging complex,6,3.65E-06,CC
+34,ribosome,14,0.000603924,CC
+35,nucleolus,4,0.003949946,CC
+36,intraciliary transport particle,2,0.016341234,CC
+37,intraciliary transport particle B,2,0.016341234,CC
+38,ribosomal subunit,4,0.027915125,CC
+39,structural constituent of ribosome,14,0.002097135,MF
+40,anion transmembrane transporter activity,5,0.002518436,MF
+41,methylenetetrahydrofolate reductase (NAD(P)H) activity,2,0.003158696,MF
+42,GTP binding,12,0.005748108,MF
+43,purine ribonucleoside binding,12,0.005748108,MF
+44,purine nucleoside binding,12,0.005748108,MF
+45,guanyl nucleotide binding,12,0.006263022,MF
+46,heterocyclic compound binding,77,0.006380676,MF
+47,organic cyclic compound binding,77,0.006380676,MF
+48,structural molecule activity,15,0.006398233,MF
+49,nucleoside binding,12,0.008699342,MF
+50,purine ribonucleoside triphosphate binding,43,0.015747967,MF
+51,protein heterodimerization activity,4,0.015993682,MF
+52,purine ribonucleotide binding,43,0.016227696,MF
+53,methyltransferase activity,8,0.016234852,MF
+54,carbohydrate derivative binding,43,0.026394047,MF
+55,"transferase activity, transferring one-carbon groups",8,0.030129787,MF
+56,ion binding,58,0.031808665,MF
+57,carbohydrate derivative transmembrane transporter activity,3,0.033104592,MF
+58,nucleobase-containing compound transmembrane transporter activity,3,0.033104592,MF
+59,"oxidoreductase activity, acting on the aldehyde or oxo group of donors",3,0.040430704,MF
+60,anion binding,45,0.041613598,MF
+61,transporter activity,14,0.044413606,MF
+62,nucleoside phosphate binding,45,0.048026281,MF
+63,nucleobase-containing compound kinase activity,3,0.04850251,MF
+64,active transmembrane transporter activity,4,0.048712442,MF
+65,vesicle-mediated transport,0,0.00355469453077802,BP
+66,proteolysis,2,0.00486135328813983,BP
+67,nucleic acid metabolic process,16,0.0395782138208823,BP
+68,macromolecule catabolic process,1,0.0409553198633672,BP
+69,response to stimulus,6,0.0444046728842617,BP
+70,nuclear protein-containing complex,0,0.000427790825743624,CC
+71,membrane protein complex,0,0.00117414953505346,CC
+72,intracellular protein-containing complex,0,0.00141624526192903,CC
+73,endomembrane system,0,0.00381219361881411,CC
+74,membrane-bounded organelle,11,0.004156255998203,CC
+75,intracellular membrane-bounded organelle,11,0.00713855053055717,CC
+76,transferase complex,0,0.0128553283431163,CC
+77,cytoplasm,9,0.0189014693589917,CC
+78,protein-containing complex,20,0.0266357495864052,CC
+79,catalytic complex,4,0.0454512922323707,CC
+80,protein binding,26,0.0158039703110612,MF
+81,peptidase activity,3,0.0220713356216452,MF
+82,"catalytic activity, acting on a protein",15,0.0364680698562627,MF
+83,hydrolase activity,24,0.0443745100577918,MF

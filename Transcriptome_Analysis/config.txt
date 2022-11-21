@@ -1,0 +1,5 @@
+SPECIES=CoelomomycesMeiospore
+INDIR=input
+FASTQEXT=fq.gz
+FWDEXT=1
+REVEXT=2

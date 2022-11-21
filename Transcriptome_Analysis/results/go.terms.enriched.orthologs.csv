@@ -1,0 +1,11 @@
+"","GOBPID","Pvalue","OddsRatio","ExpCount","Count","Size","Term","Category","Revigo_Eliminated"
+"1","GO:0005975",0.011585791,2.249156627,6.541528239,13,88,"carbohydrate metabolic process","BP",FALSE
+"2","GO:0006812",0.02937273,2.080794818,5.872508306,11,79,"cation transport","BP",TRUE
+"3","GO:0007165",1.83e-09,4.193403028,10.92732558,33,147,"signal transduction","BP",TRUE
+"4","GO:0007186",0.000175904,8.206131078,1.338039867,7,18,"G protein-coupled receptor signaling pathway","BP",FALSE
+"5","GO:0016021",3.94e-06,3.274739583,13.57053292,30,222,"integral component of membrane","CC",FALSE
+"6","GO:0004252",0.000619461,4.617857143,2.543854325,9,33,"serine-type endopeptidase activity","MF",TRUE
+"7","GO:0016810",0.001764384,3.519906323,3.468892261,10,45,"hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds","MF",FALSE
+"8","GO:0005515",0.00187813,1.534352821,61.05250379,81,792,"protein binding","MF",FALSE
+"9","GO:0008324",0.008092151,2.358371979,6.24400607,13,81,"cation transmembrane transporter activity","MF",TRUE
+"10","GO:0004930",0.010403033,6.066,0.925037936,4,12,"G protein-coupled receptor activity","MF",TRUE

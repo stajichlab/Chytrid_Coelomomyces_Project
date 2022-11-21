@@ -1,0 +1,15 @@
+*~
+.#*
+#*
+*.idx
+db/*.gff3
+db/*.fasta
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+results/kallisto
+*.Rproj
+results/kallisto_AOM90_BBNH
+plots/exploratory
+plots/*afphoto

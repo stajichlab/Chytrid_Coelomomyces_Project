@@ -1,0 +1,7 @@
+"","GOCCID","Pvalue","OddsRatio","ExpCount","Count","Size","Term"
+"1","GO:0005634",0.00185800109940529,0,5.59090909090909,0,246,"nucleus"
+"2","GO:0043227",0.002525007769226,0.210146188652976,10.1136363636364,3,445,"membrane-bounded organelle"
+"3","GO:0043231",0.00369433163405291,0.221581696991533,9.77272727272727,3,430,"intracellular membrane-bounded organelle"
+"4","GO:0140513",0.0297862008256814,0,3.27272727272727,0,144,"nuclear protein-containing complex"
+"5","GO:0098796",0.0427324565015873,0,2.95454545454545,0,130,"membrane protein complex"
+"6","GO:0140535",0.0461416670554079,0,2.88636363636364,0,127,"intracellular protein-containing complex"

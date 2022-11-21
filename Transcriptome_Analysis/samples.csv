@@ -1,0 +1,15 @@
+SAMPLE,Condition,Replicate,FilenameBase
+EarlyInfA,EarlyInf,A,EarlyInfA
+EarlyInfB,EarlyInf,B,EarlyInfB
+LateInfA,LateInf,A,LateInfA
+LateInfB,LateInf,B,LateInfB
+MiddleInfA,MiddleInf,A,MiddleInfA
+MiddleInfB,MiddleInf,B,MiddleInfB
+Sporangia0A,Sporangia0,A,Sporangia0A
+Sporangia0B,Sporangia0,B,Sporangia0B
+Sporangia24A,Sporangia24,A,Sporangia24A
+Sporangia24B,Sporangia24,B,Sporangia24B
+Sporangia36A,Sporangia36,A,Sporangia36A
+Sporangia36B,Sporangia36,B,Sporangia36B
+Sporangia48A,Sporangia48,A,Sporangia48A
+Sporangia48B,Sporangia48,B,Sporangia48B

@@ -1,0 +1,58 @@
+,GO term ,Gene Count,P-value,Category
+1,translation,119,0.000491305132621167,BP
+2,peptide biosynthetic process,121,0.0010062865063794,BP
+3,peptide metabolic process,125,0.00126209034872234,BP
+4,amide biosynthetic process,123,0.00148471949284533,BP
+5,gene expression,325,0.00285861589692936,BP
+6,cellular amide metabolic process,128,0.00315573581366818,BP
+7,cellular nitrogen compound biosynthetic process,267,0.00818968009793472,BP
+8,cellular protein metabolic process,314,0.0221029325779457,BP
+9,chemical homeostasis,8,0.0221805286743956,BP
+10,transcription by RNA polymerase III,8,0.0221805286743956,BP
+11,ribosome biogenesis,34,0.0241011262480244,BP
+12,cytosolic transport,9,0.0372697220585116,BP
+13,negative regulation of nitrogen compound metabolic process,7,0.039289163553637,BP
+14,iron-sulfur cluster assembly,7,0.039289163553637,BP
+15,metallo-sulfur cluster assembly,7,0.039289163553637,BP
+16,amino acid activation,24,0.0407304173989958,BP
+17,tRNA aminoacylation,24,0.0407304173989958,BP
+18,protein phosphorylation,92,0.0424190465675427,BP
+19,ribonucleoprotein complex biogenesis,41,0.0426360717806305,BP
+20,microtubule associated complex,21,0.00311887671301056,CC
+21,ribosome,79,0.00313206451280256,CC
+22,dynein complex,14,0.0122419739548109,CC
+23,myosin complex,9,0.0173637616852043,CC
+24,organelle,371,0.0249949945427902,CC
+25,non-membrane-bounded organelle,161,0.025423989826458,CC
+26,intracellular non-membrane-bounded organelle,161,0.025423989826458,CC
+27,nucleolus,12,0.030430343719843,CC
+28,intracellular organelle,361,0.0320860961947582,CC
+29,cytoskeleton,50,0.0397725565954854,CC
+30,binding,1126,0.000232188038157764,MF
+31,structural constituent of ribosome,81,0.00188405922465222,MF
+32,chitin synthase activity,9,0.00244388872418242,MF
+33,structural molecule activity,96,0.00314618228759075,MF
+34,actin binding,13,0.00487062951108279,MF
+35,protein binding,437,0.00709674024208091,MF
+36,RNA binding,102,0.0121356655842836,MF
+37,carbohydrate derivative transmembrane transporter activity,11,0.0141552150487148,MF
+38,nucleobase-containing compound transmembrane transporter activity,11,0.0141552150487148,MF
+39,carbohydrate derivative binding,347,0.0198863166814421,MF
+40,purine nucleotide binding,340,0.0205133726047999,MF
+41,purine ribonucleotide binding,338,0.025082323945951,MF
+42,anion transmembrane transporter activity,15,0.0269297149495046,MF
+43,purine ribonucleoside triphosphate binding,337,0.0276740614382935,MF
+44,ribonucleotide binding,342,0.0292140802322332,MF
+45,amide binding,5,0.0354967860832437,MF
+46,adenyl nucleotide binding,283,0.0360293693504709,MF
+47,calcium ion binding,26,0.0376350019365893,MF
+48,organophosphate ester transmembrane transporter activity,9,0.0393759724530372,MF
+49,organic anion transmembrane transporter activity,9,0.0393759724530372,MF
+50,adenine nucleotide transmembrane transporter activity,9,0.0393759724530372,MF
+51,nucleotide transmembrane transporter activity,9,0.0393759724530372,MF
+52,purine nucleotide transmembrane transporter activity,9,0.0393759724530372,MF
+53,purine ribonucleotide transmembrane transporter activity,9,0.0393759724530372,MF
+54,adenyl ribonucleotide binding,282,0.0397763295472204,MF
+55,ATP binding,281,0.0438402840374181,MF
+56,aminoacyl-tRNA ligase activity,24,0.0450746033,MF
+57,"ligase activity, forming carbon-oxygen bonds",24,0.0450746033,MF

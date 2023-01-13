@@ -1,0 +1,76 @@
+,GO term ,Gene Count,P-value,Category
+1,cellular amide metabolic process    ,26,1.50406952598379e-05,BP
+2,aspartate family amino acid metabolic process  ,4,0.000206624164476908,BP
+3,organonitrogen compound biosynthetic process    ,33,0.000454618504101595,BP
+4,nucleosome organization      ,3,0.000511067813761739,BP
+5,tRNA aminoacylation for protein translation   ,7,0.00161369527168211,BP
+6,amino acid activation     ,7,0.0019189725603644,BP
+7,small molecule metabolic process    ,24,0.00205035659194159,BP
+8,methionine metabolic process     ,2,0.00262272214208922,BP
+9,protein folding      ,7,0.00266249254317722,BP
+10,DNA packaging      ,3,0.00398741572219834,BP
+11,ribosome biogenesis      ,8,0.00433473175124214,BP
+12,organic acid metabolic process    ,14,0.00534393999952778,BP
+13,transmembrane transport      ,16,0.00548057780477983,BP
+14,anion transmembrane transport     ,4,0.00583782929554734,BP
+15,cellular nitrogen compound biosynthetic process   ,36,0.00717749018068793,BP
+16,protein-DNA complex subunit organization    ,3,0.00886963902601657,BP
+17,biosynthetic process      ,47,0.00973935200608855,BP
+18,nucleoside metabolic process     ,4,0.0116091615208471,BP
+19,glycosyl compound metabolic process    ,4,0.0116091615208471,BP
+20,reactive oxygen species metabolic process   ,2,0.0146941910116618,BP
+21,purine-containing compound salvage     ,2,0.0146941910116618,BP
+22,superoxide metabolic process     ,2,0.0146941910116618,BP
+23,organic substance biosynthetic process    ,44,0.0169604137355468,BP
+24,alpha-amino acid metabolic process    ,5,0.0191719774791599,BP
+25,sulfur amino acid metabolic process   ,2,0.0236705530355818,BP
+26,cellular metabolic compound salvage    ,2,0.0236705530355818,BP
+27,macromolecule biosynthetic process     ,32,0.0304080683478423,BP
+28,purine-containing compound biosynthetic process    ,5,0.0469044741850668,BP
+29,purine-containing compound metabolic process    ,6,0.047881291960545,BP
+30,cellular component biogenesis     ,13,0.0490467468383376,BP
+31,nucleosome,6,1.89363942115375e-07,CC
+32,non-membrane-bounded organelle,34,7.45902489945394e-07,CC
+33,intracellular non-membrane-bounded organelle,34,7.45902489945394e-07,CC
+34,DNA packaging complex,6,2.07205604870363e-06,CC
+35,protein-DNA complex,6,4.94666910397863e-06,CC
+36,ribosome,18,6.78500550453711e-05,CC
+37,chromatin,6,0.00021119325638271,CC
+38,ribosomal subunit,7,0.000838412269697927,CC
+39,nucleolus,4,0.00825431559616822,CC
+40,large ribosomal subunit,4,0.0131916703933833,CC
+41,small ribosomal subunit,3,0.0270447265993001,CC
+42,cellular anatomical entity,72,0.0480175577309099,CC
+43,structural constituent of ribosome,18,0.000143275252135046,MF
+44,structural molecule activity,19,0.000649514600339917,MF
+45,ion binding,71,0.00074528576981255,MF
+46,heterocyclic compound binding,85,0.00272518209866508,MF
+47,organic cyclic compound binding,85,0.00272518209866508,MF
+48,aminoacyl-tRNA ligase activity,7,0.00297490541732292,MF
+49,"ligase activity, forming carbon-oxygen bonds",7,0.00297490541732292,MF
+50,purine ribonucleoside triphosphate binding,49,0.00298873564313165,MF
+51,carbohydrate derivative binding,50,0.00301185190620308,MF
+52,purine ribonucleotide binding,49,0.00309463786071277,MF
+53,purine nucleotide binding,49,0.00331631954710989,MF
+54,anion transmembrane transporter activity,5,0.00382317075519569,MF
+55,ribonucleotide binding,49,0.00420495454461847,MF
+56,anion binding,52,0.00617397305820838,MF
+57,heat shock protein binding,2,0.00877345282463527,MF
+58,small molecule binding,54,0.0111968763548871,MF
+59,nucleotide binding,51,0.0144088452654437,MF
+60,nucleoside phosphate binding,51,0.0144088452654437,MF
+61,ATPase-coupled transmembrane transporter activity,4,0.0181562696073552,MF
+62,ATP binding,39,0.0185201235014801,MF
+63,adenyl ribonucleotide binding,39,0.0190820232994094,MF
+64,active transmembrane transporter activity,5,0.0195702010754565,MF
+65,adenyl nucleotide binding,39,0.0196576817652881,MF
+66,primary active transmembrane transporter activity,4,0.0217395443203951,MF
+67,transmembrane transporter activity,15,0.0222660689478738,MF
+68,protein heterodimerization activity,4,0.0301240878426371,MF
+69,carbohydrate derivative transmembrane transporter activity,3,0.0314497679098906,MF
+70,nucleobase-containing compound transmembrane transporter activity,3,0.0314497679098906,MF
+71,unfolded protein binding,4,0.034939615423098,MF
+72,O-methyltransferase activity,2,0.0392845603152216,MF
+73,transcription corepressor activity,2,0.0392845603152216,MF
+74,transporter activity,15,0.0438236112796913,MF
+75,"oxidoreductase activity, acting on the aldehyde or oxo group of donors",3,0.0461486156441397,MF

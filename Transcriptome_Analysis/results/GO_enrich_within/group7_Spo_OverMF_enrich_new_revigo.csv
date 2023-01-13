@@ -1,0 +1,14 @@
+,GOMFID,Pvalue,OddsRatio,ExpCount,Count,Size,Term
+1,GO:0052855,0.00819423368740513,Inf,0.00819423368740516,1,1,ADP-dependent NAD(P)H-hydrate dehydratase activity
+2,GO:0004608,0.00819423368740513,Inf,0.00819423368740516,1,1,phosphatidylethanolamine N-methyltransferase activity
+3,GO:0004719,0.00819423368740513,Inf,0.00819423368740516,1,1,protein-L-isoaspartate (D-aspartate) O-methyltransferase activity
+4,GO:0004825,0.00819423368740513,Inf,0.00819423368740516,1,1,methionine-tRNA ligase activity
+5,GO:0030429,0.0163237891489836,125.653846153846,0.0163884673748103,1,2,kynureninase activity
+6,GO:0004784,0.0163237891489836,125.653846153846,0.0163884673748103,1,2,superoxide dismutase activity
+7,GO:0016721,0.0163237891489836,125.653846153846,0.0163884673748103,1,2,"oxidoreductase activity, acting on superoxide radicals as acceptor"
+8,GO:0016896,0.0163237891489836,125.653846153846,0.0163884673748103,1,2,"exoribonuclease activity, producing 5'-phosphomonoesters"
+9,GO:0008757,0.0259825423953276,8.9351724137931,0.25402124430956,2,31,S-adenosylmethionine-dependent methyltransferase activity
+10,GO:0008897,0.0323908259274057,41.8589743589744,0.0327769347496206,1,4,holo-[acyl-carrier-protein] synthase activity
+11,GO:0016822,0.0403292785861596,31.3846153846154,0.0409711684370258,1,5,"hydrolase activity, acting on acid carbon-carbon bonds"
+12,GO:0008171,0.0482049957527784,25.1,0.049165402124431,1,6,O-methyltransferase activity
+13,GO:0046915,0.0482049957527784,25.1,0.049165402124431,1,6,transition metal ion transmembrane transporter activity

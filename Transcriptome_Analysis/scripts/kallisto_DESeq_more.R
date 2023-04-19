@@ -1,7 +1,7 @@
 #kallisto deseq 
 #By Cassie Ettinger
 
-#need to get DEG and up and down (I think?) for GO enirchment
+#need to get DEG and up and down (I think?) for GO enrichment
 
 #load libraries
 library(DESeq2)

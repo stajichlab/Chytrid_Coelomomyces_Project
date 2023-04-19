@@ -18,5 +18,5 @@ NUM=$(wc -l expected_prefixes.lst | awk '{print $1}')
 source config.txt
 HMM=fungi_odb10
 ALN=$PREFIX.${NUM}_taxa.${HMM}.aa.fasaln
-iqtree2 -s $ALN -pre ${PREFIX}.${NUM}.${HMM} -alrt 1000 -bb 1000  -m LG+G4 -nt $CPU
+iqtree2 -s $ALN -pre ${PREFIX}.${NUM}.${HMM} -alrt 1000 -bb 1000 -p $PREFIX.${NUM}_taxa.${HMM}.aa.partitions.txt -m MFP -nt $CPU
 
